@@ -1,0 +1,97 @@
+{
+  "site": {
+    "name": "爱乐之城：心动巡演系统文档知识站",
+    "generated_at": "2026-09-05T16:04:20+08:00",
+    "deployment_profile": "public-static"
+  },
+  "sources": [
+    {
+      "id": "system-docx",
+      "type": "docx",
+      "authority": "正文与玩法规则主源（第1—7章）；第8章为附录说明",
+      "modified_at": "2026-09-05T15:32:44+08:00",
+      "bytes": 6501779,
+      "sha256": "38408063BA3812897C4F36D27A9B7EE69F3398C708D8DF02B4DA0AEB804845D3",
+      "revision_rows": [
+        [
+          "版本号",
+          "更新日期",
+          "作者",
+          "更新内容"
+        ],
+        [
+          "V0.1",
+          "2026-08-24",
+          "陈思远",
+          "初稿"
+        ]
+      ]
+    },
+    {
+      "id": "config-xlsx",
+      "type": "xlsx",
+      "authority": "配置表位置、字段格式、当前字段内容示例与待确认状态",
+      "modified_at": "2026-09-04T18:20:04+08:00",
+      "bytes": 80328,
+      "sha256": "89B1E1FD9A072AAE44CEED679F8DF1DB3F5A9D52E8CE1535D3C0853B150A0CE2",
+      "sheet_count": 11,
+      "sheet_names": [
+        "musicCity_setting",
+        "musicCity_city",
+        "musicCity_cityEffect",
+        "musicCity_float",
+        "musicCity_tool",
+        "musicCity_toolLevel",
+        "musicCity_toolEffect",
+        "musicCity_toolSet",
+        "musicCity_toolSetEffect",
+        "musicCity_beat",
+        "musicCity_event"
+      ]
+    },
+    {
+      "id": "ue-figma",
+      "type": "figma",
+      "authority": "UE画板、界面状态和节点入口",
+      "url": "https://www.figma.com/design/yt0UKMiUNTDnoBAg3uO6XV/KC%EF%BD%9C%E7%88%B1%E4%B9%90%E4%B9%8B%E5%9F%8E%E6%B4%BB%E5%8A%A8-UE%EF%BD%9C640%C3%971136%EF%BD%9Cv1?node-id=150-2",
+      "file_key": "yt0UKMiUNTDnoBAg3uO6XV",
+      "node_id": "150:2",
+      "node_name": "20 UE V0.3 Boards / R1 · 修改版",
+      "inspected_at": "2026-09-05T16:04:20+08:00",
+      "snapshot_sha256": "C006C79615B1852B9D5A05168DBBDED3D373A5E93EB1953BF7C4CA0B49DD25B2",
+      "known_node_count": 19
+    }
+  ],
+  "coverage": {
+    "blocks": 684,
+    "headings": 114,
+    "tables": 10,
+    "images": 40,
+    "terms": 250,
+    "localization_keys": 63,
+    "config_tables": 11,
+    "config_fields": 117,
+    "pending_references": 22,
+    "update_chapters": 5
+  },
+  "refresh": {
+    "comparison_baseline": {
+      "docx_sha256": "38408063BA3812897C4F36D27A9B7EE69F3398C708D8DF02B4DA0AEB804845D3",
+      "xlsx_sha256": "89B1E1FD9A072AAE44CEED679F8DF1DB3F5A9D52E8CE1535D3C0853B150A0CE2",
+      "figma_snapshot_sha256": "C006C79615B1852B9D5A05168DBBDED3D373A5E93EB1953BF7C4CA0B49DD25B2"
+    },
+    "procedure": [
+      "更新在内部维护环境完成，公开站点只接收已清理的静态发布包",
+      "发布后验证首页文档版本、文档更新页、正文差异弹窗及静态资源缓存"
+    ]
+  },
+  "versioning": {
+    "scope": "仅记录系统文档及其关联内容的变化；知识站功能、排版和维护不进入对外历史。",
+    "current_content_snapshot": "doc-v0-1-20260905-153244-38408063",
+    "current_content_label": "V0.1 · 2026-09-05 15:32 当前稿",
+    "history_file": "data/version-history.json",
+    "history_page": "updates.html",
+    "version_count": 4,
+    "recent_updated_blocks": 146
+  }
+}

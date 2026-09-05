@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#18304a" />
+    <link rel="icon" href="data:," />
+    <title>爱乐之城 · 系统文档知识站</title>
+    <link rel="stylesheet" href="./styles.css?v=0.3-202609051604200800" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="topbar page-frame">
+        <a class="brand" href="#top" aria-label="返回知识站顶部">
+          <span class="brand-mark">KC</span>
+          <span class="brand-copy">
+            <span class="brand-title">活动系统文档</span>
+            <span class="brand-subtitle">知识站审阅版</span>
+          </span>
+        </a>
+        <div class="topbar-actions">
+          <span class="review-state"><i></i>源文档未审核</span>
+          <button class="plain-button" id="open-source-button" type="button">来源与刷新</button>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="hero-section page-frame" aria-labelledby="page-title">
+          <p class="hero-kicker" id="current-document-version">爱乐之城活动系统 / 正在读取文档版本</p>
+          <div class="hero-layout">
+            <div>
+              <h1 id="page-title">心动巡演</h1>
+              <p class="hero-subtitle">系统文档知识站</p>
+            </div>
+            <div class="hero-actions">
+              <a class="primary-button" href="#document">进入正文 <span aria-hidden="true">↓</span></a>
+              <button class="secondary-button" id="open-status-button" type="button">查看来源</button>
+            </div>
+          </div>
+          <p class="hero-source-line">正文以最新未审核系统文档为主；配置字段与示例以正式配置工作簿为准；界面状态以 Figma UE 为准。</p>
+        </section>
+
+        <section class="recent-update page-frame" id="updates" aria-labelledby="recent-update-title">
+          <span class="recent-update-label">最近更新</span>
+          <time id="recent-update-version">正在读取版本时间</time>
+          <strong id="recent-update-title">系统文档内容更新</strong>
+          <p id="recent-update-summary">正在读取最近更新…</p>
+          <a href="updates.html">查看全部文档更新 <span aria-hidden="true">→</span></a>
+        </section>
+
+        <section class="workspace page-frame" id="document" aria-labelledby="workspace-title">
+          <div class="workspace-heading">
+            <p class="eyebrow">正文与目录</p>
+            <h2 id="workspace-title">系统文档正文</h2>
+          </div>
+
+          <aside class="toc-column" aria-label="系统文档正文目录">
+            <div class="column-heading toc-heading"><div><span>目录</span><small>完整章节导航</small></div><button id="toc-expand-button" type="button" aria-expanded="false" aria-label="临时展开目录宽度"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4 2 10l5 6M13 4l5 6-5 6" /></svg><span>展开目录</span></button></div>
+            <nav id="toc" class="toc-list"><p class="muted">正在生成正文目录…</p></nav>
+            <p class="toc-note">关联词悬浮显示简要说明，点击打开完整详情、配置证据与正文回读。</p>
+          </aside>
+
+          <article class="document-column" aria-labelledby="workspace-title">
+            <div class="document-toolbar">
+              <div class="column-heading"><span>正文</span><small>完整主源</small></div>
+              <button class="text-button" id="print-button" type="button">打印 / PDF</button>
+            </div>
+            <div class="source-banner">
+              <span class="source-badge">DOCX</span>
+              <span id="source-banner-name">【KOW】A_爱乐之城.docx</span>
+              <button type="button" id="source-banner-button">查看三类来源与冻结信息</button>
+            </div>
+            <div id="doc-content" class="doc-content" aria-live="polite">
+              <div class="loading-state"><span class="loading-spinner"></span><p>正在整理系统文档正文…</p></div>
+            </div>
+
+            <section class="document-appendix" id="appendix" aria-labelledby="appendix-title">
+              <div class="appendix-heading">
+                <p class="eyebrow">关联资料</p>
+                <h2 id="appendix-title">配置、UE 与来源</h2>
+                <p>这里汇总支撑正文查阅的正式配置、界面画板、来源冻结信息及待确认项。</p>
+              </div>
+              <div class="appendix-grid">
+                <section class="appendix-card wide-card" id="config-summary-card"><h3>正式配置表</h3><div class="appendix-content">读取中…</div></section>
+                <section class="appendix-card" id="ue-summary-card"><h3>Figma UE</h3><div class="appendix-content">读取中…</div></section>
+                <section class="appendix-card" id="source-summary-card"><h3>来源与刷新基线</h3><div class="appendix-content">读取中…</div></section>
+                <section class="appendix-card warning-card wide-card" id="pending-summary-card"><h3>待确认口径</h3><div class="appendix-content">读取中…</div></section>
+              </div>
+            </section>
+          </article>
+        </section>
+      </main>
+
+      <footer class="footer page-frame">
+        <span>KC 活动系统文档知识站</span>
+        <span>正文主体 · 关系派生 · 来源可回读</span>
+      </footer>
+    </div>
+
+    <div class="term-tooltip" id="term-tooltip" role="tooltip" aria-hidden="true"></div>
+    <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+    <aside class="detail-drawer" id="detail-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" aria-hidden="true">
+      <header class="drawer-header">
+        <div>
+          <span class="drawer-kicker" id="drawer-kicker">关联详情</span>
+          <h2 id="drawer-title">选择关联对象</h2>
+        </div>
+        <button class="drawer-close" id="drawer-close" type="button" aria-label="关闭详情">×</button>
+      </header>
+      <div id="drawer-content" class="drawer-content"><p class="muted">选择正文中的关联对象查看详情。</p></div>
+    </aside>
+
+    <div class="modal-backdrop" id="compare-backdrop" hidden></div>
+    <section class="compare-modal" id="compare-modal" role="dialog" aria-modal="true" aria-labelledby="compare-title" hidden>
+      <header>
+        <div><span id="compare-version">版本对比</span><h2 id="compare-title">正文更新</h2><p id="compare-meta"></p></div>
+        <button id="compare-close" type="button" aria-label="关闭版本对比">×</button>
+      </header>
+      <div class="compare-body">
+        <article><h3>旧版本 · <span id="compare-old-label"></span></h3><div class="diff-text" id="compare-old"></div></article>
+        <article><h3>新版本 · <span id="compare-new-label"></span></h3><div class="diff-text" id="compare-new"></div></article>
+      </div>
+      <footer><button id="compare-newer" type="button">较新记录</button><span id="compare-page">1 / 1</span><button id="compare-older" type="button">更早记录</button></footer>
+    </section>
+
+    <section class="image-lightbox" id="image-lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption" hidden>
+      <button id="lightbox-close" type="button" aria-label="关闭图片预览">×</button>
+      <img id="lightbox-image" src="" alt="" />
+      <p id="lightbox-caption"></p>
+    </section>
+
+    <script src="./data/document-data.js?v=0.3-202609051604200800"></script>
+    <script src="./app.js?v=0.3-202609051604200800" defer></script>
+  </body>
+</html>
