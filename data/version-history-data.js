@@ -1,165 +1,550 @@
 window.KNOWLEDGE_HISTORY = {
   "schema": "document-content-v4",
   "scope": "仅记录系统文档及其关联内容的变化；知识站功能、排版和维护不进入对外历史。",
-  "current_version": "doc-v0-1-20260905-153244-38408063",
-  "current_label": "V0.1 · 2026-09-05 15:32 当前稿",
+  "current_version": "doc-v0-1-20260922-104615-79f8c068",
+  "current_label": "V0.1 · 2026-09-22 10:46 当前稿",
   "recent_update": {
     "version": "V0.1",
-    "date": "2026-09-05 15:32",
-    "label": "V0.1 · 2026-09-05 15:32 当前稿",
+    "date": "2026-09-22 10:46",
+    "label": "V0.1 · 2026-09-22 10:46 当前稿",
     "title": "系统文档正文大幅更新",
-    "summary": "相对 V0.1 · 2026-09-01 14:01 修改版，正文共识别 183 处变化；重点为第3章活动框架、第6章个人表演、第5章公共巡演地图，其中6.3.3 准备界面变化最集中。"
+    "summary": "相对 V0.1 · 2026-09-05 15:32，正文共识别 450 处变化；重点为第6章个人表演、第5章公共地图、第3章活动框架，其中6.3.3 准备界面变化最集中。"
   },
-  "recent_content_version": "V0.1 · 2026-09-05 15:32 当前稿",
+  "recent_content_version": "V0.1 · 2026-09-22 10:46 当前稿",
   "recent_updated_block_ids": [
-    "doc-0016",
-    "doc-0017",
-    "doc-0020",
-    "doc-0023",
+    "doc-0001",
+    "doc-0013",
+    "doc-0014",
+    "doc-0026",
     "doc-0027",
     "doc-0028",
-    "doc-0032",
-    "doc-0033",
-    "doc-0039",
-    "doc-0040",
+    "doc-0029",
+    "doc-0030",
+    "doc-3-3-2",
+    "doc-0031",
+    "doc-0034",
+    "doc-3-5",
+    "doc-3-5-1",
     "doc-0041",
-    "doc-3-4-3",
-    "doc-3-4-1-2",
+    "doc-0042",
     "doc-0043",
     "doc-0044",
     "doc-0045",
-    "doc-0046",
-    "doc-0047",
-    "doc-0048",
-    "doc-0049",
-    "figure-0050",
-    "doc-3-4-2-2",
-    "doc-0051",
-    "doc-0052",
-    "doc-0053",
+    "doc-3-5-2",
+    "doc-3-5-3",
+    "doc-3-6",
+    "doc-3-6-1",
     "doc-0054",
     "doc-0055",
-    "doc-0056",
-    "doc-3-4-3-2",
     "doc-0057",
-    "doc-0058",
-    "doc-3-4-4",
-    "doc-0059",
-    "doc-0060",
-    "doc-0061",
-    "doc-0062",
-    "doc-0063",
-    "doc-3-5",
-    "doc-0064",
+    "doc-3-6-2",
+    "doc-3-6-3",
     "doc-0065",
-    "doc-0066",
-    "doc-3-5-1",
-    "doc-0067",
-    "doc-0068",
-    "doc-0069",
-    "doc-0070",
-    "doc-3-6",
-    "doc-0071",
-    "doc-3-6-1",
-    "doc-0072",
+    "doc-3-6-4",
+    "doc-3-7",
     "doc-0073",
     "doc-0074",
-    "doc-0075",
-    "doc-0076",
-    "doc-3-6-2",
+    "doc-3-7-1",
     "doc-0077",
-    "doc-0078",
-    "doc-0079",
-    "doc-3-7",
-    "doc-0080",
-    "doc-0081",
-    "doc-0082",
+    "doc-3-8",
+    "doc-3-8-1",
+    "table-0081",
+    "doc-3-8-2",
     "doc-0083",
     "doc-0084",
-    "doc-3-8",
-    "doc-0085",
+    "doc-3-9",
     "doc-0086",
-    "doc-0087",
-    "doc-3-9-4",
     "doc-0088",
-    "doc-0109",
-    "doc-0166",
-    "doc-0176",
+    "doc-0089",
+    "doc-3-10",
+    "doc-0091",
+    "doc-3-11",
+    "doc-0099",
+    "doc-0101",
+    "doc-0103",
+    "doc-0104",
+    "doc-0105",
+    "doc-0106",
+    "doc-0112",
+    "doc-0126",
+    "doc-0127",
+    "doc-0128",
+    "doc-0130",
+    "doc-0132",
+    "doc-0133",
+    "doc-0134",
+    "doc-0137",
+    "doc-0138",
+    "doc-0139",
+    "doc-0140",
+    "doc-4-3-1",
+    "doc-0145",
+    "doc-5",
+    "doc-0147",
+    "doc-0148",
+    "doc-0156",
+    "doc-0160",
+    "doc-0161",
+    "doc-0162",
+    "doc-0163",
+    "doc-0164",
+    "doc-0165",
+    "doc-0169",
+    "doc-0171",
+    "doc-0172",
+    "doc-0174",
+    "doc-0175",
+    "doc-0177",
+    "doc-0178",
+    "doc-0180",
+    "doc-0181",
+    "doc-0182",
+    "doc-0184",
+    "doc-5-4",
+    "doc-0187",
+    "doc-5-4-1",
+    "doc-0188",
+    "doc-0190",
+    "doc-0191",
+    "doc-0192",
+    "doc-5-4-1-1",
+    "doc-0193",
+    "doc-5-4-2",
+    "doc-0195",
+    "doc-0196",
+    "doc-0197",
+    "doc-0199",
+    "doc-5-4-3",
+    "doc-0203",
+    "doc-0204",
+    "doc-0205",
+    "doc-0206",
+    "doc-5-4-4",
+    "doc-0209",
+    "doc-0213",
+    "doc-0214",
+    "doc-5-4-5",
+    "doc-0219",
+    "doc-5-4-6",
+    "doc-0221",
+    "doc-0222",
+    "doc-0223",
+    "doc-0224",
+    "table-0225",
+    "doc-5-5",
+    "doc-0226",
+    "doc-5-5-1",
+    "doc-0227",
+    "doc-0230",
+    "doc-0231",
+    "doc-0232",
+    "doc-0233",
+    "doc-5-5-2",
+    "doc-0234",
+    "doc-0235",
+    "doc-0236",
+    "doc-0237",
     "doc-0238",
+    "doc-0239",
+    "doc-0240",
+    "doc-0241",
+    "doc-0242",
+    "doc-0243",
+    "doc-5-5-2-1",
+    "doc-0246",
+    "doc-0248",
+    "doc-0249",
+    "doc-0251",
+    "doc-5-5-3",
+    "doc-0252",
+    "doc-0253",
+    "doc-0254",
+    "doc-0255",
+    "doc-0256",
     "doc-0257",
+    "doc-5-5-3-1",
+    "doc-0258",
+    "doc-0259",
+    "doc-0260",
+    "doc-0261",
     "doc-0262",
     "doc-0263",
-    "doc-0264",
-    "doc-0273",
+    "doc-5-5-3-2",
+    "doc-0265",
+    "doc-0267",
+    "doc-0268",
+    "doc-0269",
+    "doc-0271",
+    "doc-0272",
     "doc-0274",
     "doc-0275",
-    "doc-0279",
-    "figure-0281",
-    "doc-6-2-1-2",
-    "doc-0290",
-    "figure-0291",
-    "doc-0292",
-    "doc-0293",
-    "doc-0294",
-    "doc-0295",
-    "doc-0296",
+    "doc-0277",
+    "doc-0278",
+    "doc-0281",
+    "doc-5-5-3-3",
+    "doc-0282",
+    "doc-0283",
+    "doc-5-6",
+    "doc-5-6-1",
+    "doc-5-6-2",
+    "doc-0291",
     "doc-0297",
-    "figure-0298",
-    "doc-0317",
-    "figure-0325",
-    "doc-0332",
+    "doc-0298",
+    "doc-0299",
+    "doc-0300",
+    "doc-6-1-1",
+    "doc-0304",
+    "doc-0305",
+    "doc-0307",
+    "doc-0308",
+    "doc-0315",
+    "doc-0316",
+    "table-0335",
+    "doc-6-2-3",
     "doc-0336",
     "doc-0337",
     "doc-0338",
     "doc-0339",
+    "doc-6-2-4",
     "doc-0340",
     "doc-0341",
+    "doc-0342",
+    "doc-0343",
     "doc-0344",
     "doc-0345",
-    "figure-0346",
-    "doc-0347",
-    "doc-0348",
-    "doc-0349",
+    "doc-6-2-4-1",
+    "table-0346",
+    "doc-6-2-5",
+    "doc-6-2-6",
     "doc-0350",
     "doc-0351",
     "doc-0352",
     "doc-0353",
     "doc-0354",
-    "doc-0362",
-    "doc-0392",
-    "doc-0393",
+    "doc-0355",
+    "doc-0356",
+    "doc-0358",
+    "doc-0359",
+    "figure-0365",
+    "doc-0370",
+    "doc-0371",
+    "doc-0372",
+    "doc-0374",
+    "doc-0377",
+    "doc-0379",
+    "doc-0382",
+    "doc-0383",
+    "doc-0384",
+    "doc-0385",
+    "doc-0386",
+    "doc-0387",
+    "doc-0389",
     "doc-0394",
-    "doc-0444",
-    "doc-0459",
-    "doc-0460",
-    "doc-0461",
-    "doc-6-5-2-1",
-    "doc-0477",
-    "doc-0478",
-    "doc-0479",
-    "figure-0480",
-    "doc-6-5-2-2",
-    "doc-0485",
+    "doc-0395",
+    "doc-0396",
+    "doc-0397",
+    "doc-0398",
+    "doc-0399",
+    "doc-0400",
+    "doc-6-3-3-1",
+    "doc-0401",
+    "figure-0402",
+    "doc-0403",
+    "doc-0404",
+    "doc-0405",
+    "doc-0406",
+    "doc-0407",
+    "doc-0408",
+    "doc-0409",
+    "doc-0410",
+    "doc-0411",
+    "doc-0412",
+    "doc-6-3-3-2",
+    "doc-0413",
+    "figure-0414",
+    "doc-0415",
+    "doc-0416",
+    "doc-0417",
+    "doc-0418",
+    "doc-0419",
+    "doc-0420",
+    "doc-0421",
+    "doc-0422",
+    "doc-0423",
+    "doc-0424",
+    "doc-0425",
+    "doc-0426",
+    "doc-0427",
+    "doc-6-3-3-3",
+    "doc-0431",
+    "doc-0434",
+    "doc-0435",
+    "doc-0436",
+    "doc-0437",
+    "doc-0438",
+    "doc-0445",
+    "doc-0446",
+    "doc-0447",
+    "doc-0448",
+    "doc-0449",
+    "doc-0450",
+    "doc-0451",
+    "doc-0452",
+    "doc-0453",
+    "doc-0454",
+    "doc-0455",
+    "doc-0465",
+    "doc-6-4-3-1",
+    "doc-6-4-3-2",
+    "doc-0471",
+    "doc-6-4-3-3",
+    "doc-0483",
     "doc-0487",
     "doc-0488",
-    "doc-0490",
-    "doc-6-6-1-1",
+    "doc-0489",
     "doc-0491",
+    "doc-6-4-3-4",
     "doc-0492",
     "doc-0493",
     "doc-0494",
     "doc-0495",
-    "doc-0496",
-    "doc-0497",
     "doc-0498",
-    "doc-0504",
-    "doc-0505",
-    "doc-6-1-2",
+    "doc-0499",
+    "doc-0501",
+    "doc-0507",
+    "doc-0508",
+    "doc-6-5-1",
+    "doc-0509",
+    "doc-0510",
+    "doc-0511",
+    "doc-0512",
+    "doc-0517",
+    "doc-6-5-2",
+    "doc-0518",
+    "doc-0519",
+    "doc-0520",
+    "doc-0521",
+    "doc-0522",
+    "doc-0523",
+    "doc-0524",
+    "doc-6-5-3",
+    "doc-0527",
+    "doc-0529",
+    "doc-6-5-4",
+    "doc-0531",
+    "doc-0532",
+    "doc-0533",
+    "doc-0534",
+    "doc-0535",
+    "doc-0536",
+    "doc-6-5-5",
+    "doc-0537",
+    "doc-0538",
+    "doc-0540",
+    "doc-0541",
+    "doc-6-5-6",
+    "doc-0544",
+    "doc-0545",
+    "doc-6-5-7",
     "doc-0546",
     "doc-0547",
-    "figure-0548"
+    "figure-0548",
+    "doc-0550",
+    "doc-0551",
+    "doc-0552",
+    "doc-0553",
+    "doc-0554",
+    "doc-0555",
+    "doc-0556",
+    "doc-0559",
+    "doc-0561",
+    "doc-0562",
+    "doc-0563",
+    "doc-0565",
+    "doc-6-5-7-1",
+    "doc-0567",
+    "doc-0568",
+    "figure-0569",
+    "doc-6-5-7-2",
+    "doc-0570",
+    "doc-0571",
+    "doc-0572",
+    "doc-0577",
+    "doc-0579",
+    "doc-0580",
+    "doc-0583",
+    "doc-0584",
+    "doc-0585",
+    "doc-0588",
+    "doc-0591",
+    "doc-0592",
+    "doc-0593",
+    "doc-0595",
+    "doc-0597",
+    "doc-0598",
+    "doc-0601",
+    "doc-0602",
+    "doc-0606",
+    "doc-6-7",
+    "doc-0609",
+    "doc-6-7-1",
+    "doc-0610",
+    "doc-0611",
+    "doc-0612",
+    "doc-0613",
+    "doc-6-7-2",
+    "doc-0614",
+    "doc-0617",
+    "doc-0619",
+    "doc-0620",
+    "doc-0621",
+    "doc-0622",
+    "doc-0627",
+    "doc-0628",
+    "doc-0631",
+    "doc-0632",
+    "doc-0633",
+    "doc-0635",
+    "doc-0636",
+    "doc-0637",
+    "doc-7-1",
+    "table-0641",
+    "table-0644",
+    "doc-0651",
+    "doc-0652",
+    "doc-0653",
+    "doc-0654",
+    "doc-0655",
+    "doc-0656",
+    "doc-0657",
+    "doc-0658",
+    "doc-0659",
+    "doc-0660",
+    "doc-0661",
+    "doc-0662",
+    "doc-0663"
   ],
   "versions": [
+    {
+      "id": "doc-v0-1-20260922-104615-79f8c068",
+      "version": "V0.1",
+      "label": "V0.1 · 2026-09-22 10:46 当前稿",
+      "date": "2026-09-22 10:46",
+      "generated_at": "2026-09-22T14:33:05+08:00",
+      "source_modified_at": "2026-09-22T10:46:15+08:00",
+      "source_file": "【KOW】A_爱乐之城.docx",
+      "source_sha256": "79F8C068F2C1DE3D3389120F453D2AA29B39844DB583113BCD9BA2FE07656453",
+      "title": "系统文档正文大幅更新",
+      "summary": "相对 V0.1 · 2026-09-05 15:32，正文共识别 450 处变化；重点为第6章个人表演、第5章公共地图、第3章活动框架，其中6.3.3 准备界面变化最集中。",
+      "highlights": [
+        "以 V0.1 · 2026-09-05 15:32 为上一份系统文档正文基线。",
+        "标题、段落、列表、表格、图片与图注合计识别 450 个变化记录。",
+        "第6章个人表演为主要变化区域；“6.3.3 准备界面”已纳入逐块差异与正文角标。"
+      ],
+      "comparison": {
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "changed_blocks": 450
+      },
+      "chapter_updates": [
+        {
+          "chapter": "1",
+          "title": "1. 设计目的",
+          "target_id": "doc-1",
+          "summary": "设计目的按最新未审核系统文档同步，继续以弱联网多人活动、个人成长和阵营竞争为核心定位。",
+          "changes": [
+            "正文块变化：修改1处，合计1处。",
+            "集中变化小节：1. 设计目的。"
+          ],
+          "changed_blocks": 1,
+          "source": "正文差异提取（当前系统文档对比上一份系统文档快照）"
+        },
+        {
+          "chapter": "2",
+          "title": "2. 玩法概述",
+          "target_id": "doc-2",
+          "summary": "玩法概述同步最新核心概念和完整主流程，保持从活动入口、地图选城、表演准备到结算反馈的连续阅读链。",
+          "changes": [
+            "正文块变化：修改1处，合计1处。",
+            "集中变化小节：2.3 主要流程。"
+          ],
+          "changed_blocks": 1,
+          "source": "正文差异提取（当前系统文档对比上一份系统文档快照）"
+        },
+        {
+          "chapter": "3",
+          "title": "3. 活动框架",
+          "target_id": "doc-3",
+          "summary": "活动框架重新编排参与条件、资源、道具、排行、聊天、提示、成就、赛季任务与迁服处理，补齐城市分享和道具入口说明。",
+          "changes": [
+            "正文块变化：新增10处、修改35处、删除5处，合计50处。",
+            "集中变化小节：3.5.1 道具类型、3.3.2 参赛资格、3.3.1 功能解锁条件、3.6.1 个人排行、3.6.1 红点。"
+          ],
+          "changed_blocks": 50,
+          "source": "正文差异提取（当前系统文档对比上一份系统文档快照）"
+        },
+        {
+          "chapter": "4",
+          "title": "4. 活动主界面",
+          "target_id": "doc-4",
+          "summary": "活动入口、活动首页与活动主界面按最新正文和 UE 状态同步，补充界面展示、地图玩家信息及连续表演入口条件。",
+          "changes": [
+            "正文块变化：新增6处、修改14处，合计20处。",
+            "集中变化小节：4.3 活动主界面、4.2 活动首页、4.3.1 继续表演。"
+          ],
+          "changed_blocks": 20,
+          "source": "正文差异提取（当前系统文档对比上一份系统文档快照）"
+        },
+        {
+          "chapter": "5",
+          "title": "5. 公共地图",
+          "target_id": "doc-5",
+          "summary": "公共巡演地图新增城市详情、城市争夺与占领拆分，并形成花车车站、占领花车、挑战、赢得、派出和游行表现的完整链路；阵营标记拆分为指挥官与标记规则。",
+          "changes": [
+            "正文块变化：新增20处、修改89处、删除5处，合计114处。",
+            "集中变化小节：5.3 城市详情、5.5.3.2 派出气球游行、5.5.2 气球竞演、5.5.3 气球游行、5.5.3.1 赢得气球提示。"
+          ],
+          "changed_blocks": 114,
+          "source": "正文差异提取（当前系统文档对比上一份系统文档快照）"
+        },
+        {
+          "chapter": "6",
+          "title": "6. 个人表演",
+          "target_id": "doc-6",
+          "summary": "个人表演重构为队伍、道具、准备、舞台、结算和奖励六段；其中“6.3.3 准备界面”大幅补充拖拽与替换、套装预览、仓库分页筛选、自动配置和预设入口规则。",
+          "changes": [
+            "正文块变化：新增105处、修改106处、删除29处，合计240处。",
+            "集中变化小节：6.3.3 准备界面、6.3.3.2 筛选设置界面、6.5.7 结算界面、6.3.3.1 道具详情界面、6.6.2 奖项选择界面。"
+          ],
+          "changed_blocks": 240,
+          "source": "正文差异提取（当前系统文档对比上一份系统文档快照）"
+        },
+        {
+          "chapter": "7",
+          "title": "7. 活动战报",
+          "target_id": "doc-7",
+          "summary": "活动战报作为独立章节保留，并补充主界面弹窗入口和信息展示关系。",
+          "changes": [
+            "正文块变化：新增1处、修改8处，合计9处。",
+            "集中变化小节：7. 活动战报。"
+          ],
+          "changed_blocks": 9,
+          "source": "正文差异提取（当前系统文档对比上一份系统文档快照）"
+        },
+        {
+          "chapter": "8",
+          "title": "8. 附录",
+          "target_id": "doc-8",
+          "summary": "附录同步当前文档内配置定义、数值需求和多语言文本；正式配置工作簿当前共16张业务配置表，另含musicCity_pidSetting、musicCity_cityList、musicCity_toolLevel、musicCity_toolType、musicCity_fans、musicCity_baglevel、musicCity_float。",
+          "changes": [
+            "正文块变化：新增2处、修改13处，合计15处。",
+            "集中变化小节：8.2 数值需求、8.1.1 活动设置配置表（MusicCity_setting）、8.1.4 表演道具配置表（MusicCity_tool）。"
+          ],
+          "changed_blocks": 15,
+          "source": "正文差异提取（当前系统文档对比上一份系统文档快照）"
+        }
+      ],
+      "content_scope": "系统文档正文及其配置、UE、多语言关联内容；不包含知识站功能与视觉维护。"
+    },
     {
       "id": "doc-v0-1-20260905-153244-38408063",
       "version": "V0.1",
@@ -309,6 +694,10331 @@ window.KNOWLEDGE_HISTORY = {
     }
   ],
   "block_history": {
+    "doc-0001": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "1",
+        "change_type": "修改",
+        "new_block_id": "doc-0001",
+        "old_block_id": "doc-0001",
+        "kind": "paragraph",
+        "old_text": "“爱乐之城：心动巡演”是KC新增的以恋人进行音乐表演为主题的冲榜活动，通过“个人表演构筑”和“阵营城市争夺”的两部分玩法，给与玩家准备表演和为阵营在音乐城市争夺粉丝的新体验。",
+        "new_text": "“爱乐之城：心动巡演”是KC新增的以恋人进行音乐表演为主题的冲榜活动，通过“个人表演构筑”和“阵营城市争夺”的两部分玩法，给予玩家准备表演和为阵营在音乐城市争夺粉丝的新体验。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "1",
+        "change_type": "修改",
+        "new_block_id": "doc-0001",
+        "old_block_id": "block-2",
+        "kind": "paragraph",
+        "old_text": "“爱乐之城：心动巡演”是KC新增的以恋人进行音乐表演为主题的冲榜活动，通过“个人表演构筑”和“阵营城市争夺”的两部分玩法，给与玩家准备表演和为阵营在音乐城市争夺流行度的新体验。",
+        "new_text": "“爱乐之城：心动巡演”是KC新增的以恋人进行音乐表演为主题的冲榜活动，通过“个人表演构筑”和“阵营城市争夺”的两部分玩法，给与玩家准备表演和为阵营在音乐城市争夺粉丝的新体验。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "1",
+        "change_type": "修改",
+        "new_block_id": "doc-0001",
+        "old_block_id": "doc-0001",
+        "kind": "paragraph",
+        "old_text": "“心动巡演”是一项以恋人和表演道具为个人构筑基础、以九座城市为阵营竞争空间的排行活动。系统通过“个人表演构筑”和“阵营城市争夺”两条循环，让玩家在每次表演前进行可理解的策略选择，并让个人行为持续改变共享地图状态。",
+        "new_text": "“爱乐之城：心动巡演”是KC新增的以恋人进行音乐表演为主题的冲榜活动，通过“个人表演构筑”和“阵营城市争夺”的两部分玩法，给与玩家准备表演和为阵营在音乐城市争夺流行度的新体验。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0013": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "2",
+        "change_type": "修改",
+        "new_block_id": "doc-0013",
+        "old_block_id": "doc-0013",
+        "kind": "list_item",
+        "old_text": "每表演若干次后，获得可选奖励，增加表演道具、扩充背包格子，提升表演效果。",
+        "new_text": "每表演若干次后，获得可选奖励增加表演道具、扩充背包格子的机会，提升表演效果。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "2",
+        "change_type": "修改",
+        "new_block_id": "doc-0013",
+        "old_block_id": "doc-0020",
+        "kind": "list_item",
+        "old_text": "个人排行人气：个人人气加独立档位的阵营加成人气；不得直接把持续增长的阵营总人气加到个人值上。",
+        "new_text": "每表演若干次后，获得可选奖励，增加表演道具、扩充背包格子，提升表演效果。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0014": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0014",
+        "old_block_id": "doc-0014",
+        "kind": "paragraph",
+        "old_text": "本活动接入KC通用排行活动框架。",
+        "new_text": "本活动接入KC通用冲榜活动框架。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0014",
+        "old_block_id": "doc-0031",
+        "kind": "paragraph",
+        "old_text": "本活动接入KC/KOW通用排行活动框架。单服版本以联盟为阵营；跨服版本以服务器为阵营。活动类型、所属活动组、开放范围和公共奖励入口由活动基础配置（activity_base）及对应公共活动配置定义。",
+        "new_text": "本活动接入KC通用排行活动框架。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0026": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0026",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "可进入地图查看城市详情、标记城市。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0027": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0027",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "进入休息期时，活动中的倒计时暂停，重开活动后继续计时，包括但不限于：城市占领周期收益、气球倒计时。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0028": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0028",
+        "old_block_id": "doc-0026",
+        "kind": "paragraph",
+        "old_text": "等级、开服时间或其他功能开放条件读取功能解锁配置（functionUnlock）。",
+        "new_text": "活动解锁处理参照KC通用冲榜活动框架。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0028",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "等级、开服时间或其他功能开放条件读取功能解锁配置（functionUnlock）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0029": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0029",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "功能开放条件读取功能解锁（functionUnlock）中condition=158的配置。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0030": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0030",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "不满足解锁条件时，主界面的活动入口不显示。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-3-3-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-3-2",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.3.2 参赛资格",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0031": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0031",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "活动资格的获取、储存、参与检查，参照KC通用冲榜活动框架。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0034": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0034",
+        "old_block_id": "doc-3-3-2",
+        "kind": "paragraph",
+        "old_text": "3.3.2 参赛资格",
+        "new_text": "跨服活动的玩家参赛资格读取跨服资格配置（cross_server_certificate）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0034",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.3.2 参赛资格",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-3-5": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-5",
+        "old_block_id": "doc-3-9",
+        "kind": "heading",
+        "old_text": "3.9 活动道具",
+        "new_text": "3.5 活动道具",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-5",
+        "old_block_id": "doc-0058",
+        "kind": "heading",
+        "old_text": "已保存但未展示的结算结果在结算期可恢复查看，不重复扣体力、发奖或写入贡献。",
+        "new_text": "3.9 活动道具",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-3-5-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-5-1",
+        "old_block_id": "doc-3-9-1",
+        "kind": "heading",
+        "old_text": "3.9.1 道具类型",
+        "new_text": "3.5.1 道具类型",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-5-1",
+        "old_block_id": "doc-3-9-1",
+        "kind": "heading",
+        "old_text": "3.9.1 道具商店",
+        "new_text": "3.9.1 道具类型",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-5-1",
+        "old_block_id": "doc-0059",
+        "kind": "heading",
+        "old_text": "未生成的奖励或互动不再补生成；已经固定的候选按服务端结算策略完成或清理，具体关闭窗口处理见待确认B13。",
+        "new_text": "3.9.1 道具商店",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0041": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0041",
+        "old_block_id": "doc-0037",
+        "kind": "paragraph",
+        "old_text": "鲜花，活动新增道具，进入玩家背包，可以保留。",
+        "new_text": "体力道具，810160。进入玩家背包，活动结束可以保留。使用恢复爱乐之城活动体力，Item.usetype=124。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0041",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "鲜花，活动新增道具，进入玩家背包，可以保留。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0042": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0042",
+        "old_block_id": "doc-3-9-2",
+        "kind": "paragraph",
+        "old_text": "3.9.2 道具商店",
+        "new_text": "鲜花，810161。进入玩家背包，活动结束可以保留。连续表演消耗的道具。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0042",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.9.2 道具商店",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0043": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0043",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "刷新道具，810159。进入玩家背包，活动结束可以保留。刷新可选奖励消耗的道具。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0044": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0044",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "自选表演道具（大），810162。进入玩家背包，活动结束可以保留。在表演准备界面的表演道具仓库兑换或升级金色道具消耗。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0045": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0045",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "自选表演道具（小），810164。进入玩家背包，活动结束可以保留。在表演准备界面的表演道具仓库兑换或升级紫色及以下品质的道具消耗。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-3-5-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-5-2",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.5.2 道具商店",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-3-5-3": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-5-3",
+        "old_block_id": "doc-3-9-3",
+        "kind": "heading",
+        "old_text": "3.9.3 道具仓库",
+        "new_text": "3.5.3 道具仓库",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-5-3",
+        "old_block_id": "doc-3-9-2",
+        "kind": "heading",
+        "old_text": "3.9.2 道具仓库",
+        "new_text": "3.9.3 道具仓库",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-5-3",
+        "old_block_id": "doc-3-6-4",
+        "kind": "heading",
+        "old_text": "3.6.4 数据清理",
+        "new_text": "3.9.2 道具仓库",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-3-6": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-6",
+        "old_block_id": "doc-3-4-3",
+        "kind": "heading",
+        "old_text": "3.4 活动排行",
+        "new_text": "3.6 活动排行",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-6",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.4 活动排行",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-6-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-6-1",
+        "old_block_id": "doc-3-4-1-2",
+        "kind": "heading",
+        "old_text": "3.4.1 个人排行",
+        "new_text": "3.6.1 个人排行",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-6-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.4.1 个人排行",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0054": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0054",
+        "old_block_id": "doc-0046",
+        "kind": "paragraph",
+        "old_text": "个人积分=个人人气+阵营流行度的加成值。",
+        "new_text": "个人积分=个人人气+阵营流行度*加成值。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0054",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "个人积分=个人人气+阵营流行度的加成值。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0055": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0055",
+        "old_block_id": "doc-0047",
+        "kind": "list_item",
+        "old_text": "阵营流行度的加成方式待数值确认，类似KC活动“王室战争”的规则。",
+        "new_text": "阵营流行度的加成值配置在musicCity_setting.pointsBonus，区分单服跨服。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0055",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "阵营流行度的加成方式待数值确认，类似KC活动“王室战争”的规则。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0057": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0057",
+        "old_block_id": "doc-0049",
+        "kind": "paragraph",
+        "old_text": "在排行榜界面的自己积分后显示FAQ按钮，点击弹出说明提示：标题（KEY），说明（KEY）。",
+        "new_text": "在排行榜界面的自己积分后显示FAQ按钮，点击弹出说明提示：标题（snowmountain_title_22），说明（MusicCity_des_08）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0057",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "在排行榜界面的自己积分后显示FAQ按钮，点击弹出说明提示：标题（KEY），说明（KEY）。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-6-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-6-2",
+        "old_block_id": "doc-3-4-2-2",
+        "kind": "heading",
+        "old_text": "3.4.2 阵营排行",
+        "new_text": "3.6.2 阵营排行",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-6-2",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.4.2 阵营排行",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-6-3": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-6-3",
+        "old_block_id": "doc-3-4-3-2",
+        "kind": "heading",
+        "old_text": "3.4.3 同分与上榜",
+        "new_text": "3.6.3 同分与上榜",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-6-3",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.4.3 同分与上榜",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0065": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0065",
+        "old_block_id": "doc-0057",
+        "kind": "paragraph",
+        "old_text": "个人榜和阵营榜的同分排序：分数降序、上榜时间晚的名次更高。",
+        "new_text": "个人榜和阵营榜的同分排序：分数降序、上榜时间早的名次更高。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0065",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "个人榜和阵营榜的同分排序：分数降序、上榜时间晚的名次更高。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-6-4": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-6-4",
+        "old_block_id": "doc-3-4-4",
+        "kind": "heading",
+        "old_text": "3.4.4 奖励补发邮件",
+        "new_text": "3.6.4 奖励补发邮件",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-6-4",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.4.4 奖励补发邮件",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-7": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-7",
+        "old_block_id": "doc-3-5",
+        "kind": "heading",
+        "old_text": "3.5 活动聊天",
+        "new_text": "3.7 活动聊天",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-7",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.5 活动聊天",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0073": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0073",
+        "old_block_id": "doc-0065",
+        "kind": "list_item",
+        "old_text": "单服：活动。",
+        "new_text": "单服：无。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0073",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "单服：活动。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0074": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0074",
+        "old_block_id": "doc-0066",
+        "kind": "list_item",
+        "old_text": "跨服：活动、阵营。",
+        "new_text": "跨服：活动。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0074",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "跨服：活动、阵营。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-7-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-7-1",
+        "old_block_id": "doc-3-5-1",
+        "kind": "heading",
+        "old_text": "3.5.1 城市分享",
+        "new_text": "3.7.1 城市分享",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-7-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.5.1 城市分享",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0077": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0077",
+        "old_block_id": "doc-0069",
+        "kind": "list_item",
+        "old_text": "跨服：阵营。",
+        "new_text": "跨服：全服。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0077",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "跨服：阵营。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-8": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-8",
+        "old_block_id": "doc-3-6",
+        "kind": "heading",
+        "old_text": "3.6 活动提示",
+        "new_text": "3.8 活动提示",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-8",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.6 活动提示",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-8-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-8-1",
+        "old_block_id": "doc-3-6-1",
+        "kind": "heading",
+        "old_text": "3.6.1 红点",
+        "new_text": "3.8.1 红点",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-8-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.6.1 红点",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "table-0081": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "table-0081",
+        "old_block_id": "doc-0073",
+        "kind": "table",
+        "old_text": "活动体力超过50%时，路径：活动主界面-活动入口按钮。在不满足条件时删除。",
+        "new_text": "出现条件 | 显示位置 | 删除条件\n活动体力超过50%时显示 | 主城活动入口-活动首页进入活动按钮 | 在不满足条件时删除。\n有活动成就奖励可领取时显示 | 主城活动入口-活动首页成就按钮 | 在领取后删除。\n有活动排行奖励可领取时显示 | 主城活动入口-活动首页排行奖励按钮-活动排行界面奖励领取按钮 | 在领取后删除。\n如果有未领取的奖励选项时显示 | 主城活动入口-活动首页-活动主界面奖励选项领取按钮 | 在领取后删除。\n每次登录后，如果有背包扩格次数时显示 | 活动主界面（下方按钮群）表演准备按钮 | 打开表演准备界面后删除，本次登录期间不再出现。\n个人赛季有关红点 | 规则见赛季策划案 | 规则见赛季策划案\n联盟赛季有关红点 | 规则见赛季策划案 | 规则见赛季策划案",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "table-0081",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "活动体力超过50%时，路径：活动主界面-活动入口按钮。在不满足条件时删除。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-8-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-8-2",
+        "old_block_id": "doc-0074",
+        "kind": "heading",
+        "old_text": "有未完成的可选奖励时，路径：在活动主界面-选项奖励按钮。在领取奖励后删除。",
+        "new_text": "3.8.2 跑马灯",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-8-2",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "有未完成的可选奖励时，路径：在活动主界面-选项奖励按钮。在领取奖励后删除。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0083": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0083",
+        "old_block_id": "doc-0078",
+        "kind": "list_item",
+        "old_text": "城市占领变化时，显示：“{name}占领%{cityname}。”（KEY）",
+        "new_text": "城市占领变化时，显示：“%{name}占领%{cityname}。”（MusicCity_des_09）",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0083",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "城市占领变化时，显示：“{name}占领%{cityname}。”（KEY）",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0084": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0084",
+        "old_block_id": "doc-0079",
+        "kind": "list_item",
+        "old_text": "单服发联盟频道、跨服发活动的阵营频道。",
+        "new_text": "同时发送系统消息至以下聊天频道：单服发送到联盟频道、跨服发送到全服频道。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0084",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "单服发联盟频道、跨服发活动的阵营频道。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-9": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-9",
+        "old_block_id": "doc-3-7",
+        "kind": "heading",
+        "old_text": "3.7 活动成就",
+        "new_text": "3.9 活动成就",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-9",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.7 活动成就",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0086": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0086",
+        "old_block_id": "doc-0081",
+        "kind": "paragraph",
+        "old_text": "具体任务类型和目标值待数值及任务设计确认后补充。",
+        "new_text": "具体任务类型和目标值待任务设计确认后补充。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0086",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "具体任务类型和目标值待数值及任务设计确认后补充。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0088": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0088",
+        "old_block_id": "doc-0083",
+        "kind": "list_item",
+        "old_text": "MUSIC_CITY_USE_PHY = 314, -- 爱乐之城消耗%{num}体力。",
+        "new_text": "MUSIC_CITY_USE_PHY = 330, -- 爱乐之城消耗%{num}体力。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0088",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "MUSIC_CITY_USE_PHY = 314, -- 爱乐之城消耗%{num}体力。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0089": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0089",
+        "old_block_id": "doc-0084",
+        "kind": "list_item",
+        "old_text": "CROSS_MUSIC_CITY_USE_PHY = 315, -- 跨服爱乐之城消耗%{num}体力。",
+        "new_text": "CROSS_MUSIC_CITY_USE_PHY = 331, -- 跨服爱乐之城消耗%{num}体力。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0089",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "CROSS_MUSIC_CITY_USE_PHY = 315, -- 跨服爱乐之城消耗%{num}体力。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-10": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-10",
+        "old_block_id": "doc-3-8",
+        "kind": "heading",
+        "old_text": "3.8 活动赛季任务",
+        "new_text": "3.10 活动赛季任务",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-10",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.8 活动赛季任务",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0091": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-0091",
+        "old_block_id": "doc-0086",
+        "kind": "paragraph",
+        "old_text": "具体任务类型和目标值待数值及任务设计确认后补充。",
+        "new_text": "具体任务类型和目标值待任务设计确认后补充。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0091",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "具体任务类型和目标值待数值及任务设计确认后补充。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-3-11": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "3",
+        "change_type": "修改",
+        "new_block_id": "doc-3-11",
+        "old_block_id": "doc-3-9-4",
+        "kind": "heading",
+        "old_text": "3.9 迁服处理",
+        "new_text": "3.11 迁服处理",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-3-11",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "3.9 迁服处理",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0099": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0099",
+        "old_block_id": "doc-0094",
+        "kind": "list_item",
+        "old_text": "左上显示标题：活动名称（MusicCity_title_01）、活动FAQ按钮；右上显示个人排名和个人积分（KEY）。",
+        "new_text": "左上显示标题：活动名称（MusicCity_title_01）、活动FAQ按钮；右上显示个人排名和个人积分（cross_arena_title_09、snowmountain_title_22）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0099",
+        "old_block_id": "block-88",
+        "kind": "list_item",
+        "old_text": "左上显示活动名称（MusicCity_title_01）、活动FAQ入口按钮；右上显示个人排名和个人人气（MusicCity_title_04）。",
+        "new_text": "左上显示标题：活动名称（MusicCity_title_01）、活动FAQ按钮；右上显示个人排名和个人积分（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0099",
+        "old_block_id": "doc-0072",
+        "kind": "list_item",
+        "old_text": "左上显示活动名称，右上垂直显示个人排名和个人人气。",
+        "new_text": "左上显示活动名称（MusicCity_title_01）、活动FAQ入口按钮；右上显示个人排名和个人人气（MusicCity_title_04）。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0101": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0101",
+        "old_block_id": "doc-0096",
+        "kind": "list_item",
+        "old_text": "点击个人积分弹出通用提示：标题-个人积分；说明-“个人人气+阵营流行度的加成值”（KEY）。",
+        "new_text": "点击个人积分弹出通用提示：标题-个人积分；说明-“个人人气+阵营流行度的加成值”（snowmountain_title_22、MusicCity_des_08）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0101",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击个人积分弹出通用提示：标题-个人积分；说明-“个人人气+阵营流行度的加成值”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0103": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0103",
+        "old_block_id": "doc-0098",
+        "kind": "list_item",
+        "old_text": "进入活动按钮，位于活动信息下方。单服不满足进入所需的联盟条件时，点击提示common_tips_79。",
+        "new_text": "进入活动按钮，位于活动信息下方。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0103",
+        "old_block_id": "block-91",
+        "kind": "list_item",
+        "old_text": "进入巡演按钮，位于活动信息下方。单服不满足进入所需的联盟条件时，点击提示common_tips_79。",
+        "new_text": "进入活动按钮，位于活动信息下方。单服不满足进入所需的联盟条件时，点击提示common_tips_79。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0103",
+        "old_block_id": "doc-0075",
+        "kind": "list_item",
+        "old_text": "按钮下方显示条形聊天组件。",
+        "new_text": "进入巡演按钮，位于活动信息下方。单服不满足进入所需的联盟条件时，点击提示common_tips_79。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0104": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0104",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "单服不满足进入所需的联盟条件时，点击提示common_tips_79。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0105": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0105",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "跨服未获得资格时，按钮不显示，改为显示不可参与原因的说明文本。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0106": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0106",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "聊天框。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0112": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0112",
+        "old_block_id": "doc-0104",
+        "kind": "list_item",
+        "old_text": "顶栏显示活动名称（KEY）、FAQ、个人排名和个人积分（KEY）。",
+        "new_text": "顶栏显示活动名称（MusicCity_title_01）、FAQ、个人排名和个人积分（cross_arena_title_09、snowmountain_title_22）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0112",
+        "old_block_id": "block-98",
+        "kind": "list_item",
+        "old_text": "顶栏显示活动名称、FAQ、个人排名和个人人气。",
+        "new_text": "顶栏显示活动名称（KEY）、FAQ、个人排名和个人积分（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0112",
+        "old_block_id": "doc-0083",
+        "kind": "list_item",
+        "old_text": "顶栏显示活动名称、帮助、个人排名和个人人气。",
+        "new_text": "顶栏显示活动名称、FAQ、个人排名和个人人气。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0126": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0126",
+        "old_block_id": "doc-0118",
+        "kind": "list_item",
+        "old_text": "如果没有可领的奖励，点击进行飘字提示（KEY）。",
+        "new_text": "如果没有可领的奖励，点击进行飘字提示（MusicCity_tips_18）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0126",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果没有可领的奖励，点击进行飘字提示（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0127": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0127",
+        "old_block_id": "doc-0119",
+        "kind": "list_item",
+        "old_text": "界面下半区域显示：当前演奏值（KEY）、动态居中布局的操作按钮。",
+        "new_text": "界面下半区域显示：当前演奏值（MusicCity_title_35）、动态居中布局的操作按钮。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0127",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "界面下半区域显示：当前演奏值（KEY）、动态居中布局的操作按钮。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0128": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0128",
+        "old_block_id": "doc-0120",
+        "kind": "list_item",
+        "old_text": "左侧为连续表演（KEY）按钮，按钮上方显示当前鲜花数量（KEY）。",
+        "new_text": "左侧为连续表演（MusicCity_btn_16）按钮，按钮上方显示当前鲜花数量（MusicCity_des_24）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0128",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "左侧为连续表演（KEY）按钮，按钮上方显示当前鲜花数量（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0130": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0130",
+        "old_block_id": "doc-0122",
+        "kind": "list_item",
+        "old_text": "玩家没选中城市时，正常显示，点击提示“请先选择1个表演城市”（KEY）。",
+        "new_text": "玩家没选中城市时，正常显示，点击提示“请先选择1个表演城市”（MusicCity_tips_01）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0130",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "玩家没选中城市时，正常显示，点击提示“请先选择1个表演城市”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0132": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0132",
+        "old_block_id": "doc-0124",
+        "kind": "list_item",
+        "old_text": "在鲜花数量为0时，正常显示，点击飘字提示“鲜花数量不足”（KEY）。",
+        "new_text": "在鲜花数量为0时，正常显示，点击飘字提示“鲜花数量不足”（MusicCity_tips_19）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0132",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "在鲜花数量为0时，正常显示，点击飘字提示“鲜花数量不足”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0133": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0133",
+        "old_block_id": "doc-0125",
+        "kind": "list_item",
+        "old_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），按钮灰态显示，点击飘字提示“活动结束前x分钟不可以连续表演”（KEY）。",
+        "new_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），按钮灰态显示，点击飘字提示“活动结束前x分钟不可以连续表演”（MusicCity_tips_20）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0133",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），按钮灰态显示，点击飘字提示“活动结束前x分钟不可以连续表演”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0134": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0134",
+        "old_block_id": "doc-0126",
+        "kind": "list_item",
+        "old_text": "右侧为开始表演（KEY）按钮，上方显示巡演体力资源条。",
+        "new_text": "右侧为开始表演（MusicCity_btn_05）按钮，上方显示巡演体力资源条。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0134",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "右侧为开始表演（KEY）按钮，上方显示巡演体力资源条。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0137": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0137",
+        "old_block_id": "doc-0129",
+        "kind": "list_item",
+        "old_text": "玩家没选中城市时，正常显示，点击提示“请先选择1个表演城市”（KEY）。",
+        "new_text": "玩家没选中城市时，正常显示，点击提示“请先选择1个表演城市”（MusicCity_tips_01）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0137",
+        "old_block_id": "block-106",
+        "kind": "list_item",
+        "old_text": "表演背包为空时，正常显示，点击提示“没有设置背包无法表演”。",
+        "new_text": "玩家没选中城市时，正常显示，点击提示“请先选择1个表演城市”（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0137",
+        "old_block_id": "doc-0090",
+        "kind": "list_item",
+        "old_text": "表演队伍、活动战报、排行与奖励均从活动首页或活动主界面进入。关闭附属页面后返回原来源，并恢复选中城市、地图信息状态和上次查看页签。",
+        "new_text": "表演背包为空时，正常显示，点击提示“没有设置背包无法表演”。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0138": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0138",
+        "old_block_id": "doc-0130",
+        "kind": "list_item",
+        "old_text": "表演背包为空时，正常显示，点击提示“没有设置背包无法表演”（KEY）。",
+        "new_text": "表演背包为空时，正常显示，点击提示“没有设置背包无法表演”（MusicCity_tips_03）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0138",
+        "old_block_id": "block-107",
+        "kind": "list_item",
+        "old_text": "底栏左侧为返回图标按钮，右侧依次为表演队伍、活动战报和排行按钮。",
+        "new_text": "表演背包为空时，正常显示，点击提示“没有设置背包无法表演”（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0138",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "底栏左侧为返回图标按钮，右侧依次为表演队伍、活动战报和排行按钮。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0139": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0139",
+        "old_block_id": "doc-0131",
+        "kind": "list_item",
+        "old_text": "底栏左侧为返回图标按钮，右侧依次为表演准备（KEY）、表演队伍（KEY）、活动战报（KEY）和排行奖励（KEY）按钮。",
+        "new_text": "聊天框。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0139",
+        "old_block_id": "block-108",
+        "kind": "list_item",
+        "old_text": "表演队伍，点击打开界面-表演队伍（F52）。",
+        "new_text": "底栏左侧为返回图标按钮，右侧依次为表演准备（KEY）、表演队伍（KEY）、活动战报（KEY）和排行奖励（KEY）按钮。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0139",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "表演队伍，点击打开界面-表演队伍（F52）。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0140": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0140",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "底栏左侧为返回图标按钮，右侧依次为表演准备（MusicCity_btn_04）、表演队伍（MusicCity_btn_06）、活动战报（MusicCity_btn_17）和排行奖励（faq_130_23）按钮。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-4-3-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-4-3-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "4.3.1 继续表演",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0145": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0145",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "进入活动主界面时，如果有未完成的表演，弹出表演界面让玩家继续表演。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-5": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5",
+        "old_block_id": "doc-5",
+        "kind": "heading",
+        "old_text": "5. 公共巡演地图",
+        "new_text": "5. 公共地图",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0147": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0147",
+        "old_block_id": "doc-0137",
+        "kind": "paragraph",
+        "old_text": "城市的位置、道路曲线由Unity地图预制保存。实际联通判定读取各城市的联通城市编号（MusicCity_city.connected_city_ids）。",
+        "new_text": "根据活动范围，有不同的地图预制类型、城市列表、城市属性。活动pid对应的数据，读取活动设置（musicCity_pidSetting）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0147",
+        "old_block_id": "doc-0092",
+        "kind": "paragraph",
+        "old_text": "地图坐标、道路曲线、节点偏移、缩放和显示层级由Unity地图预制保存；业务联通城市读取联通城市编号（MusicCity_city.connected_city_ids）。",
+        "new_text": "城市的位置、道路曲线由Unity地图预制保存。实际联通判定读取各城市的联通城市编号（MusicCity_city.connected_city_ids）。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0148": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0148",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "城市的位置、道路曲线由Unity地图预制保存。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0156": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0156",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "是否沿海（coastal_city），表示当前城市是否沿海城市。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0160": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0160",
+        "old_block_id": "doc-0149",
+        "kind": "list_item",
+        "old_text": "城市信息，包括：图标、标记图标/标记按钮、占领情况、城市名称、等级、分享按钮、占领保护倒计时图标、花车加成倒计时图标。",
+        "new_text": "城市信息，包括：图标、标记图标/标记按钮、占领情况、城市名称、等级、分享按钮、占领保护倒计时图标、气球加成倒计时图标。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0160",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "城市信息，包括：图标、标记图标/标记按钮、占领情况、城市名称、等级、分享按钮、占领保护倒计时图标、花车加成倒计时图标。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0161": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0161",
+        "old_block_id": "doc-0150",
+        "kind": "list_item",
+        "old_text": "占领情况，在城市被占领的情况下显示文本“%{name}占领”（KEY）。文本根据是否自身所在阵营占领，区别显示为敌对或友善字色。",
+        "new_text": "占领情况，在城市被占领的情况下显示文本“%{name}占领”（MusicCity_des_02）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0161",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "占领情况，在城市被占领的情况下显示文本“%{name}占领”（KEY）。文本根据是否自身所在阵营占领，区别显示为敌对或友善字色。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0162": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0162",
+        "old_block_id": "doc-0151",
+        "kind": "list_item",
+        "old_text": "占领保护倒计时图标点击弹窗通用提示框显示：标题（KEY）、说明（KEY）。",
+        "new_text": "%{name}在跨服显示服务器名称，如“S-19999”；单服显示联盟简称，如“（KOW）”。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0162",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "占领保护倒计时图标点击弹窗通用提示框显示：标题（KEY）、说明（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0163": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0163",
+        "old_block_id": "doc-0152",
+        "kind": "list_item",
+        "old_text": "花车加成倒计时图标点击弹窗通用提示框显示：标题（KEY）、说明（KEY）。",
+        "new_text": "文本根据是否自身所在阵营占领，区别显示为敌对或友善字色。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0163",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "花车加成倒计时图标点击弹窗通用提示框显示：标题（KEY）、说明（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0164": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0164",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "占领保护倒计时图标点击弹窗通用提示框显示：标题（MusicCity_title_26）、说明（MusicCity_des_10）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0165": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0165",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "气球加成倒计时图标点击弹窗通用提示框显示：标题（MusicCity_title_27）、说明（MusicCity_des_11）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0169": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0169",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果标记数量已达上限，提示“标记失败，当前阵营标记已达上限”（MusicCity_tips_43）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0171": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0171",
+        "old_block_id": "doc-0157",
+        "kind": "list_item",
+        "old_text": "单服：“联盟的盟主和副盟主可以进行标记”（KEY）。",
+        "new_text": "单服：“联盟的盟主和副盟主可以进行标记”（MusicCity_tips_21）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0171",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "单服：“联盟的盟主和副盟主可以进行标记”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0172": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0172",
+        "old_block_id": "doc-0158",
+        "kind": "list_item",
+        "old_text": "跨服：“阵营前2联盟的盟主和副盟主可以进行标记”（KEY）。",
+        "new_text": "跨服：“阵营前2联盟的盟主和副盟主可以进行标记”（MusicCity_tips_22）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0172",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "跨服：“阵营前2联盟的盟主和副盟主可以进行标记”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0174": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0174",
+        "old_block_id": "doc-0160",
+        "kind": "list_item",
+        "old_text": "单服：提示“确认分享%{cityname}到联盟聊天频道？”（KEY）。",
+        "new_text": "单服：提示“确认分享%{cityname}到联盟聊天频道？”（MusicCity_tips_23）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0174",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "单服：提示“确认分享%{cityname}到联盟聊天频道？”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0175": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0175",
+        "old_block_id": "doc-0161",
+        "kind": "list_item",
+        "old_text": "跨服：提示“确认分享%{cityname}到全服聊天频道？”（KEY）。",
+        "new_text": "跨服：提示“确认分享%{cityname}到全服聊天频道？”（MusicCity_tips_24）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0175",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "跨服：提示“确认分享%{cityname}到全服聊天频道？”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0177": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0177",
+        "old_block_id": "doc-0163",
+        "kind": "list_item",
+        "old_text": "占领流行度（KEY）。",
+        "new_text": "占领流行度（MusicCity_title_36）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0177",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "占领流行度（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0178": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0178",
+        "old_block_id": "doc-0164",
+        "kind": "list_item",
+        "old_text": "占领期间（KEY）流行度的间隔增加值（KEY）。",
+        "new_text": "占领期间（MusicCity_title_37）流行度的间隔增加值（MusicCity_des_25）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0178",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "占领期间（KEY）流行度的间隔增加值（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0180": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0180",
+        "old_block_id": "doc-0166",
+        "kind": "list_item",
+        "old_text": "城市的粉丝比例：FAQ图标按钮、流行度比例进度、阵营信息-按比例降序排列显示阵营名称、占比值、占领标识。",
+        "new_text": "城市的粉丝比例：FAQ图标按钮、粉丝比例进度、阵营信息-按比例降序排列显示阵营名称、占比值、占领标识。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0180",
+        "old_block_id": "doc-0130",
+        "kind": "list_item",
+        "old_text": "城市的流行度比例：FAQ图标按钮、流行度比例进度、阵营信息-按比例降序排列显示阵营名称、占比值、占领标识。",
+        "new_text": "城市的粉丝比例：FAQ图标按钮、流行度比例进度、阵营信息-按比例降序排列显示阵营名称、占比值、占领标识。",
+        "badge_label": "09-05 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0180",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "城市的流行度比例：FAQ图标按钮、流行度比例进度、阵营信息-按比例降序排列显示阵营名称、占比值、占领标识。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0181": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0181",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "阵营名称：单服显示联盟简称，如“（KOW）”；跨服显示服务器名称，如“S-19999”",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0182": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0182",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "阵营旗帜：单服显示联盟旗帜；跨服显示通用旗帜、但是旗帜按阵营颜色显示。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0184": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0184",
+        "old_block_id": "doc-0168",
+        "kind": "list_item",
+        "old_text": "点击FAQ图标按钮后弹出通用提示框显示占领的规则FAQ：标题（KEY）、内容（KEY）。",
+        "new_text": "点击FAQ图标按钮后弹出通用提示框显示占领的规则FAQ：标题（MusicCity_title_28）、内容（MusicCity_des_12）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0184",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击FAQ图标按钮后弹出通用提示框显示占领的规则FAQ：标题（KEY）、内容（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-5-4": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-4",
+        "old_block_id": "doc-5-4",
+        "kind": "heading",
+        "old_text": "5.4 城市争夺",
+        "new_text": "5.4 城市占领",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-4",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.4 城市争夺",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0187": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0187",
+        "old_block_id": "doc-0171",
+        "kind": "paragraph",
+        "old_text": "城市争夺，是指玩家通过个人表演提高阵营在城市中的粉丝数量占比来占领城市。",
+        "new_text": "玩家通过个人表演获得粉丝，提高阵营在城市中的粉丝数量占比来占领城市。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0187",
+        "old_block_id": "block-123",
+        "kind": "paragraph",
+        "old_text": "城市的争夺实际是通过玩家个人表演贡献阵营流行度，再通过城市中阵营流行度占比进行争夺。",
+        "new_text": "城市争夺，是指玩家通过个人表演提高阵营在城市中的粉丝数量占比来占领城市。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0187",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "城市的争夺实际是通过玩家个人表演贡献阵营流行度，再通过城市中阵营流行度占比进行争夺。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-5-4-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-4-1",
+        "old_block_id": "doc-0172",
+        "kind": "heading",
+        "old_text": "玩家每次进行个人表演后，表演人气都将按规则换算成玩家获得的城市粉丝数量，从而增加阵营在该城市的粉丝数量占比。具体换算公式待数值确认。",
+        "new_text": "5.4.1 占领规则",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-4-1",
+        "old_block_id": "block-124",
+        "kind": "list_item",
+        "old_text": "玩家每次进行个人表演后，表演人气按待数值确认的换算规则，作为该次对目标城市的个人流行度贡献。",
+        "new_text": "玩家每次进行个人表演后，表演人气都将按规则换算成玩家获得的城市粉丝数量，从而增加阵营在该城市的粉丝数量占比。具体换算公式待数值确认。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-4-1",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "玩家每次进行个人表演后，表演人气按待数值确认的换算规则，作为该次对目标城市的个人流行度贡献。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0188": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0188",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "玩家每次进行个人表演后，表演人气都将按规则换算成玩家获得的城市粉丝数量，从而增加阵营在该城市的粉丝数量占比。具体换算详见表演结算章节。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0190": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0190",
+        "old_block_id": "doc-5-4-1",
+        "kind": "paragraph",
+        "old_text": "5.4.1 城市粉丝数量上限",
+        "new_text": "阵营在城市的粉丝数量占比=阵营在城市的粉丝数量/城市的粉丝数量上限，精确到小数点后1位。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0190",
+        "old_block_id": "block-126",
+        "kind": "heading",
+        "old_text": "城市的当前总流行度，为全部阵营流行度之和。",
+        "new_text": "5.4.1 城市粉丝数量上限",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0190",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "城市的当前总流行度，为全部阵营流行度之和。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0191": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0191",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果计算结果没有达到增长1个精确单位（0.1%）时舍去，玩家阵营占比以外的占比部分仍属于城市。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0192": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0192",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "某个阵营在城市的粉丝数量占比达到城市的占领占比（MusicCity_city.occupy_ratio），且该阵营的城市粉丝占比是该城市的唯一第一时，该阵营占领城市。每座城市同时只能有1个占领阵营，并列第一时无人占领。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-5-4-1-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-4-1-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.4.1.1 占领保护",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0193": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0193",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "城市被阵营占领后，会进入一个保护倒计时（occupy_cd），期间该城市不会变更占领状态，即便占领的阵营不再满足占领条件。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-5-4-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-4-2",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.4.2 城市粉丝数量上限",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0195": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0195",
+        "old_block_id": "doc-0175",
+        "kind": "paragraph",
+        "old_text": "玩家表演获得城市的粉丝数量，如果使城市各个阵营的粉丝数量之和超过上限时，表演玩家正常增加粉丝，同时会额外扣除其他阵营的粉丝数量以维持城市粉丝数量不超过上限。具体做法如下：",
+        "new_text": "玩家表演获得城市的粉丝数量，如果使城市各个阵营的粉丝数量之和超过上限时，需要维持城市粉丝数量不超过上限，具体做法如下：",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0195",
+        "old_block_id": "block-128",
+        "kind": "paragraph",
+        "old_text": "每座城市有各自的流行度上限（MusicCity_city.popularity_cap）。",
+        "new_text": "玩家表演获得城市的粉丝数量，如果使城市各个阵营的粉丝数量之和超过上限时，表演玩家正常增加粉丝，同时会额外扣除其他阵营的粉丝数量以维持城市粉丝数量不超过上限。具体做法如下：",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0195",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "每座城市有各自的流行度上限（MusicCity_city.popularity_cap）。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0196": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0196",
+        "old_block_id": "doc-0176",
+        "kind": "list_item",
+        "old_text": "根据本次增加的超出上限的城市粉丝数量，按照城市内其他阵营粉丝数量占比拆分为各阵营需要被扣除的数量。拆分结果需要取整，优先分配给占比更高的城市，且保证实际扣减总量等于实际超出量。",
+        "new_text": "表演玩家增加的粉丝数量如果大于等于其他阵营的粉丝数量，则表演玩家正常增加粉丝，同时扣除其他阵营的粉丝数量：",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0196",
+        "old_block_id": "doc-0140",
+        "kind": "list_item",
+        "old_text": "根据本次增加的超出上限的城市粉丝数量，按照城市内其他阵营粉丝数量占比拆分为各阵营需要被扣除的数量。拆分结果需要取整，且保证实际扣减总量等于实际超出量。",
+        "new_text": "根据本次增加的超出上限的城市粉丝数量，按照城市内其他阵营粉丝数量占比拆分为各阵营需要被扣除的数量。拆分结果需要取整，优先分配给占比更高的城市，且保证实际扣减总量等于实际超出量。",
+        "badge_label": "09-05 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0196",
+        "old_block_id": "block-129",
+        "kind": "list_item",
+        "old_text": "玩家表演增加城市的流行度，如果使城市当前流行度超过流行度上限时，除了增加阵营流行度，还会扣除其他阵营的流行度以维持城市流行度不超过上限。具体做法如下：",
+        "new_text": "根据本次增加的超出上限的城市粉丝数量，按照城市内其他阵营粉丝数量占比拆分为各阵营需要被扣除的数量。拆分结果需要取整，且保证实际扣减总量等于实际超出量。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0196",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "玩家表演增加城市的流行度，如果使城市当前流行度超过流行度上限时，除了增加阵营流行度，还会扣除其他阵营的流行度以维持城市流行度不超过上限。具体做法如下：",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0197": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0197",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "根据本次增加的超出上限的粉丝数量，按照城市内其他阵营粉丝数量占比拆分为各阵营需要被扣除的数量。拆分结果需要取整，如有小数优先分配给占比更高的阵营，保证实际扣减总量等于实际超出量。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0199": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0199",
+        "old_block_id": "doc-0178",
+        "kind": "list_item",
+        "old_text": "达到上限的扣减情况，记录到双方的战报。",
+        "new_text": "达到上限的扣减情况，也要记录到双方的战报。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0199",
+        "old_block_id": "block-131",
+        "kind": "list_item",
+        "old_text": "在扣减的阵营中，从个人贡献大于扣减值的玩家中随机1个作为目标并扣减；如果单个玩家可扣数量不足时，继续选择同阵营其他玩家扣减。",
+        "new_text": "达到上限的扣减情况，记录到双方的战报。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0199",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "在扣减的阵营中，从个人贡献大于扣减值的玩家中随机1个作为目标并扣减；如果单个玩家可扣数量不足时，继续选择同阵营其他玩家扣减。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-5-4-3": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-4-3",
+        "old_block_id": "doc-5-5",
+        "kind": "heading",
+        "old_text": "5.5 城市占领",
+        "new_text": "5.4.3 城市收益",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-4-3",
+        "old_block_id": "block-132",
+        "kind": "heading",
+        "old_text": "目标阵营全部可扣贡献不足时，不足部分不再写入新贡献，不转扣其他阵营。",
+        "new_text": "5.5 城市占领",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-4-3",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "目标阵营全部可扣贡献不足时，不足部分不再写入新贡献，不转扣其他阵营。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0203": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0203",
+        "old_block_id": "doc-0185",
+        "kind": "list_item",
+        "old_text": "占领期间，按配置时间周期性地为阵营增加阵营流行度、同时减少一定比例的粉丝数量占比。",
+        "new_text": "占领期间，按配置时间周期性地为阵营增加阵营流行度、同时减少一定比例的粉丝数量占比。减少的粉丝数量从该阵营在城市有粉丝的玩家身上按各自贡献比例扣除。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0203",
+        "old_block_id": "block-142",
+        "kind": "list_item",
+        "old_text": "激活和占领城市的收益数值、待数值确认后补充。",
+        "new_text": "占领期间，按配置时间周期性地为阵营增加阵营流行度、同时减少一定比例的粉丝数量占比。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0203",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "激活和占领城市的收益数值、待数值确认后补充。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0204": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0204",
+        "old_block_id": "doc-0186",
+        "kind": "list_item",
+        "old_text": "周期时间，读取城市占领周期收益间隔（MusicCity_setting.city_income_interval）。",
+        "new_text": "周期时间，读取MusicCity_setting.city_income_interval。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0204",
+        "old_block_id": "doc-5-7",
+        "kind": "list_item",
+        "old_text": "5.7 城市占领效果",
+        "new_text": "周期时间，读取城市占领周期收益间隔（MusicCity_setting.city_income_interval）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0204",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.7 城市占领效果",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0205": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0205",
+        "old_block_id": "doc-0187",
+        "kind": "list_item",
+        "old_text": "流行度值加值，读取城市周期收益流行度（MusicCity_city. occupy_ income_pop）。",
+        "new_text": "流行度值加值，读取MusicCity_city.occupy_income_pop。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0205",
+        "old_block_id": "block-144",
+        "kind": "list_item",
+        "old_text": "每座城市至少配置2个占领效果（MusicCity_city. effect_ids）。",
+        "new_text": "流行度值加值，读取城市周期收益流行度（MusicCity_city. occupy_ income_pop）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0205",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "每座城市至少配置2个占领效果（MusicCity_city. effect_ids）。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0206": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0206",
+        "old_block_id": "doc-0188",
+        "kind": "list_item",
+        "old_text": "减少的分数数量占比，读取城市周期粉丝减少（MusicCity_city. occupy_ fans_ reduce）。",
+        "new_text": "减少的粉丝数量占比，读取MusicCity_city.occupy_fans_reduce。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0206",
+        "old_block_id": "block-145",
+        "kind": "list_item",
+        "old_text": "每次活动开始时，每座城市从各自配置的效果中等概率抽取1个效果作为本次活动使用的效果。",
+        "new_text": "减少的分数数量占比，读取城市周期粉丝减少（MusicCity_city. occupy_ fans_ reduce）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0206",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "每次活动开始时，每座城市从各自配置的效果中等概率抽取1个效果作为本次活动使用的效果。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-5-4-4": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-4-4",
+        "old_block_id": "doc-5-5-2",
+        "kind": "heading",
+        "old_text": "5.5.2 阵营流行度",
+        "new_text": "5.4.4 阵营流行度",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-4-4",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.5.2 阵营流行度",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0209": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0209",
+        "old_block_id": "doc-0191",
+        "kind": "list_item",
+        "old_text": "标题：阵营流行度（KEY）。",
+        "new_text": "标题：阵营流行度（MusicCity_title_05）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0209",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "标题：阵营流行度（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0213": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0213",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果周期收益为0，则不显示。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0214": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0214",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "周期收益包含城市效果的加成。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-5-4-5": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-4-5",
+        "old_block_id": "doc-5-5-3",
+        "kind": "heading",
+        "old_text": "5.5.3 占领提示",
+        "new_text": "5.4.5 占领提示",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-4-5",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.5.3 占领提示",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0219": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0219",
+        "old_block_id": "doc-0199",
+        "kind": "paragraph",
+        "old_text": "城市被阵营占领时，会推送给全部玩家一条事件消息，当玩家在活动主界面时弹出，显示在界面的左侧上方。信息文本（KEY）包括：占领阵营名称、城市名称的传参、原占领阵营名称。",
+        "new_text": "城市被阵营占领时，会推送给全部玩家一条事件消息，当玩家在活动主界面时弹出，显示在界面的左侧上方。信息文本（MusicCity_des_13）包括：占领阵营名称、城市名称的传参、原占领阵营名称。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0219",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "城市被阵营占领时，会推送给全部玩家一条事件消息，当玩家在活动主界面时弹出，显示在界面的左侧上方。信息文本（KEY）包括：占领阵营名称、城市名称的传参、原占领阵营名称。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-5-4-6": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-4-6",
+        "old_block_id": "doc-5-6",
+        "kind": "heading",
+        "old_text": "5.6 城市效果",
+        "new_text": "5.4.6 城市占领效果",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-4-6",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.6 城市效果",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0221": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0221",
+        "old_block_id": "doc-0201",
+        "kind": "paragraph",
+        "old_text": "城市的占领效果（MusicCity_city. effect_ids）可以配置多个。每次活动开始时，每座城市从各自配置的效果中等概率抽取1个效果作为本次活动使用的效果。",
+        "new_text": "活动期间，每个阵营可以同时获得多个城市的占领效果。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0221",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "城市的占领效果（MusicCity_city. effect_ids）可以配置多个。每次活动开始时，每座城市从各自配置的效果中等概率抽取1个效果作为本次活动使用的效果。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0222": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0222",
+        "old_block_id": "doc-0202",
+        "kind": "paragraph",
+        "old_text": "活动期间，占领城市阵营的全部成员，可以获得城市占领效果的增幅。每个阵营可以同时获得多个城市的占领效果。",
+        "new_text": "每个城市的占领效果（MusicCity_city.effect_ids）可以配置多个。每次活动开始时，每座城市从各自配置的效果中等概率抽取1个效果作为本次活动使用的效果。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0222",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "活动期间，占领城市阵营的全部成员，可以获得城市占领效果的增幅。每个阵营可以同时获得多个城市的占领效果。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0223": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0223",
+        "old_block_id": "doc-5-6-1",
+        "kind": "paragraph",
+        "old_text": "5.6.1 占领效果类型汇总",
+        "new_text": "城市效果读取城市效果配置表（MusicCity_cityEffect），包括：效果类型（effect_type）、触发类型（trigger_type）、效果值参数（value_params）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0223",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.6.1 占领效果类型汇总",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0224": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0224",
+        "old_block_id": "doc-0203",
+        "kind": "paragraph",
+        "old_text": "城市效果的类型、触发、目标、取值和值参数读取城市效果配置表（MusicCity_cityEffect）。具体效果和数值待确定后补充。",
+        "new_text": "当前城市占领效果类型汇总如下：",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0224",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "城市效果的类型、触发、目标、取值和值参数读取城市效果配置表（MusicCity_cityEffect）。具体效果和数值待确定后补充。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "table-0225": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "table-0225",
+        "old_block_id": "doc-5-7",
+        "kind": "table",
+        "old_text": "5.7 花车",
+        "new_text": "效果类型 | 效果描述 | 参数\n1 | 获得占领周期收益时，本阵营每占领1个道路联通的其他城市，本城市额外获得%{num1}%阵营流行度。\n*道路联通，根据musicCity_city.connected_city_ids判定 | num1：千分比\n2 | 获得占领周期收益时，本阵营每占领1个沿海的其他城市，本城市额外获得%{num1}%阵营流行度。\n*是否沿海，根据musicCity_city.coastal_city判定 | num1：千分比",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "table-0225",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.7 花车",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-5-5": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-5",
+        "old_block_id": "doc-0204",
+        "kind": "heading",
+        "old_text": "花车是地图上的一个特殊机制，数据读取花车数据配置表（MusicCity_float）。",
+        "new_text": "5.5 气球",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-5",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "花车是地图上的一个特殊机制，数据读取花车数据配置表（MusicCity_float）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0226": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0226",
+        "old_block_id": "doc-5-7-1",
+        "kind": "paragraph",
+        "old_text": "5.7.1 花车车站",
+        "new_text": "气球是地图上的一个特殊机制，数据读取气球数据配置表（MusicCity_float）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0226",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.7.1 花车车站",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-5-5-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-5-1",
+        "old_block_id": "doc-0205",
+        "kind": "heading",
+        "old_text": "地图右下角（暂定）有特殊建筑“花车车站”。花车车站不同于一般城市，不可进行占领。",
+        "new_text": "5.5.1 气球基站",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-5-1",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "地图右下角（暂定）有特殊建筑“花车车站”。花车车站不同于一般城市，不可进行占领。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0227": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0227",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "地图右下角（暂定）有特殊建筑“气球基站”。气球基站不同于一般城市，不可进行占领。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0230": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0230",
+        "old_block_id": "doc-0208",
+        "kind": "paragraph",
+        "old_text": "在活动开始后，每当有玩家通过表演获得任一城市的粉丝时，同时等量增加花车车站的进度。在花车车站进度满值（float_start）后，会在车站旁生成一辆待占领的花车。生成花车后，花车车站进度清空，继续从零累积。",
+        "new_text": "在活动开始后，每当有玩家通过表演获得任一城市的粉丝时，同时等量增加气球基站的进度。在气球基站进度满值后，会在气球基站旁生成一只待占领的气球。满值后，气球基站继续从零累积。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0230",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "在活动开始后，每当有玩家通过表演获得任一城市的粉丝时，同时等量增加花车车站的进度。在花车车站进度满值（float_start）后，会在车站旁生成一辆待占领的花车。生成花车后，花车车站进度清空，继续从零累积。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0231": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0231",
+        "old_block_id": "doc-0209",
+        "kind": "list_item",
+        "old_text": "地图上可以同时存在多辆花车。",
+        "new_text": "根据活动范围，有不同的气球基站进度上限值，根据活动pid读取musicCity_pidSetting.float_start。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0231",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "地图上可以同时存在多辆花车。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0232": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0232",
+        "old_block_id": "doc-0210",
+        "kind": "list_item",
+        "old_text": "点击建筑，可以查看花车车站的详情，包括：名称、描述、花车进度值（KEY）。连续表演和表演按钮隐藏，显示提示“花车车站不可进行表演”（KEY）。",
+        "new_text": "地图上可以同时存在多只气球。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0232",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "点击建筑，可以查看花车车站的详情，包括：名称、描述、花车进度值（KEY）。连续表演和表演按钮隐藏，显示提示“花车车站不可进行表演”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0233": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0233",
+        "old_block_id": "doc-5-7-2",
+        "kind": "paragraph",
+        "old_text": "5.7.2 占领花车",
+        "new_text": "点击建筑，可以查看气球基站的详情，包括：名称、描述、气球进度值（MusicCity_des_26）。连续表演和表演按钮隐藏，显示提示“气球基站不可进行表演”（MusicCity_tips_25）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0233",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.7.2 占领花车",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-5-5-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-5-2",
+        "old_block_id": "doc-0211",
+        "kind": "heading",
+        "old_text": "待占领的花车生成后，会开始占领倒计时（occupy_time），显示在地图花车上。",
+        "new_text": "5.5.2 气球竞演",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-5-2",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "待占领的花车生成后，会开始占领倒计时（occupy_time），显示在地图花车上。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0234": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0234",
+        "old_block_id": "doc-0212",
+        "kind": "paragraph",
+        "old_text": "占领倒计时期间，玩家点击花车可以发起占领竞演，竞演次数（occupy_play_num）有限。",
+        "new_text": "待占领的气球生成后，会开始竞演倒计时（occupy_time），显示在地图气球上。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0234",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "占领倒计时期间，玩家点击花车可以发起占领竞演，竞演次数（occupy_play_num）有限。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0235": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0235",
+        "old_block_id": "doc-0213",
+        "kind": "paragraph",
+        "old_text": "竞演和城市表演相同规则，但是不会触发互动事件，且表演时长、节拍数量和概率等玩法参数单独配置。",
+        "new_text": "竞演倒计时期间，玩家点击气球可以发起气球竞演。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0235",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "竞演和城市表演相同规则，但是不会触发互动事件，且表演时长、节拍数量和概率等玩法参数单独配置。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0236": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0236",
+        "old_block_id": "doc-0214",
+        "kind": "paragraph",
+        "old_text": "玩家数次竞演中最高的表演分数，作为占领花车的竞演分数。",
+        "new_text": "气球竞演是特殊的表演，不消耗体力。每个气球竞演次数（occupy_play_num）有限。竞演过程和城市表演相同，但是不会触发互动事件，且表演时长、节拍数量和概率等玩法参数单独配置，并且只会得到竞演分数。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0236",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "玩家数次竞演中最高的表演分数，作为占领花车的竞演分数。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0237": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0237",
+        "old_block_id": "doc-0215",
+        "kind": "paragraph",
+        "old_text": "占领倒计时结束时，最高分数的玩家赢得花车。",
+        "new_text": "玩家数次竞演中最高的表演分数，作为占领气球的竞演分数。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0237",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "占领倒计时结束时，最高分数的玩家赢得花车。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0238": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0238",
+        "old_block_id": "doc-0216",
+        "kind": "paragraph",
+        "old_text": "如果分数相同，先完成表演的玩家赢。",
+        "new_text": "占领倒计时结束时，最高分数的玩家赢得气球。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0238",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果分数相同，先完成表演的玩家赢。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0239": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0239",
+        "old_block_id": "doc-0217",
+        "kind": "list_item",
+        "old_text": "如果没有人参与，花车会直接消失。",
+        "new_text": "倒计时结束时未完成的表演，不计入竞演分数。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0239",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果没有人参与，花车会直接消失。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0240": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0240",
+        "old_block_id": "doc-0218",
+        "kind": "list_item",
+        "old_text": "花车竞演结束会记录阵营战报，同时在主界面左侧进行提示“%{player}赢得花车”（KEY）。",
+        "new_text": "如果分数相同，先提交此分数的玩家赢。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0240",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "花车竞演结束会记录阵营战报，同时在主界面左侧进行提示“%{player}赢得花车”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0241": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0241",
+        "old_block_id": "doc-0219",
+        "kind": "list_item",
+        "old_text": "赢得花车的玩家会获得一个DEBUFF“上届花车赢家”（KEY），效果是“在持续期间参与花车竞演的表演分数下降x%”（KEY）。",
+        "new_text": "如果没有人参与，气球会直接消失。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0241",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "赢得花车的玩家会获得一个DEBUFF“上届花车赢家”（KEY），效果是“在持续期间参与花车竞演的表演分数下降x%”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0242": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0242",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "气球竞演结束会记录阵营战报，同时在主界面左侧进行提示“%{player}赢得气球”（MusicCity_tips_26）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0243": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0243",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "赢得气球的玩家会获得一个DEBUFF“气球赢家”（MusicCity_title_34），效果是“在持续期间参与后续气球竞演的表演分数下降x%”（MusicCity_des_14）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-5-5-2-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-5-2-1",
+        "old_block_id": "doc-5-7-2-1",
+        "kind": "heading",
+        "old_text": "5.7.2.1 花车挑战界面",
+        "new_text": "5.5.2.1 气球挑战界面",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-5-2-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.7.2.1 花车挑战界面",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0246": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0246",
+        "old_block_id": "doc-0222",
+        "kind": "paragraph",
+        "old_text": "点击地图上的花车，可以查看花车的详情并发起竞演挑战。",
+        "new_text": "点击地图上的气球，可以查看气球的详情并发起竞演挑战。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0246",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "点击地图上的花车，可以查看花车的详情并发起竞演挑战。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0248": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0248",
+        "old_block_id": "doc-0224",
+        "kind": "paragraph",
+        "old_text": "花车信息包括：花车名称（KEY）、分享按钮、花车DEBUFF图标、花车竞演描述（KEY）、花车效果描述（KEY）、当前花车得分玩家列表。",
+        "new_text": "气球信息包括：气球名称（MusicCity_title_29）、分享按钮、气球DEBUFF图标、气球竞演描述（MusicCity_des_15）、气球效果描述（MusicCity_des_11）、当前气球得分玩家列表。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0248",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "花车信息包括：花车名称（KEY）、分享按钮、花车DEBUFF图标、花车竞演描述（KEY）、花车效果描述（KEY）、当前花车得分玩家列表。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0249": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0249",
+        "old_block_id": "doc-0225",
+        "kind": "list_item",
+        "old_text": "花车DEBUFF图标仅拥有的玩家才显示，点击可以查看详情：标题（KEY）、描述（KEY）。",
+        "new_text": "气球DEBUFF图标仅拥有的玩家才显示，点击可以查看详情：标题（MusicCity_title_34）、描述（MusicCity_des_14）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0249",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "花车DEBUFF图标仅拥有的玩家才显示，点击可以查看详情：标题（KEY）、描述（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0251": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0251",
+        "old_block_id": "doc-0227",
+        "kind": "paragraph",
+        "old_text": "花车信息下方显示竞演（KEY）按钮和竞演次数。",
+        "new_text": "气球信息下方显示竞演（MusicCity_btn_19）按钮和竞演次数。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0251",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "花车信息下方显示竞演（KEY）按钮和竞演次数。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-5-5-3": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-5-3",
+        "old_block_id": "doc-5-7-3",
+        "kind": "heading",
+        "old_text": "5.7.3 花车游行",
+        "new_text": "5.5.3 气球游行",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-5-3",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.7.3 花车游行",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0252": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0252",
+        "old_block_id": "doc-0228",
+        "kind": "paragraph",
+        "old_text": "花车占领倒计时结束，如果有玩家赢得花车，花车进入游行状态。",
+        "new_text": "气球占领倒计时结束，如果有玩家赢得气球，气球进入游行状态。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0252",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "花车占领倒计时结束，如果有玩家赢得花车，花车进入游行状态。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0253": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0253",
+        "old_block_id": "doc-0229",
+        "kind": "paragraph",
+        "old_text": "花车游行的总时长（MusicCity_float .effect_time）包含赢得玩家的选择时间。",
+        "new_text": "气球游行的总时长（MusicCity_float.effect_time）包含赢得玩家的选择时间。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0253",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "花车游行的总时长（MusicCity_float .effect_time）包含赢得玩家的选择时间。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0254": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0254",
+        "old_block_id": "doc-0230",
+        "kind": "paragraph",
+        "old_text": "在游行期间，可以指挥花车前往1个城市，使该城市获得花车加成效果。指挥前往后，后续不可变更。",
+        "new_text": "在游行期间，可以指挥气球前往1个城市，使该城市获得气球加成效果。指挥前往后，后续不可变更。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0254",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "在游行期间，可以指挥花车前往1个城市，使该城市获得花车加成效果。指挥前往后，后续不可变更。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0255": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0255",
+        "old_block_id": "doc-0231",
+        "kind": "list_item",
+        "old_text": "花车效果暂定为：使花车游行的城市中同阵营玩家个人表演获得的人气值得到比例加成，加成比例参数读取（MusicCity_float .effect_param）。",
+        "new_text": "气球效果暂定为：使气球游行的城市中同阵营玩家个人表演获得的人气值得到比例加成，加成比例参数读取（MusicCity_float.effect_param）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0255",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "花车效果暂定为：使花车游行的城市中同阵营玩家个人表演获得的人气值得到比例加成，加成比例参数读取（MusicCity_float .effect_param）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0256": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0256",
+        "old_block_id": "doc-0232",
+        "kind": "list_item",
+        "old_text": "多个花车在一个城市可以累加。",
+        "new_text": "多个气球在一个城市可以累加。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0256",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "多个花车在一个城市可以累加。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0257": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0257",
+        "old_block_id": "doc-0233",
+        "kind": "paragraph",
+        "old_text": "游行倒计时结束后，花车从地图移除、花车效果从城市移除。",
+        "new_text": "游行倒计时结束后，气球从地图移除、气球效果从城市移除。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0257",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "游行倒计时结束后，花车从地图移除、花车效果从城市移除。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-5-5-3-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-5-3-1",
+        "old_block_id": "doc-5-7-3-1",
+        "kind": "heading",
+        "old_text": "5.7.3.1 赢得花车提示",
+        "new_text": "5.5.3.1 赢得气球提示",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-5-3-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.7.3.1 赢得花车提示",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0258": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0258",
+        "old_block_id": "doc-0234",
+        "kind": "paragraph",
+        "old_text": "花车占领倒计时结束，赢得花车的玩家，回到活动主界面会弹出赢得花车的提示。",
+        "new_text": "气球占领倒计时结束，赢得气球的玩家，回到活动主界面会弹出赢得气球的提示。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0258",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "花车占领倒计时结束，赢得花车的玩家，回到活动主界面会弹出赢得花车的提示。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0259": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0259",
+        "old_block_id": "doc-0235",
+        "kind": "list_item",
+        "old_text": "标题：恭喜（KEY）。",
+        "new_text": "标题：恭喜（chariot_title_13）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0259",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "标题：恭喜（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0260": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0260",
+        "old_block_id": "doc-0236",
+        "kind": "list_item",
+        "old_text": "正文：恭喜以%{num}的竞演分数赢得花车！（KEY）、",
+        "new_text": "正文：恭喜以%{num}的竞演分数赢得气球！（MusicCity_des_16）、",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0260",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "正文：恭喜以%{num}的竞演分数赢得花车！（KEY）、",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0261": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0261",
+        "old_block_id": "doc-0237",
+        "kind": "list_item",
+        "old_text": "花车游行动画。",
+        "new_text": "气球游行动画。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0261",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "花车游行动画。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0262": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0262",
+        "old_block_id": "doc-0238",
+        "kind": "list_item",
+        "old_text": "花车赢家BUFF：图标和BUFF说明。",
+        "new_text": "气球赢家BUFF：图标和BUFF说明。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0262",
+        "old_block_id": "doc-0202",
+        "kind": "list_item",
+        "old_text": "上届花车赢家BUFF：图标和BUFF说明。",
+        "new_text": "花车赢家BUFF：图标和BUFF说明。",
+        "badge_label": "09-05 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0262",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "上届花车赢家BUFF：图标和BUFF说明。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0263": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0263",
+        "old_block_id": "doc-0239",
+        "kind": "list_item",
+        "old_text": "确认按钮：点击打开发起花车游行的界面。",
+        "new_text": "确认按钮：点击打开发起气球游行的界面。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0263",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "确认按钮：点击打开发起花车游行的界面。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-5-5-3-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-5-3-2",
+        "old_block_id": "doc-5-7-3-2",
+        "kind": "heading",
+        "old_text": "5.7.3.2 派出花车游行",
+        "new_text": "5.5.3.2 派出气球游行",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-5-3-2",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.7.3.2 派出花车游行",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0265": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0265",
+        "old_block_id": "doc-0241",
+        "kind": "paragraph",
+        "old_text": "赢得花车的玩家，在未指挥花车前往城市的情况下，每次进入活动主界面都会弹出派出花车游行界面。",
+        "new_text": "赢得气球的玩家，在未指挥气球前往城市的情况下，在玩法期进入活动主界面都会弹出派出气球游行界面。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0265",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "赢得花车的玩家，在未指挥花车前往城市的情况下，每次进入活动主界面都会弹出派出花车游行界面。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0267": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0267",
+        "old_block_id": "doc-0243",
+        "kind": "list_item",
+        "old_text": "标题：派出花车（KEY）。",
+        "new_text": "标题：派出气球（MusicCity_title_31）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0267",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "标题：派出花车（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0268": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0268",
+        "old_block_id": "doc-0244",
+        "kind": "list_item",
+        "old_text": "说明：选择城市派出花车（KEY）。",
+        "new_text": "说明：选择城市派出气球（MusicCity_des_17）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0268",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "说明：选择城市派出花车（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0269": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0269",
+        "old_block_id": "doc-0245",
+        "kind": "list_item",
+        "old_text": "花车效果描述。",
+        "new_text": "气球效果描述。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0269",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "花车效果描述。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0271": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0271",
+        "old_block_id": "doc-0247",
+        "kind": "list_item",
+        "old_text": "花车游行剩余时间（KEY）。",
+        "new_text": "气球游行剩余时间（MusicCity_des_27）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0271",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "花车游行剩余时间（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0272": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0272",
+        "old_block_id": "doc-0248",
+        "kind": "list_item",
+        "old_text": "派出（KEY）：点击弹出二次确认框提示“确认向%{cityname}派出花车？花车派出后目标城市不可更改”（KEY）。确认后上报向选择的城市派出花车。",
+        "new_text": "派出（spiceRoad_btn_03）：点击弹出二次确认框提示“确认向%{cityname}派出气球？气球派出后目标城市不可更改”（MusicCity_tips_27）。确认后上报向选择的城市派出气球。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0272",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "派出（KEY）：点击弹出二次确认框提示“确认向%{cityname}派出花车？花车派出后目标城市不可更改”（KEY）。确认后上报向选择的城市派出花车。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0274": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0274",
+        "old_block_id": "doc-0250",
+        "kind": "paragraph",
+        "old_text": "花车等待派出时，在地图上被点击打开时的详情界面特殊显示：",
+        "new_text": "气球等待派出时，在地图上被点击打开时的详情界面特殊显示：",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0274",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "花车等待派出时，在地图上被点击打开时的详情界面特殊显示：",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0275": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0275",
+        "old_block_id": "doc-0251",
+        "kind": "list_item",
+        "old_text": "竞演排名列表：显示为“拥有者”（KEY）信息。",
+        "new_text": "竞演排名列表：显示为“拥有者”（MusicCity_title_38）信息。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0275",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "竞演排名列表：显示为“拥有者”（KEY）信息。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0277": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0277",
+        "old_block_id": "doc-0253",
+        "kind": "list_item",
+        "old_text": "花车拥有者显示“派出”（KEY）按钮，点击打开派出花车游行界面。",
+        "new_text": "气球拥有者显示“派出”（spiceRoad_btn_03）按钮，点击打开派出气球游行界面。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0277",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "花车拥有者显示“派出”（KEY）按钮，点击打开派出花车游行界面。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0278": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0278",
+        "old_block_id": "doc-0254",
+        "kind": "list_item",
+        "old_text": "其他玩家显示提示“花车等待派出中”（KEY）。",
+        "new_text": "其他玩家显示提示“气球等待派出中”（MusicCity_tips_28）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0278",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "其他玩家显示提示“花车等待派出中”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0281": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0281",
+        "old_block_id": "doc-0257",
+        "kind": "paragraph",
+        "old_text": "花车在某个城市游行时，在地图上被点击打开时的详情界面和等待派出类似，只是最下方显示提示“花车游行中”（KEY）。",
+        "new_text": "气球在某个城市游行时，在地图上被点击打开时的详情界面和等待派出类似，只是最下方显示提示“气球游行中”（MusicCity_tips_29）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0281",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "花车在某个城市游行时，在地图上被点击打开时的详情界面和等待派出类似，只是最下方显示提示“花车游行中”（KEY）。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-5-5-3-3": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-5-3-3",
+        "old_block_id": "doc-5-7-3-3",
+        "kind": "heading",
+        "old_text": "5.7.3.3 花车游行表现",
+        "new_text": "5.5.3.3 气球游行表现",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-5-3-3",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.7.3.3 花车游行表现",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0282": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0282",
+        "old_block_id": "doc-0258",
+        "kind": "paragraph",
+        "old_text": "花车进入游行状态时，地图上的花车会持续播放游行的动画，并在花车下方显示游行倒计时。",
+        "new_text": "气球进入游行状态时，地图上的气球会持续播放游行的动画，并在气球下方显示游行倒计时。气球上会显示拥有玩家的名称和头像。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0282",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "花车进入游行状态时，地图上的花车会持续播放游行的动画，并在花车下方显示游行倒计时。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0283": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0283",
+        "old_block_id": "doc-0259",
+        "kind": "paragraph",
+        "old_text": "玩家派出花车时，花车会从花车车站沿道路行驶到目标城市，并停留在城市旁持续进行表演动画，直到游行倒计时结束花车消失。",
+        "new_text": "玩家派出气球时，气球会从气球基站直接行驶（约2秒）到目标城市，并停留在城市旁持续进行表演动画，直到游行倒计时结束气球消失。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0283",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "玩家派出花车时，花车会从花车车站沿道路行驶到目标城市，并停留在城市旁持续进行表演动画，直到游行倒计时结束花车消失。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-5-6": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-6",
+        "old_block_id": "doc-5-8",
+        "kind": "heading",
+        "old_text": "5.8 阵营标记",
+        "new_text": "5.6 阵营标记",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-6",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "5.8 阵营标记",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-5-6-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-6-1",
+        "old_block_id": "doc-5-8-1",
+        "kind": "heading",
+        "old_text": "5.8.1 指挥官",
+        "new_text": "5.6.1 指挥官",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-6-1",
+        "old_block_id": "block-150",
+        "kind": "heading",
+        "old_text": "此部分功能参考KC活动“王室战争”的规则，在后续步骤补齐。",
+        "new_text": "5.8.1 指挥官",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-5-6-1",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "此部分功能参考KC活动“王室战争”的规则，在后续步骤补齐。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-5-6-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-6-2",
+        "old_block_id": "doc-5-8-2",
+        "kind": "heading",
+        "old_text": "5.8.2 标记",
+        "new_text": "5.6.2 标记",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-5-6-2",
+        "old_block_id": "block-153",
+        "kind": "heading",
+        "old_text": "当前选中。",
+        "new_text": "5.8.2 标记",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0291": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0291",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "每个城市只会有1种标记。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0297": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0297",
+        "old_block_id": "doc-0272",
+        "kind": "paragraph",
+        "old_text": "活动中表演队伍的总魅力值换算为个人表演玩法的加成比例。具体公式待数值确认后补充。",
+        "new_text": "活动中表演队伍的总魅力值换算为个人表演玩法的加成比例，公式如下：表演队伍加成=min{最大值A，{（派出的恋人魅力之和/服务器战力）/配置值B}^调整值C*调整值D}。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0297",
+        "old_block_id": "block-171",
+        "kind": "paragraph",
+        "old_text": "活动中使用的表演值，由表演队伍的总魅力值进行换算，具体公式待数值确认后补充。",
+        "new_text": "活动中表演队伍的总魅力值换算为个人表演玩法的加成比例。具体公式待数值确认后补充。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0297",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "活动中使用的表演值，由表演队伍的总魅力值进行换算，具体公式待数值确认后补充。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0298": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0298",
+        "old_block_id": "doc-6-2-1",
+        "kind": "list_item",
+        "old_text": "6.2.1 表演队伍界面",
+        "new_text": "公式中的参数A、B、C、D，依次读取musicCity_setting.lover_param。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0298",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.2.1 表演队伍界面",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0299": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0299",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "计算结果向下取整到小数精度3位，即到0.001。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0300": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0300",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "活动的服务器战力计算规则，详见活动战力数值表。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-1-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-1-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.1.1 表演队伍界面",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0304": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0304",
+        "old_block_id": "doc-0276",
+        "kind": "list_item",
+        "old_text": "标题：表演队伍（KEY）。",
+        "new_text": "标题：表演队伍（MusicCity_btn_06）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0304",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "标题：表演队伍（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0305": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0305",
+        "old_block_id": "doc-0277",
+        "kind": "list_item",
+        "old_text": "演奏加成（KEY）：根据恋人魅力计算的演奏加成，具体公式待数值确认后补充。",
+        "new_text": "演奏加成（MusicCity_title_39）：显示表演队伍加成值，格式为“+xx%”。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0305",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "演奏加成（KEY）：根据恋人魅力计算的演奏加成，具体公式待数值确认后补充。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0307": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0307",
+        "old_block_id": "doc-0279",
+        "kind": "list_item",
+        "old_text": "如果该位置没有恋人，显示文本“暂无恋人”（KEY）。",
+        "new_text": "如果该位置没有恋人，显示文本“暂无恋人”（MusicCity_tips_42）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0307",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果该位置没有恋人，显示文本“暂无恋人”（KEY）。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0308": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0308",
+        "old_block_id": "doc-0280",
+        "kind": "list_item",
+        "old_text": "编入提示：“自动选择魅力最高的5名恋人作为表演队伍”（KEY）。",
+        "new_text": "编入提示：“自动选择魅力最高的5名恋人作为表演队伍”（MusicCity_tips_30）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0308",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "编入提示：“自动选择魅力最高的5名恋人作为表演队伍”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0315": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0315",
+        "old_block_id": "doc-0287",
+        "kind": "list_item",
+        "old_text": "演奏值（play_value），表演属性，各等级会有不同的数值。",
+        "new_text": "演奏值（play_value），表演属性，各等级会有不同的值。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0315",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "演奏值（play_value），表演属性，各等级会有不同的数值。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0316": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0316",
+        "old_block_id": "doc-0288",
+        "kind": "list_item",
+        "old_text": "能力（effect_id），在背包中满足条件会生效的能力，各等级会有不同的数值，对应道具效果配置表（MusicCity_toolEffect）。",
+        "new_text": "能力（effect_id），在背包中满足条件会生效的能力，各等级会有不同的值，对应道具效果配置表（MusicCity_toolEffect）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0316",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "能力（effect_id），在背包中满足条件会生效的能力，各等级会有不同的数值，对应道具效果配置表（MusicCity_toolEffect）。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "table-0335": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "table-0335",
+        "old_block_id": "doc-0314",
+        "kind": "table",
+        "old_text": "具体效果和数值待确定后补充。",
+        "new_text": "效果类型 | 效果描述 | 参数\n1 | 成员演奏值+%{num1} | num1：演奏值，整数\n2 | 背包演奏值+%{num1} | num1：演奏值，整数\n3 | 背包演奏值+%{num1}% | num1：千分比\n4 | 背包演奏值+%{num1}，且背包演奏值+%{num2}% | num1：演奏值，整数\nnum2：千分比\n5 | 背包演奏值+%{num1}，且背包演奏值+%{num2}*成员总等级 | num1：演奏值，整数\nnum2：演奏值，整数",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "table-0335",
+        "old_block_id": "doc-6-1-3-3",
+        "kind": "paragraph",
+        "old_text": "6.1.3 表演背包",
+        "new_text": "具体效果和数值待确定后补充。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "table-0335",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.1.3 表演背包",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-6-2-3": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-2-3",
+        "old_block_id": "doc-6-2-3",
+        "kind": "heading",
+        "old_text": "6.2.3 初始道具",
+        "new_text": "6.2.3 等级",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-2-3",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.2.3 初始道具",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0336": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0336",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "道具等级相关的属性读取道具等级表（musicCity_toolLevel）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0337": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0337",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "首次获得的道具为1级。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0338": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0338",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "重复获得同名道具时，自动转为道具的升级进度。达到需求时自动升级，道具各等级升级需求读取道具升级需求（MusicCity_setting.prop_upgrade_costs）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0339": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0339",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "道具最高等级即为道具等级表（musicCity_toolLevel.level）配置的最大等级。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-2-4": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-2-4",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.2.4 能力",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0340": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0340",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "表演道具的能力数据读取道具效果配置表（MusicCity_toolEffect），主要包括：",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0341": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0341",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "效果条件类型（condition_type）、效果条件参数（condition_params），表示能力的触发条件。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0342": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0342",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "目标种类（target_categories），表示能力的目标选择方式。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0343": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0343",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "各级效果值（value_by_level），表示能力的各级威力。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0344": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0344",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "表演道具的能力是在道具放入背包后生效，按道具种类、方向、位置、形状或数量等条件，为自身或其他的背包中道具增加演奏值。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0345": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0345",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果道具有限制能力的目标数量上限（MusicCity_toolEffect.target_limit），也按演奏值计算的选择顺序选择道具作为目标。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-2-4-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-2-4-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.2.4.1 能力效果类型汇总",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "table-0346": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "table-0346",
+        "old_block_id": "",
+        "kind": "table",
+        "old_text": "",
+        "new_text": "效果类型 | 效果描述 | 参数\n1 | 若相邻有%{category}类型表演道具，自身演奏值+%{num1}，自身演奏值+%{num1} | category：对应tool表的category字段值，0=任意。\nnum1：演奏值，整数\n2 | 每相邻1个%{category}类型表演道具，自身演奏值+%{num1} | category：对应tool表的category字段值，0=任意。\nnum1：演奏值，整数\n3 | 若%{dir}方向上没有%{category}类型表演道具，自身演奏值+%{num1} | dir：1-上、2-下、3-左、4-右。\ncategory：对应tool表的category字段值，0=任意。\nnum1：演奏值，整数\n4 | 若%{dir}方向上每有1个%{category}类型表演道具，自身演奏值+%{num1} | dir：1-上、2-下、3-左、4-右。\ncategory：对应tool表的category字段值，0=任意。\nnum1：演奏值，整数\n5 | 相邻的%{category}类型表演道具演奏值+%{num1}，自身演奏值+%{num2} | category：对应tool表的category字段值，0=任意。\nnum1：演奏值，整数\nnum2：演奏值，整数\n6 | 相邻的%{category}类型表演道具演奏值+%{num1}*x，自身演奏值+%{num2}*x，x为背包%{category}类型表演道具的数量 | category：对应tool表的category字段值，0=任意。\nnum1：演奏值，整数\nnum2：演奏值，整数\n7 | 若%{dir}方向上每有1种其他乐器，自身演奏值+%{num1} | \n8 | 若%{dir}方向上每有1种其他乐器，背包演奏值+%{num1} | \n9 | 若%{dir}方向上每相邻1种其他乐器，背包演奏值+%{num1} | \n10 | 每相邻1种乐器，节拍玩法增加1个beat，最多生成%{num1}个 | \n11 | 每点击%{num1}个节拍，获得%{num2}个节拍值 | \n12 | 激活%{toolset1}和%{toolset2}，背包演奏值+%{num1}% | %{toolset1}：对应toolset表的id字段值\n%{num1}：千分比",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-2-5": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-2-5",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.2.5 初始道具",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-2-6": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-2-6",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.2.6 直接获得和升级道具",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0350": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0350",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "通过消耗活动道具，可以直接获得和升级表演道具。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0351": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0351",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "服务端收到请求后，进行如下处理：",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0352": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0352",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "检查目标表演道具是否可以进行对应行为：未获得的才可以兑换；未满级的才可以升级。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0353": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0353",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "检查是否有足够数量的消耗道具：数量不足不继续后续。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0354": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0354",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "消耗道具类别，根据表演道具颜色品质判定；详见活动道具章节描述。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0355": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0355",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "消耗数量：兑换道具时消耗1个；升级道具时需要补齐当前等级的升级消耗，对应等级升级消耗（musicCity_setting.prop_upgrade_costs）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0356": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0356",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "通过检查后扣除对应数量的消耗道具，对应添加或升级目标表演道具。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0358": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0358",
+        "old_block_id": "doc-0319",
+        "kind": "paragraph",
+        "old_text": "表演背包暂定尺寸是8×8。初始开放中央的2×4格。",
+        "new_text": "表演背包尺寸读取配置表musicCity_setting的bag_rows和bag_cols。初始开放格子读取配置表musicCity_setting.initial_unlocked_cells。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0358",
+        "old_block_id": "block-196",
+        "kind": "paragraph",
+        "old_text": "表演背包暂定尺寸是8×8，初始开放中央的2×4格。",
+        "new_text": "表演背包暂定尺寸是8×8。初始开放中央的2×4格。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0358",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "表演背包暂定尺寸是8×8，初始开放中央的2×4格。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0359": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0359",
+        "old_block_id": "doc-0320",
+        "kind": "paragraph",
+        "old_text": "活动中，玩家通过表演的奖励选项可以扩大背包格子。具体规则详见下文奖励选项章节。",
+        "new_text": "活动中，玩家通过表演积累次数后，可以获得扩大背包格子的次数。具体规则详见下文背包扩格章节。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0359",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "活动中，玩家通过表演的奖励选项可以扩大背包格子。具体规则详见下文奖励选项章节。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "figure-0365": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "figure-0365",
+        "old_block_id": "figure-0326",
+        "kind": "image",
+        "old_text": "[图片] 2681F411172C11A0112A724938326BF54855F76A1F21F487197132462E849772",
+        "new_text": "[图片] C2A3778B07DA6C94D8EB1400ECDEBF091F00786F5C97F1DBD5405F612DC588ED",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "figure-0365",
+        "old_block_id": "figure-6",
+        "kind": "image",
+        "old_text": "[图片] assets/docx-images/figure-06.png",
+        "new_text": "[图片] 2681F411172C11A0112A724938326BF54855F76A1F21F487197132462E849772",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "figure-0365",
+        "old_block_id": "",
+        "kind": "image",
+        "old_text": "",
+        "new_text": "[图片] assets/docx-images/figure-06.png",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0370": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0370",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果当前有可用的背包扩格次数，与当前已解锁格子边相邻的锁住格子显示为可解锁的状态：“+”号背板，并有提醒动画。点击此类格子会打开背包扩格界面。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0371": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0371",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击锁住的格子，弹出通用提示框提示：标题“表演格子”（MusicCity_title_53）；内容“当前剩余解锁格子次数：%{num1}。\\n再消耗%{num2}点巡演体力可以获得解锁格子次数：%{num3}。”（MusicCity_tips_49）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0372": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0372",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "内容中的%{num1}为当前剩余解锁格子数；%{num2}为下次获得解锁格子次数还需要的体力数；%{num3}为下次给的解锁格子数。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0374": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0374",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击道具图标，可在背包下方打开详情界面，详见下文章节描述。此时切换点击背包道具图标，详情界面内容会直接更新。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0377": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0377",
+        "old_block_id": "doc-0335",
+        "kind": "list_item",
+        "old_text": "拖动道具到背包与其他道具重叠、或不可放置格子，则退回原位置；",
+        "new_text": "拖动道具到背包与其他道具重叠但不满足下述替换条件的位置，或不可放置的格子，则退回原位置；",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0377",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "拖动道具到背包与其他道具重叠、或不可放置格子，则退回原位置；",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0379": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0379",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "替换：如果拖动的道具完全覆盖了背包里的道具（可以多个），且拖动道具剩余格子是可放入的（绿色），则松开后拖动道具放入当前位置，被完全覆盖的道具移入仓库。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0382": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0382",
+        "old_block_id": "doc-0339",
+        "kind": "list_item",
+        "old_text": "如果拖动的道具增加某个已有套装的数量，该套装图标的角标数字临时显示放入这个套装的数值，但是用特殊字色表示是临时变化；",
+        "new_text": "如果拖动的道具增加某个已有套装的数量，该套装图标的角标数字临时显示放入这个套装的值，但是用特殊字色表示是临时变化；",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0382",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果拖动的道具增加某个已有套装的数量，该套装图标的角标数字临时显示放入这个套装的数值，但是用特殊字色表示是临时变化；",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0383": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0383",
+        "old_block_id": "doc-0340",
+        "kind": "paragraph",
+        "old_text": "界面下方是仓库区域，仓库区域支持多页，其中表演道具按以下顺序排列：品质降序、等级、演奏值降序、道具ID降序。",
+        "new_text": "界面下方是仓库区域，仓库区域支持多页，其中表演道具按以下顺序排列并紧密摆放：是否获得优先、品质降序、演奏值降序、道具ID降序。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0383",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "界面下方是仓库区域，仓库区域支持多页，其中表演道具按以下顺序排列：品质降序、等级、演奏值降序、道具ID降序。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0384": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0384",
+        "old_block_id": "doc-0341",
+        "kind": "list_item",
+        "old_text": "道具在仓库和背包中直接显示：图标、形状、尺寸、等级、演奏值，并紧密摆放。",
+        "new_text": "同品质摆放完后，才在最后一个道具后摆放下一个品质的道具。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0384",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "道具在仓库和背包中直接显示：图标、形状、尺寸、等级、演奏值，并紧密摆放。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0385": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0385",
+        "old_block_id": "doc-0342",
+        "kind": "list_item",
+        "old_text": "点击道具图标，可在仓库上方打开详情界面显示详情：名称、种类、等级、演奏值（KEY）、能力描述、套装信息。",
+        "new_text": "道具在仓库中直接显示：图标、形状、尺寸、等级、演奏值。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0385",
+        "old_block_id": "block-212",
+        "kind": "list_item",
+        "old_text": "点击道具可在仓库上方打开详情界面显示详情。",
+        "new_text": "点击道具图标，可在仓库上方打开详情界面显示详情：名称、种类、等级、演奏值（KEY）、能力描述、套装信息。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0385",
+        "old_block_id": "doc-0133",
+        "kind": "list_item",
+        "old_text": "键盘乐器在同一背包内合计最多1件；其他同名道具上限读取同名放置上限（MusicCity_tool.same_name_limit）。风格标签仅用于道具概念和表现，不自动产生未配置的效果。",
+        "new_text": "点击道具可在仓库上方打开详情界面显示详情。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0386": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0386",
+        "old_block_id": "doc-0343",
+        "kind": "list_item",
+        "old_text": "套装信息，包括：名称、各级需要数量、效果描述。",
+        "new_text": "未获得的道具以黑白道具图标样式显示。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0386",
+        "old_block_id": "block-213",
+        "kind": "list_item",
+        "old_text": "仓库区域包含组合筛选功能：道具类别（category）、套装（set_id）。默认选择“全部”。筛选项选择在退出界面后清除。",
+        "new_text": "套装信息，包括：名称、各级需要数量、效果描述。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0386",
+        "old_block_id": "doc-6-1-3",
+        "kind": "list_item",
+        "old_text": "6.1.3 背包管理",
+        "new_text": "仓库区域包含组合筛选功能：道具类别（category）、套装（set_id）。默认选择“全部”。筛选项选择在退出界面后清除。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0387": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0387",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击道具图标，可在仓库上方打开详情界面，详见下文章节描述。此时切换点击仓库道具图标，详情界面内容会直接更新。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0389": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0389",
+        "old_block_id": "doc-0345",
+        "kind": "list_item",
+        "old_text": "仓库区域包含筛选功能：在区域右上角显示筛选图标按钮，按钮状态包括：已设置和没有设置筛选。点击打开筛选设置界面。",
+        "new_text": "仓库区域包含筛选功能：在区域右上角显示筛选图标按钮，按钮状态包括：已设置和没有设置筛选。点击打开筛选设置界面，规则详见下文对应章节描述。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0389",
+        "old_block_id": "doc-0290",
+        "kind": "list_item",
+        "old_text": "筛选项为游戏内容道具类别和套装的名称，按名称字符降序排列。",
+        "new_text": "仓库区域包含筛选功能：在区域右上角显示筛选图标按钮，按钮状态包括：已设置和没有设置筛选。点击打开筛选设置界面。",
+        "badge_label": "09-05 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0389",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "筛选项为游戏内容道具类别和套装的名称，按名称字符降序排列。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0394": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0394",
+        "old_block_id": "doc-0359",
+        "kind": "list_item",
+        "old_text": "一键卸下（KEY）按钮。需要二次确认，点击弹框包含提示“确认一键卸下背包内道具？卸下后未存档的预设无法恢复。”（KEY）和“今日不再提示”选项。确认后将所有道具一次性移回仓库。",
+        "new_text": "重叠：新移动的道具在最上层。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0394",
+        "old_block_id": "block-219",
+        "kind": "list_item",
+        "old_text": "一键卸下。需要二次确认，点击弹框包含提示和“今日不再提示”选项。确认后将所有道具一次性移回仓库。",
+        "new_text": "一键卸下（KEY）按钮。需要二次确认，点击弹框包含提示“确认一键卸下背包内道具？卸下后未存档的预设无法恢复。”（KEY）和“今日不再提示”选项。确认后将所有道具一次性移回仓库。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0394",
+        "old_block_id": "doc-0139",
+        "kind": "paragraph",
+        "old_text": "键盘乐器合计不超过1件。",
+        "new_text": "一键卸下。需要二次确认，点击弹框包含提示和“今日不再提示”选项。确认后将所有道具一次性移回仓库。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0395": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0395",
+        "old_block_id": "doc-0360",
+        "kind": "list_item",
+        "old_text": "自动放置（KEY）按钮。需要二次确认，点击弹框包含提示“确认自动放置背包内道具？卸下后未存档的预设无法恢复。”（KEY）和“今日不再提示”选项。确认后将所有道具一次性移回仓库，并按照以下规则选取道具填满背包。",
+        "new_text": "点击不处于最上层的道具，将目标道具移到最上层。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0395",
+        "old_block_id": "block-220",
+        "kind": "list_item",
+        "old_text": "保存设置。点击打开保存设置和读取设置的界面。玩家可以保存最多3个设置方案。",
+        "new_text": "自动放置（KEY）按钮。需要二次确认，点击弹框包含提示“确认自动放置背包内道具？卸下后未存档的预设无法恢复。”（KEY）和“今日不再提示”选项。确认后将所有道具一次性移回仓库，并按照以下规则选取道具填满背包。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0395",
+        "old_block_id": "doc-0140",
+        "kind": "paragraph",
+        "old_text": "拖入、移动、替换、移出和卸下在合法时立即向服务端保存。绿色表示合法落点，橙色表示可直接替换，红色表示非法并说明原因。一键卸下需要二次确认，包含“今日不再提示”；确认后所有道具一次性移回仓库。",
+        "new_text": "保存设置。点击打开保存设置和读取设置的界面。玩家可以保存最多3个设置方案。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0396": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0396",
+        "old_block_id": "doc-0361",
+        "kind": "list_item",
+        "old_text": "按品质降序、优先等级高的道具放入背包，直到背包填满或没有可以放入的道具。",
+        "new_text": "点击最上层的道具，将其放入最底下1层。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0396",
+        "old_block_id": "doc-6-1-5-2",
+        "kind": "list_item",
+        "old_text": "6.1.5 演奏值计算",
+        "new_text": "按品质降序、优先等级高的道具放入背包，直到背包填满或没有可以放入的道具。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0397": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0397",
+        "old_block_id": "doc-0362",
+        "kind": "list_item",
+        "old_text": "界面下方按钮区，有预设（KEY）按钮。点击打开预设界面。",
+        "new_text": "一键卸下（desert_title_165）按钮。需要二次确认，点击弹框包含提示“确认一键卸下背包内道具？卸下后未存档的预设无法恢复。”（MusicCity_tips_31）和“今日不再提示”选项。确认后将所有道具一次性移回仓库。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0397",
+        "old_block_id": "doc-0302",
+        "kind": "paragraph",
+        "old_text": "预设（KEY）按钮。点击打开预设界面。",
+        "new_text": "界面下方按钮区，有预设（KEY）按钮。点击打开预设界面。",
+        "badge_label": "09-05 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0397",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "预设（KEY）按钮。点击打开预设界面。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0398": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0398",
+        "old_block_id": "doc-6-2-2-1-2",
+        "kind": "list_item",
+        "old_text": "6.2.2.1 预设界面",
+        "new_text": "自动放置（MusicCity_btn_21）按钮。需要二次确认，点击弹框包含提示“确认自动放置背包内道具？卸下后未存档的预设无法恢复。”（MusicCity_tips_32）和“今日不再提示”选项。确认后将所有道具一次性移回仓库，并按照以下规则选取道具填满背包。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0398",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.2.2.1 预设界面",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0399": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0399",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "按套数数量降序、品质降序、演奏值降序、道具ID降序将道具放入背包，直到背包填满或没有可以放入的道具。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0400": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0400",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "界面下方按钮区，有预设（home_room_btn_3）按钮。点击打开预设界面。规则详见下文章节描述。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-3-3-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-3-3-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.3.3.1 道具详情界面",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0401": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0401",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "道具详情界面显示内容包括：名称、种类、等级、演奏值（MusicCity_title_07）、能力描述、套装信息、操作按钮。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "figure-0402": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "figure-0402",
+        "old_block_id": "",
+        "kind": "image",
+        "old_text": "",
+        "new_text": "[图片] FF427CC8E458B2EB69486824E71711F0F7425EB0AD7FBC07925C4BD7F5213042",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0403": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0403",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "套装信息，包括：名称、各级需要数量、效果描述。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0404": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0404",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "操作按钮，根据道具状态区分显示规则：",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0405": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0405",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "道具满级，按钮不显示；否则显示按钮且按钮上方显示对应消耗资源和数量，数量为“消耗/拥有”。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0406": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0406",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "消耗道具种类根据表演道具的颜色品质显示，详见活动道具章节；",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0407": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0407",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果消耗数量大于拥有，消耗数量红色字显示。点击按钮后，打开道具获取途径弹窗。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0408": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0408",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "道具未获得，按钮名为“兑换”（common_btn_18），资源条的道具消耗数量为1。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0409": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0409",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击按钮后：如果道具足够，弹出二次确认提示“确认消耗%{num}个%{item}兑换%{tool}？”（MusicCity_tips_46），确认后请求服务端进行对应处理。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0410": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0410",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "道具已获得，按钮名为“升级”（common_btn_23），资源条的道具消耗数量根据当前等级升级所需的剩余进度显示。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0411": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0411",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击按钮后：如果道具足够，弹出二次确认提示“确认消耗%{num}个%{item}升级%{tool}？”（MusicCity_tips_47），确认后请求服务端进行对应处理。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0412": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0412",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "收到处理结果后，根据情况调用和奖励选项中的获得道具弹窗和道具升级弹窗进行表现。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-3-3-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-3-3-2",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.3.3.2 筛选设置界面",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0413": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0413",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "筛选界面弹出在仓库上方，不影响仓库查看。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "figure-0414": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "figure-0414",
+        "old_block_id": "",
+        "kind": "image",
+        "old_text": "",
+        "new_text": "[图片] 766A70FA5280CBB8045AC40407CB2E230273D252CC9620E2724A9820FDDD4476",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0415": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0415",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "标题：筛选（children_btn_09）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0416": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0416",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "筛选项1：套装（MusicCity_title_41），按套装ID升序排列显示套装图标和套装当前仓库数量。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0417": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0417",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "套装读取套装类型表（musicCity_toolSet）中的种类名称和图标显示；",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0418": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0418",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击选中1个套装图标后，在标题后显示套装名称。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0419": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0419",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "最多同时选中1个套装。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0420": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0420",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "筛选项2：类别（MusicCity_title_51），按类型ID升序排列显示类别图标和类别当前仓库数量。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0421": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0421",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "类别读取道具类型表（musicCity_toolType）中的种类名称和图标显示；",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0422": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0422",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击选中1个类别图标后，在标题后显示类别名称。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0423": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0423",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "最多同时选中1个类别。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0424": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0424",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "按钮：取消筛选（danceBattle_des_75），点击取消全部筛选选项；确定（common_btn_28），点击保存筛选项、关闭界面。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0425": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0425",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "确认按钮上显示满足当前筛选项的道具数量。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0426": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0426",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "在界面选中或取消筛选项时，仓库实时按照当前筛选项进行筛选显示。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0427": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0427",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "筛选项的选择，在退出表演准备界面后会清除。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-3-3-3": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-3-3-3",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.3.3.3 预设界面",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0431": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0431",
+        "old_block_id": "doc-0366",
+        "kind": "paragraph",
+        "old_text": "界面标题：预设（KEY）。",
+        "new_text": "界面标题：预设（home_room_btn_3）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0431",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "界面标题：预设（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0434": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0434",
+        "old_block_id": "doc-0369",
+        "kind": "paragraph",
+        "old_text": "界面下方为操作按钮：有预设时，显示删除（KEY）和使用（KEY）；没有时，显示保存（KEY）。",
+        "new_text": "界面下方为操作按钮：有预设时，显示删除（feast_btn_18）和使用（common_btn_01）；没有时，显示保存（common_btn_45）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0434",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "界面下方为操作按钮：有预设时，显示删除（KEY）和使用（KEY）；没有时，显示保存（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0435": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0435",
+        "old_block_id": "doc-0370",
+        "kind": "list_item",
+        "old_text": "如果该分页没有保存预设，界面中央显示提示“暂无预设”（KEY）。",
+        "new_text": "没有保存预设的分页，界面中央显示提示“暂无预设”（spiceRoad_tips_42）。点击保存，将当前背包的设置保存到预设。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0435",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果该分页没有保存预设，界面中央显示提示“暂无预设”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0436": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0436",
+        "old_block_id": "doc-0371",
+        "kind": "list_item",
+        "old_text": "删除预设时，二次确认弹窗提示“是否确认删除”（KEY）。",
+        "new_text": "如果背包设置为空，飘字提示“背包为空，无法保存”（MusicCity_tips_45），不进行保存。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0436",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "删除预设时，二次确认弹窗提示“是否确认删除”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0437": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0437",
+        "old_block_id": "doc-0372",
+        "kind": "list_item",
+        "old_text": "使用预设时，二次确认弹窗提示“是否使用预设，将覆盖背包设置”（KEY），此提示包含今日不再提示选项。",
+        "new_text": "删除预设时，二次确认弹窗提示“是否确认删除”（MusicCity_tips_34）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0437",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "使用预设时，二次确认弹窗提示“是否使用预设，将覆盖背包设置”（KEY），此提示包含今日不再提示选项。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0438": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0438",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "使用预设时，二次确认弹窗提示“是否使用预设，将覆盖背包设置”（MusicCity_tips_35），此提示包含今日不再提示选项。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0445": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0445",
+        "old_block_id": "doc-0381",
+        "kind": "list_item",
+        "old_text": "单件道具的最终演奏值＝（自身基础演奏值＋自身固定值加成＋收到的固定值加成）×（1＋自身比例加成＋收到的比例加成）。正式公式和修正值待数值确认后提供。",
+        "new_text": "套装的效果。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0445",
+        "old_block_id": "block-230",
+        "kind": "paragraph",
+        "old_text": "单件道具的最终演奏值＝（自身基础演奏值＋自身固定值加成＋收到的固定值加成）×（1＋自身比例加成＋收到的比例加成）。",
+        "new_text": "单件道具的最终演奏值＝（自身基础演奏值＋自身固定值加成＋收到的固定值加成）×（1＋自身比例加成＋收到的比例加成）。正式公式和修正值待数值确认后提供。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0445",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "单件道具的最终演奏值＝（自身基础演奏值＋自身固定值加成＋收到的固定值加成）×（1＋自身比例加成＋收到的比例加成）。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0446": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0446",
+        "old_block_id": "doc-6-3-5",
+        "kind": "paragraph",
+        "old_text": "6.3.5 道具升级",
+        "new_text": "单件道具的演奏值＝（自身基础演奏值＋自身固定值加成＋收到的固定值加成）×（1＋自身比例加成＋收到的比例加成）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0446",
+        "old_block_id": "doc-6-1-6",
+        "kind": "heading",
+        "old_text": "6.1.6 道具升级",
+        "new_text": "6.3.5 道具升级",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0447": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0447",
+        "old_block_id": "doc-0382",
+        "kind": "paragraph",
+        "old_text": "首次获得的道具为Lv.1。",
+        "new_text": "背包的最终演奏值=（背包内所有道具的演奏值之和＋固定值加成）×（1＋比例加成）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0447",
+        "old_block_id": "doc-0147",
+        "kind": "paragraph",
+        "old_text": "首次获得道具时为Lv.1。重复获得同名道具时自动转为升级进度，不需要玩家确认。升级需求读取道具升级需求（MusicCity_setting.prop_upgrade_costs）；达到门槛时自动升级，并通过F25展示升级前后等级和进度。",
+        "new_text": "首次获得的道具为Lv.1。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0448": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0448",
+        "old_block_id": "doc-0386",
+        "kind": "paragraph",
+        "old_text": "玩家在活动主界面点击开始表演后，锁定以请求时的相关属性和状态进入表演过程-节拍玩法，并判定本次表演是否触发互动事件。",
+        "new_text": "玩家在活动主界面点击开始表演后，扣除表演体力，锁定以请求时的相关属性和状态进入表演过程-节拍玩法，并判定本次表演是否触发互动事件。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0448",
+        "old_block_id": "block-238",
+        "kind": "paragraph",
+        "old_text": "玩家在活动主界面点击开始表演后，锁定相关属性进入表演过程-节拍玩法。",
+        "new_text": "玩家在活动主界面点击开始表演后，锁定以请求时的相关属性和状态进入表演过程-节拍玩法，并判定本次表演是否触发互动事件。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0448",
+        "old_block_id": "figure-0150",
+        "kind": "paragraph",
+        "old_text": "[图片] C06F8591565C8E8E10A30EBE70BDDC0AB05BE0874E69C928816BF6943C74F291",
+        "new_text": "玩家在活动主界面点击开始表演后，锁定相关属性进入表演过程-节拍玩法。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0449": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0449",
+        "old_block_id": "doc-0387",
+        "kind": "list_item",
+        "old_text": "锁定的属性包括但不限于：城市效果、花车效果、恋人加成比例、背包道具设置和演奏值等。",
+        "new_text": "锁定的属性包括但不限于：城市效果、气球效果、恋人加成比例、背包道具设置和演奏值等。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0449",
+        "old_block_id": "block-239",
+        "kind": "list_item",
+        "old_text": "锁定的属性包括但不限于：目标城市、恋人列表、恋人属性、恋人表演值、背包布局、道具属性、互动状态等。",
+        "new_text": "锁定的属性包括但不限于：城市效果、花车效果、恋人加成比例、背包道具设置和演奏值等。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0449",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "锁定的属性包括但不限于：目标城市、恋人列表、恋人属性、恋人表演值、背包布局、道具属性、互动状态等。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0450": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0450",
+        "old_block_id": "doc-0388",
+        "kind": "paragraph",
+        "old_text": "表演开始前，按概率判定是否生成玩法内的互动事件，每次只能触发1个事件。具体权重和修正读取粉丝互动事件配置表（MusicCity_event）。",
+        "new_text": "互动事件支持配置多种，具体事件种类、权重和权重修正，读取互动事件配置表（MusicCity_event）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0450",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "表演开始前，按概率判定是否生成玩法内的互动事件，每次只能触发1个事件。具体权重和修正读取粉丝互动事件配置表（MusicCity_event）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0451": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0451",
+        "old_block_id": "doc-0389",
+        "kind": "paragraph",
+        "old_text": "唯粉事件概率，受到表演城市中其他阵营粉丝占比比例进行修正。",
+        "new_text": "表演开始前，按概率判定是否生成玩法内的互动事件，按照event_type升序依次判定，每次只触发1个事件。当有一个事件类型判定触发后则停止判定，触发该事件。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0451",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "唯粉事件概率，受到表演城市中其他阵营粉丝占比比例进行修正。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0452": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0452",
+        "old_block_id": "doc-0390",
+        "kind": "list_item",
+        "old_text": "触发唯粉事件时，从表演城市中有粉丝的其他阵营玩家中随机选择1名作为目标。贡献粉丝越多的玩家有越高的选中几率修正，具体公式待数值确认后补充。",
+        "new_text": "唯粉事件：种类1。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0452",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "触发唯粉事件时，从表演城市中有粉丝的其他阵营玩家中随机选择1名作为目标。贡献粉丝越多的玩家有越高的选中几率修正，具体公式待数值确认后补充。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0453": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0453",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "触发概率=基础概率（base_weight）+表演城市中所有其他阵营粉丝占比*修正值（modifier_params）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0454": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0454",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "确定阵营：触发唯粉事件时，从表演城市中有粉丝占比的其他阵营中按照阵营占比挑选一个阵营。如：A阵营5%、B阵营2%，则A被选中概率为5/(5+2)。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0455": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0455",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "确定玩家：从阵营中在该城市有粉丝的玩家中随机选择1名作为目标，保存玩家的UID进行显示。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0465": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0465",
+        "old_block_id": "doc-0401",
+        "kind": "paragraph",
+        "old_text": "界面下方有跳过（KEY）按钮：点击直接跳过节拍玩法。跳过前会进行二次确认提示“跳过将获得随机表演节拍结果”（KEY），并提供“今日不再提示”选项。",
+        "new_text": "界面下方有跳过（common_btn_32）按钮：点击直接跳过节拍玩法。跳过前会进行二次确认提示“跳过将获得随机表演节拍结果”（MusicCity_tips_08），并提供“今日不再提示”选项。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0465",
+        "old_block_id": "block-247",
+        "kind": "paragraph",
+        "old_text": "界面下方有2个操作按钮，使用动态居中布局：",
+        "new_text": "界面下方有跳过（KEY）按钮：点击直接跳过节拍玩法。跳过前会进行二次确认提示“跳过将获得随机表演节拍结果”（KEY），并提供“今日不再提示”选项。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0465",
+        "old_block_id": "doc-6-2-1",
+        "kind": "paragraph",
+        "old_text": "6.2.1 场次创建",
+        "new_text": "界面下方有2个操作按钮，使用动态居中布局：",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-6-4-3-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-4-3-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.4.3.1 表演开始倒计时",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-4-3-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-4-3-2",
+        "old_block_id": "doc-6-4-3-1",
+        "kind": "heading",
+        "old_text": "6.4.3.1 节拍玩法",
+        "new_text": "6.4.3.2 节拍小游戏",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-4-3-2",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.4.3.1 节拍玩法",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0471": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0471",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果客户端没有上报结果，保持本次表演的属性和玩法数据，在后续玩家要表演或是获取活动数据的时候，需要返回“有未完成表演”让玩家继续完成本次表演。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-4-3-3": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-4-3-3",
+        "old_block_id": "doc-6-4-3-2",
+        "kind": "heading",
+        "old_text": "6.4.3.2 唯粉事件",
+        "new_text": "6.4.3.3 互动事件-唯粉",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-4-3-3",
+        "old_block_id": "block-263",
+        "kind": "heading",
+        "old_text": "如果玩家选择跳过，则客户端是将已操作的节拍上报，其余节拍视为保底增幅，计算结果。",
+        "new_text": "6.4.3.2 唯粉事件",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-4-3-3",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果玩家选择跳过，则客户端是将已操作的节拍上报，其余节拍视为保底增幅，计算结果。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0483": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0483",
+        "old_block_id": "doc-0418",
+        "kind": "paragraph",
+        "old_text": "在表演开始的倒计时过程中，如果触发唯粉事件，会飘窗说明触发唯粉事件。提示框显示：玩家头像、事件描述文本（KEY）。",
+        "new_text": "在表演开始的倒计时过程中，如果触发唯粉事件，会飘窗说明触发唯粉事件。提示框显示：玩家头像、事件描述文本（MusicCity_des_18）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0483",
+        "old_block_id": "block-264",
+        "kind": "paragraph",
+        "old_text": "如果玩家选择完美表演，则需要扣除1个数量的鲜花，本次表演全部节拍按最高档次计算结果。",
+        "new_text": "在表演开始的倒计时过程中，如果触发唯粉事件，会飘窗说明触发唯粉事件。提示框显示：玩家头像、事件描述文本（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0483",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果玩家选择完美表演，则需要扣除1个数量的鲜花，本次表演全部节拍按最高档次计算结果。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0487": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0487",
+        "old_block_id": "doc-0422",
+        "kind": "paragraph",
+        "old_text": "点击“玩家节拍”后，会获得事件计数，并有对应的飘字动效和音效。每次被点击后，“玩家节拍”的移动速度会略微加快。",
+        "new_text": "点击“玩家节拍”后，会获得事件计数，并有对应的飘字动效和音效。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0487",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "点击“玩家节拍”后，会获得事件计数，并有对应的飘字动效和音效。每次被点击后，“玩家节拍”的移动速度会略微加快。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0488": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0488",
+        "old_block_id": "doc-0423",
+        "kind": "list_item",
+        "old_text": "暂定移动速度=初始速度*（1+点击次数*0.25）。具体待数值确认。",
+        "new_text": "每次被点击后，“玩家节拍”的移动速度会略微加快。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0488",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "暂定移动速度=初始速度*（1+点击次数*0.25）。具体待数值确认。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0489": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0489",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "暂定移动速度=初始速度*（1+点击次数*0.25）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0491": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0491",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击次数达到设置上限（）后，玩家节拍会消失。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-4-3-4": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-4-3-4",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.4.3.4 表演暂停和继续",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0492": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0492",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "此部分规则参考KC活动战车大赛的处理。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0493": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0493",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "开始表演后，如果将游戏切到后台，会暂停节拍小游戏，界面上显示继续图标按钮。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0494": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0494",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "在暂停中重新聚焦或者进入主场景后触发继续，都先显示暂停的状态的表演界面。玩家点击继续按钮，会播放表演开始倒计时，然后进行未完成的节拍玩法。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0495": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0495",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果本地已经游玩的数据丢失，则会重新开始节拍玩法。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0498": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0498",
+        "old_block_id": "doc-0427",
+        "kind": "list_item",
+        "old_text": "标题：连续表演（KEY）。",
+        "new_text": "标题：连续表演（MusicCity_btn_16）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0498",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "标题：连续表演（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0499": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0499",
+        "old_block_id": "doc-0428",
+        "kind": "list_item",
+        "old_text": "当前演奏值（KEY）。",
+        "new_text": "当前演奏值（MusicCity_title_35）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0499",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "当前演奏值（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0501": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0501",
+        "old_block_id": "doc-0430",
+        "kind": "list_item",
+        "old_text": "暂定连续表演次数每达到触发可选奖励的次数（MusicCity_setting.choice_reward_energy_cost），消耗1朵鲜花。至少消耗1朵鲜花。",
+        "new_text": "暂定连续表演每次消耗1朵鲜花。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0501",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "暂定连续表演次数每达到触发可选奖励的次数（MusicCity_setting.choice_reward_energy_cost），消耗1朵鲜花。至少消耗1朵鲜花。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0507": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0507",
+        "old_block_id": "doc-0436",
+        "kind": "list_item",
+        "old_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），点击关闭界面并飘字提示“活动结束前x分钟不可以连续表演”（KEY）。",
+        "new_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），点击关闭界面并飘字提示“活动结束前x分钟不可以连续表演”（MusicCity_tips_20）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0507",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），点击关闭界面并飘字提示“活动结束前x分钟不可以连续表演”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0508": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0508",
+        "old_block_id": "doc-0437",
+        "kind": "list_item",
+        "old_text": "界面下方显示提示“连续表演3次需要消耗1朵鲜花”（KEY）。",
+        "new_text": "界面下方显示提示“连续表演每次需要消耗1朵鲜花”（MusicCity_tips_36）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0508",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "界面下方显示提示“连续表演3次需要消耗1朵鲜花”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-6-5-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-5-1",
+        "old_block_id": "doc-6-5-1",
+        "kind": "heading",
+        "old_text": "6.5.1 结算流程",
+        "new_text": "6.5.1 表演节拍校验",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-5-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.5.1 结算流程",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0509": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0509",
+        "old_block_id": "doc-0438",
+        "kind": "paragraph",
+        "old_text": "服务端需要校验客户端上报的节拍玩法结果：各品质节拍数量和预生成的是否一致，并确定表演结果。",
+        "new_text": "服务端收到客户端上报的节拍玩法结果后，进行校验：各品质节拍数量和预生成的是否一致，并确定表演结果。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0509",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "服务端需要校验客户端上报的节拍玩法结果：各品质节拍数量和预生成的是否一致，并确定表演结果。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0510": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0510",
+        "old_block_id": "doc-0439",
+        "kind": "list_item",
+        "old_text": "节拍加成，就是每个节拍根据品质和点击档次对应的增幅总和。具体公式待数值确认后补充。",
+        "new_text": "节拍加成，总加成=每个节拍增幅（品质增幅+点击档次增幅）的总和。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0510",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "节拍加成，就是每个节拍根据品质和点击档次对应的增幅总和。具体公式待数值确认后补充。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0511": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0511",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "节拍品质增幅和加成读取节拍配置表（musicCity_beat）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0512": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0512",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "档次加成读取节拍配置表（musicCity_beat）",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0517": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0517",
+        "old_block_id": "doc-0444",
+        "kind": "list_item",
+        "old_text": "如果客户端没有上报结果，保持本次表演的属性，在后续玩家要表演或是获取活动数据的时候，需要返回“有未完成表演”让玩家继续完成本次表演。",
+        "new_text": "如果活动进入休息或结束，则按照创建玩法数据的先后顺序直接结算玩家未完成的表演，节拍玩法按照跳过表演的计算结果。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0517",
+        "old_block_id": "doc-0382",
+        "kind": "list_item",
+        "old_text": "如果客户端超时没有上报结果，则按照跳过进行计算。",
+        "new_text": "如果客户端没有上报结果，保持本次表演的属性，在后续玩家要表演或是获取活动数据的时候，需要返回“有未完成表演”让玩家继续完成本次表演。",
+        "badge_label": "09-05 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0517",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果客户端超时没有上报结果，则按照跳过进行计算。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-6-5-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-5-2",
+        "old_block_id": "doc-0445",
+        "kind": "heading",
+        "old_text": "如果活动进入休息或结束，则按照跳过进行计算。",
+        "new_text": "6.5.2 表演结算流程",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-5-2",
+        "old_block_id": "block-269",
+        "kind": "list_item",
+        "old_text": "节拍表演的结果，就是每个节拍根据品质和点击档次对应的增幅总和。",
+        "new_text": "如果活动进入休息或结束，则按照跳过进行计算。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-5-2",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "节拍表演的结果，就是每个节拍根据品质和点击档次对应的增幅总和。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0518": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0518",
+        "old_block_id": "doc-0446",
+        "kind": "paragraph",
+        "old_text": "单场结算顺序如下：",
+        "new_text": "单场表演结算顺序如下：",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0519": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0519",
+        "old_block_id": "doc-0447",
+        "kind": "list_item",
+        "old_text": "扣除表演的体力。",
+        "new_text": "根据表演道具背包总演奏值、节拍玩法增幅、表演队伍加成及气球加成，计算表演的人气值。公式暂定为：演奏值*（1+节拍加成比例+表演队伍加成比例+气球加成比例）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0519",
+        "old_block_id": "block-273",
+        "kind": "list_item",
+        "old_text": "根据表演队伍总表演值、表演道具背包总演奏值、节拍玩法增幅计算表演的人气值。",
+        "new_text": "扣除表演的体力。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0519",
+        "old_block_id": "doc-0162",
+        "kind": "list_item",
+        "old_text": "读取锁定的恋人、背包、道具、套装和互动状态。",
+        "new_text": "根据表演队伍总表演值、表演道具背包总演奏值、节拍玩法增幅计算表演的人气值。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0520": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0520",
+        "old_block_id": "doc-0448",
+        "kind": "list_item",
+        "old_text": "根据表演道具背包总演奏值、节拍玩法增幅、表演队伍加成，计算表演的人气值。公式暂定为：演奏值*（1+节拍加成比例+表演队伍加成比例），具体公式待数值确认后提供。",
+        "new_text": "每个加成比例的计算结果都向下取整到小数精度3位，即到0.001（0.1%）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0520",
+        "old_block_id": "block-274",
+        "kind": "list_item",
+        "old_text": "将人气值值换算为阵营在城市的流行度加值，更新城市流行度和争夺状态。",
+        "new_text": "根据表演道具背包总演奏值、节拍玩法增幅、表演队伍加成，计算表演的人气值。公式暂定为：演奏值*（1+节拍加成比例+表演队伍加成比例），具体公式待数值确认后提供。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0520",
+        "old_block_id": "doc-0163",
+        "kind": "list_item",
+        "old_text": "处理全部道具效果并计算背包道具最终演奏值。",
+        "new_text": "将人气值值换算为阵营在城市的流行度加值，更新城市流行度和争夺状态。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0521": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0521",
+        "old_block_id": "doc-0449",
+        "kind": "list_item",
+        "old_text": "将人气值换算为获得的城市粉丝，更新阵营的城市粉丝占比和争夺状态。",
+        "new_text": "将人气值换算为获得的城市粉丝，更新阵营的城市粉丝占比和争夺状态。规则详见下文粉丝换算章节。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0521",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "将人气值换算为获得的城市粉丝，更新阵营的城市粉丝占比和争夺状态。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0522": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0522",
+        "old_block_id": "doc-0450",
+        "kind": "list_item",
+        "old_text": "根据表演中的事件点击计数，结算事件效果。",
+        "new_text": "根据表演中的事件点击计数，结算事件效果。规则详见下文互动事件章节。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0522",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "根据表演中的事件点击计数，结算事件效果。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0523": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0523",
+        "old_block_id": "doc-0451",
+        "kind": "list_item",
+        "old_text": "判定奖励选项进度：是否生成奖励候选。",
+        "new_text": "增加判定奖励选项进度：是否生成奖励候选。规则详见下文奖励选项章节。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0523",
+        "old_block_id": "doc-0164",
+        "kind": "list_item",
+        "old_text": "汇总锁定恋人表演值与背包演奏值，得到本场基础表演值。",
+        "new_text": "判定奖励选项进度：是否生成奖励候选。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0524": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0524",
+        "old_block_id": "doc-6-5-1-1",
+        "kind": "list_item",
+        "old_text": "6.5.1.1 连续表演",
+        "new_text": "增加判定背包扩格要求：是否给予扩格次数。规则详见下文背包扩格章节。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0524",
+        "old_block_id": "block-276",
+        "kind": "heading",
+        "old_text": "判定互动事件概率：是否生成互动事件。",
+        "new_text": "6.5.1.1 连续表演",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0524",
+        "old_block_id": "doc-0165",
+        "kind": "list_item",
+        "old_text": "按服务端节拍结果计算本场人气增幅；鲜花状态在确认的结算环节生效。",
+        "new_text": "判定互动事件概率：是否生成互动事件。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-6-5-3": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-5-3",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.5.3 连续表演流程",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0527": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0527",
+        "old_block_id": "doc-0454",
+        "kind": "list_item",
+        "old_text": "暂定连续表演次数每达到触发可选奖励的次数（MusicCity_setting.choice_reward_energy_cost），消耗1朵鲜花。至少消耗1朵鲜花。",
+        "new_text": "暂定连续表演每次消耗1朵鲜花。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0527",
+        "old_block_id": "figure-10",
+        "kind": "list_item",
+        "old_text": "[图片] assets/docx-images/figure-10.png",
+        "new_text": "暂定连续表演次数每达到触发可选奖励的次数（MusicCity_setting.choice_reward_energy_cost），消耗1朵鲜花。至少消耗1朵鲜花。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0527",
+        "old_block_id": "doc-0168",
+        "kind": "image",
+        "old_text": "将本场人气换算为目标城市新增个人贡献，执行城市争夺和状态重算。",
+        "new_text": "[图片] assets/docx-images/figure-10.png",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0529": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0529",
+        "old_block_id": "doc-0456",
+        "kind": "list_item",
+        "old_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），不允许连续表演返回错误进行提示“活动结束前x分钟不可以连续表演”（KEY）。",
+        "new_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），不允许连续表演并返回错误码以便客户端进行提示。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0529",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），不允许连续表演返回错误进行提示“活动结束前x分钟不可以连续表演”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-6-5-4": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-5-4",
+        "old_block_id": "doc-6-5-1-2",
+        "kind": "heading",
+        "old_text": "6.5.1.2 唯粉事件",
+        "new_text": "6.5.4 粉丝换算",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-5-4",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.5.1.2 唯粉事件",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0531": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0531",
+        "old_block_id": "doc-0458",
+        "kind": "paragraph",
+        "old_text": "根据表演中的计数，降低目标玩家在指定城市的粉丝，并可能改变城市的占领状态。扣减值公式、保护时间，待数值确认后补充。",
+        "new_text": "粉丝换算的数据读取粉丝配置表（musicCity_fans）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0531",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "根据表演中的计数，降低目标玩家在指定城市的粉丝，并可能改变城市的占领状态。扣减值公式、保护时间，待数值确认后补充。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0532": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0532",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "换算规则为：将玩家的人气值与范围（musicCity_fans.play_value_range）进行匹配，确认人气值对应的区间范围，然后将范围ID作为表演等级值、计算表演获得的粉丝数。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0533": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0533",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "范围为对应id的play_value_range值作为上限；与上个id的play_value_range+1作为下限组成。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0534": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0534",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果没有上个id，则下限为0。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0535": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0535",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果人气值大于最高id的范围上限，则仍视为处于最高ID的范围。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0536": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0536",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "粉丝数=表演等级之前所有区间的粉丝数（musicCity_fans.fans_num）之和+向下取整（min(人气值/当前区间人气上限,1)*当前区间粉丝数）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-5-5": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-5-5",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.5.5 互动事件-唯粉",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0537": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0537",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "表演中事件的点击计数有上限，配置在musicCity_event.click_limit中。玩家上报的表演结果，点击次数超过上限的，都按照上限次数执行。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0538": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0538",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "根据表演中的计数，降低目标玩家在指定城市的粉丝，并可能改变城市的占领状态。扣减值=min(玩家表演增加的粉丝数*比例值A*点击次数，城市总粉丝*封顶比例B)。比例值A、B配置在musicCity_event.result_params中，格式为千分比。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0540": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0540",
+        "old_block_id": "doc-0460",
+        "kind": "list_item",
+        "old_text": "如果玩家没有阵营，仍然下方扣除值进行显示，但实际不扣除。",
+        "new_text": "如果玩家没有阵营，仍然下发扣除值进行显示，但实际不扣除。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0540",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果玩家没有阵营，仍然下方扣除值进行显示，但实际不扣除。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0541": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0541",
+        "old_block_id": "doc-0461",
+        "kind": "list_item",
+        "old_text": "如果玩家角色GDPR，仍然下方扣除值进行显示，但实际不扣除。",
+        "new_text": "如果玩家角色GDPR，仍然下发扣除值进行显示，但实际不扣除。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0541",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果玩家角色GDPR，仍然下方扣除值进行显示，但实际不扣除。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-6-5-6": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-5-6",
+        "old_block_id": "doc-6-5-2",
+        "kind": "heading",
+        "old_text": "6.5.2 结算界面",
+        "new_text": "6.5.6 气球竞演的特别结算",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-5-6",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.5.2 结算界面",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0544": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0544",
+        "old_block_id": "doc-0464",
+        "kind": "paragraph",
+        "old_text": "表演结算界面（F32）展示本次表演的结果，包括：人气变化、城市粉丝变化、事件结果（减少玩家的粉丝）、奖励进度。",
+        "new_text": "气球竞演的结算只获得竞演分数：与普通表演相同地计算表演的人气值作为竞演分数。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0544",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "表演结算界面（F32）展示本次表演的结果，包括：人气变化、城市粉丝变化、事件结果（减少玩家的粉丝）、奖励进度。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0545": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0545",
+        "old_block_id": "figure-0465",
+        "kind": "list_item",
+        "old_text": "[图片] 42C0040D68A8B2946DA3054C9FC425F157ED1A17D977CD877FF4BE2A3DD98874",
+        "new_text": "不增加奖励选项进度、不增加背包扩格进度、不获得粉丝。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0545",
+        "old_block_id": "",
+        "kind": "image",
+        "old_text": "",
+        "new_text": "[图片] 42C0040D68A8B2946DA3054C9FC425F157ED1A17D977CD877FF4BE2A3DD98874",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-6-5-7": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-5-7",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.5.7 结算界面",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0546": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0546",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "在收到服务端结算表演的消息后，弹出表演结算界面（F32）展示本次表演的结果，包括：人气变化、城市粉丝变化、事件结果（减少玩家的粉丝）、奖励进度。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0547": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0547",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果在表演过程中收到结算消息（一般在活动状态变更时），停止玩法，直接弹出结算界面。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "figure-0548": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "figure-0548",
+        "old_block_id": "",
+        "kind": "image",
+        "old_text": "",
+        "new_text": "[图片] F815C4F037777EE3033EA100E979227BA72D3DD6493861ACF367FA4B85A01286",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0550": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0550",
+        "old_block_id": "doc-0467",
+        "kind": "list_item",
+        "old_text": "人气变化：总人气值（KEY），以及分项-演奏值（KEY）、节拍加成（KEY）、恋人加成（KEY）。",
+        "new_text": "人气变化：总人气值（MusicCity_title_42）、人气值在粉丝换算中的等级和当前等级的进度。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0550",
+        "old_block_id": "block-281",
+        "kind": "list_item",
+        "old_text": "人气变化：总人气值，以及分项恋人表演值、道具演奏值、节拍加成。",
+        "new_text": "人气变化：总人气值（KEY），以及分项-演奏值（KEY）、节拍加成（KEY）、恋人加成（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0550",
+        "old_block_id": "doc-0170",
+        "kind": "list_item",
+        "old_text": "保存唯一结算、后续阻断状态和活动战报记录，再向客户端返回完整结果。",
+        "new_text": "人气变化：总人气值，以及分项恋人表演值、道具演奏值、节拍加成。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0551": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0551",
+        "old_block_id": "doc-0468",
+        "kind": "list_item",
+        "old_text": "城市变化：城市名称、获得粉丝（KEY）、阵营粉丝占比加值（KEY）。",
+        "new_text": "人气结算（MusicCity_title_52）：",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0551",
+        "old_block_id": "block-282",
+        "kind": "list_item",
+        "old_text": "城市变化：城市名称、贡献流行度值、贡献流行度占比加值、阵营流行度占比加值。",
+        "new_text": "城市变化：城市名称、获得粉丝（KEY）、阵营粉丝占比加值（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0551",
+        "old_block_id": "doc-0171",
+        "kind": "list_item",
+        "old_text": "恋人、道具、节拍、本场人气和城市贡献的具体公式、取整和上下限待数值确认后补充。",
+        "new_text": "城市变化：城市名称、贡献流行度值、贡献流行度占比加值、阵营流行度占比加值。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0552": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0552",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "演奏值（MusicCity_title_07），数值为背包道具的最终演奏值；",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0553": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0553",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "节拍加成（MusicCity_title_43），数值为节拍玩法的加成比例，格式为“+xx%”。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0554": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0554",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "恋人加成（MusicCity_title_44），数值为恋人队伍的加成比例，格式为“+xx%”。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0555": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0555",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "气球加成（MusicCity_tips_50），数值为气球的加成比例，格式为“+xx%”。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0556": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0556",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "城市变化：城市名称、获得粉丝（MusicCity_title_45）、阵营粉丝占比加值（MusicCity_title_46）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0559": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0559",
+        "old_block_id": "doc-0471",
+        "kind": "list_item",
+        "old_text": "唯粉：目标头像、名称、减少粉丝（KEY）；",
+        "new_text": "唯粉：目标头像、名称、减少粉丝（MusicCity_title_47）；",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0559",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "唯粉：目标头像、名称、减少粉丝（KEY）；",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0561": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0561",
+        "old_block_id": "doc-0473",
+        "kind": "list_item",
+        "old_text": "未获得奖励时，显示提示“再表演X次可以获得奖励”（KEY）。",
+        "new_text": "未获得奖励时，显示提示“再表演X次可以获得奖励”（MusicCity_tips_07）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0561",
+        "old_block_id": "block-285",
+        "kind": "list_item",
+        "old_text": "未获得奖励时，显示提示：再表演X次可以获得奖励。",
+        "new_text": "未获得奖励时，显示提示“再表演X次可以获得奖励”（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0561",
+        "old_block_id": "doc-0173",
+        "kind": "list_item",
+        "old_text": "断线后恢复同一场次或同一结算结果，不重新随机。",
+        "new_text": "未获得奖励时，显示提示：再表演X次可以获得奖励。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0562": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0562",
+        "old_block_id": "doc-0474",
+        "kind": "list_item",
+        "old_text": "获得奖励时，显示提示“获得可选奖励”（KEY）。",
+        "new_text": "获得奖励选项时，显示提示“获得可选奖励”（MusicCity_tips_37）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0562",
+        "old_block_id": "block-286",
+        "kind": "list_item",
+        "old_text": "获得奖励时，显示提示：获得奖励。",
+        "new_text": "获得奖励时，显示提示“获得可选奖励”（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0562",
+        "old_block_id": "doc-0174",
+        "kind": "list_item",
+        "old_text": "已固定的奖励候选、扩格状态和互动候选在重连后恢复。",
+        "new_text": "获得奖励时，显示提示：获得奖励。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0563": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0563",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "获得背包扩格时，额外显示提示“获得背包扩格”（MusicCity_tips_48）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0565": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0565",
+        "old_block_id": "doc-0476",
+        "kind": "list_item",
+        "old_text": "如果后续有奖励，显示下一步（KEY）按钮，点击打开奖励选项界面。",
+        "new_text": "如果本次结算有奖励选项或给予背包扩格次数，显示下一步（MusicCity_btn_26）按钮，点击依次打开对应界面。优先顺序：奖励选项、背包扩格。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0565",
+        "old_block_id": "block-288",
+        "kind": "list_item",
+        "old_text": "如果后续有奖励或者互动事件，显示下一步按钮，点击继续。",
+        "new_text": "如果后续有奖励，显示下一步（KEY）按钮，点击打开奖励选项界面。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0565",
+        "old_block_id": "doc-0176",
+        "kind": "list_item",
+        "old_text": "活动结束、中途退出和已扣体力但未展示结果的详细提示在后续设计步骤补齐。",
+        "new_text": "如果后续有奖励或者互动事件，显示下一步按钮，点击继续。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-6-5-7-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-5-7-1",
+        "old_block_id": "doc-6-5-2-1",
+        "kind": "heading",
+        "old_text": "6.5.2.1 连续表演结算界面",
+        "new_text": "6.5.7.1 连续表演结算界面",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-5-7-1",
+        "old_block_id": "doc-6-5-2-1",
+        "kind": "heading",
+        "old_text": "6.5.2.1 花车竞演结算界面",
+        "new_text": "6.5.2.1 连续表演结算界面",
+        "badge_label": "09-05 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-5-7-1",
+        "old_block_id": "doc-6-4",
+        "kind": "heading",
+        "old_text": "6.4 奖励选项",
+        "new_text": "6.5.2.1 花车竞演结算界面",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0567": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0567",
+        "old_block_id": "doc-0478",
+        "kind": "list_item",
+        "old_text": "汇总全部次数的结果显示。",
+        "new_text": "汇总全部次数的结果显示：总人气值、总粉丝数。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0567",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "汇总全部次数的结果显示。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0568": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0568",
+        "old_block_id": "doc-0479",
+        "kind": "list_item",
+        "old_text": "上方增加一行信息显示“连续完美表演%{num}次”（KEY）。",
+        "new_text": "上方增加一行信息显示“连续完美表演%{num}次”（MusicCity_tips_38）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0568",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "上方增加一行信息显示“连续完美表演%{num}次”（KEY）。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "figure-0569": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "figure-0569",
+        "old_block_id": "figure-0480",
+        "kind": "image",
+        "old_text": "[图片] D5575377CB2898A19BAE8EE8287FB04868D2154BD6494BACCEA0A98512323C2C",
+        "new_text": "[图片] C586E6BFE6F0D3AF12AC0818297FC56A9B523FA5EED9E9495082284CA9DB2A70",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "figure-0569",
+        "old_block_id": "",
+        "kind": "image",
+        "old_text": "",
+        "new_text": "[图片] D5575377CB2898A19BAE8EE8287FB04868D2154BD6494BACCEA0A98512323C2C",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-6-5-7-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-5-7-2",
+        "old_block_id": "doc-6-5-2-2",
+        "kind": "heading",
+        "old_text": "6.5.2.2 花车竞演结算界面",
+        "new_text": "6.5.7.2 气球竞演结算界面",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-5-7-2",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.5.2.2 花车竞演结算界面",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0570": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0570",
+        "old_block_id": "doc-0481",
+        "kind": "paragraph",
+        "old_text": "花车竞演结算界面和结算界面大致相同。区别有：",
+        "new_text": "气球竞演结算界面和结算界面大致相同。区别有：",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0570",
+        "old_block_id": "doc-6-4-1",
+        "kind": "paragraph",
+        "old_text": "6.4.1 生成奖励选项",
+        "new_text": "花车竞演结算界面和结算界面大致相同。区别有：",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0570",
+        "old_block_id": "doc-0177",
+        "kind": "heading",
+        "old_text": "奖励选项界面（F27）展示服务端固定的三选一候选，候选包括表演道具或背包扩格。",
+        "new_text": "6.4.1 生成奖励选项",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0571": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0571",
+        "old_block_id": "doc-0482",
+        "kind": "list_item",
+        "old_text": "分数名称：竞演分数（KEY）。",
+        "new_text": "分数名称：竞演分数（MusicCity_title_48）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0571",
+        "old_block_id": "block-291",
+        "kind": "list_item",
+        "old_text": "玩家消耗的巡演体力，达到奖励触发体力（MusicCity_setting.choice_reward_energy_cost）时，在结算后进入奖励选择。",
+        "new_text": "分数名称：竞演分数（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0571",
+        "old_block_id": "figure-0178",
+        "kind": "paragraph",
+        "old_text": "[图片] AE9FDB68DED9973367A0BE182BB37BEE680831C7B25DEFFB27C665233EB272EA",
+        "new_text": "玩家消耗的巡演体力，达到奖励触发体力（MusicCity_setting.choice_reward_energy_cost）时，在结算后进入奖励选择。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0572": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0572",
+        "old_block_id": "doc-0483",
+        "kind": "list_item",
+        "old_text": "DEBUFF效果：BUFF名称（KEY）和减少值。仅在有此计算的时候显示。",
+        "new_text": "DEBUFF效果：BUFF名称（MusicCity_title_34）和减少值。仅在有此计算的时候显示。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0572",
+        "old_block_id": "block-292",
+        "kind": "list_item",
+        "old_text": "每次生成3个互不重复的奖励选项，最多包含1个背包扩格选项。",
+        "new_text": "DEBUFF效果：BUFF名称（KEY）和减少值。仅在有此计算的时候显示。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0572",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "每次生成3个互不重复的奖励选项，最多包含1个背包扩格选项。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0577": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0577",
+        "old_block_id": "doc-0488",
+        "kind": "paragraph",
+        "old_text": "每次奖励选择将生成3个互不重复的奖励选项，最多包含1个背包扩格选项。玩家可以消耗刷新道具，请求重新生成选项。",
+        "new_text": "每次奖励选择将生成3个互不重复的道具选项。玩家可以消耗刷新道具，请求重新生成选项。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0577",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "每次奖励选择将生成3个互不重复的奖励选项，最多包含1个背包扩格选项。玩家可以消耗刷新道具，请求重新生成选项。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0579": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0579",
+        "old_block_id": "doc-0490",
+        "kind": "paragraph",
+        "old_text": "奖励选择次数可以累计，玩家可以先不选择、继续表演。",
+        "new_text": "奖励选项和选择次数可以累计，玩家可以先不选择、继续表演。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0579",
+        "old_block_id": "doc-0419",
+        "kind": "paragraph",
+        "old_text": "道具品质和类型的随机权重，读取奖励候选权重（MusicCity_setting.choice_reward_weights）。",
+        "new_text": "奖励选择次数可以累计，玩家可以先不选择、继续表演。",
+        "badge_label": "09-05 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0579",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "道具品质和类型的随机权重，读取奖励候选权重（MusicCity_setting.choice_reward_weights）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0580": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0580",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "在有未选的的选项时，玩家使用活动道具升级了任一表演道具后，使用刷新的逻辑重新生成选项。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0583": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0583",
+        "old_block_id": "doc-0493",
+        "kind": "list_item",
+        "old_text": "根据本次奖励对应的品质权重，随机奖项是否需要包含1个扩格选项。",
+        "new_text": "根据本次奖励对应的品质权重，随机本次奖励的道具作为选项。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0583",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "根据本次奖励对应的品质权重，随机奖项是否需要包含1个扩格选项。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0584": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0584",
+        "old_block_id": "doc-0494",
+        "kind": "list_item",
+        "old_text": "背包扩格选项的出现概率，读取扩格候选概率（MusicCity_setting.bag_unlock_rate），格式为：普通奖励出现扩格概率，高级奖励出现扩格概率。",
+        "new_text": "普通奖励：道具的品质随机权重读取奖励候选权重（MusicCity_setting.choice_reward_weights），具体类型等权重随机。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0584",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "背包扩格选项的出现概率，读取扩格候选概率（MusicCity_setting.bag_unlock_rate），格式为：普通奖励出现扩格概率，高级奖励出现扩格概率。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0585": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0585",
+        "old_block_id": "doc-0495",
+        "kind": "list_item",
+        "old_text": "玩家背包格子全解锁后，扩格不再作为奖励选项。",
+        "new_text": "高级奖励：道具的品质随机权重读取奖励候选权重（MusicCity_setting.choice_reward_extra_weights），具体类型等权重随机。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0585",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "玩家背包格子全解锁后，扩格不再作为奖励选项。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0588": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0588",
+        "old_block_id": "doc-0501",
+        "kind": "paragraph",
+        "old_text": "奖励选项界面（F27）展示奖励的选项，选项包括表演道具和背包扩格。",
+        "new_text": "奖励选项界面（F27）展示奖励的选项。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0588",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "奖励选项界面（F27）展示奖励的选项，选项包括表演道具和背包扩格。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0591": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0591",
+        "old_block_id": "doc-0504",
+        "kind": "paragraph",
+        "old_text": "界面标题：表演奖励（KEY）。",
+        "new_text": "界面标题：表演奖励（MusicCity_title_18）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0591",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "界面标题：表演奖励（KEY）。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0592": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0592",
+        "old_block_id": "doc-0505",
+        "kind": "paragraph",
+        "old_text": "奖励选择提示：“请选择1个奖励”（KEY）。",
+        "new_text": "奖励选择提示：“请选择1个奖励”（MusicCity_tips_39）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0592",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "奖励选择提示：“请选择1个奖励”（KEY）。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0593": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0593",
+        "old_block_id": "doc-0506",
+        "kind": "paragraph",
+        "old_text": "表演道具，包含：图标、道具获得提示（图标左上的NEW、UP）、演奏值（图标左下）、名称、等级、套装1名称、套装2名称、道具能力描述、详情图标按钮（点击打开道具详情界面查看内容）。",
+        "new_text": "表演道具，包含：图标、道具获得提示（图标左上的NEW、UP）、演奏值（图标左下）、名称、等级、道具归属的套装图标（角标显示玩家当前拥有的数量）、道具能力描述、详情图标按钮（点击打开道具详情界面查看内容）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0593",
+        "old_block_id": "block-303",
+        "kind": "paragraph",
+        "old_text": "表演道具，包含：图标、道具提示（图标左上的NEW、UP）、演奏值（图标左下）、名称、等级、套装1名称、套装2名称、道具能力描述、详情图标按钮（点击打开道具详情界面查看内容）。",
+        "new_text": "表演道具，包含：图标、道具获得提示（图标左上的NEW、UP）、演奏值（图标左下）、名称、等级、套装1名称、套装2名称、道具能力描述、详情图标按钮（点击打开道具详情界面查看内容）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0593",
+        "old_block_id": "doc-6-4-1",
+        "kind": "paragraph",
+        "old_text": "6.4.1 候选生成",
+        "new_text": "表演道具，包含：图标、道具提示（图标左上的NEW、UP）、演奏值（图标左下）、名称、等级、套装1名称、套装2名称、道具能力描述、详情图标按钮（点击打开道具详情界面查看内容）。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0595": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0595",
+        "old_block_id": "doc-0508",
+        "kind": "paragraph",
+        "old_text": "背包扩格，包含：图标、名称（KEY）、描述（KEY）。",
+        "new_text": "刷新（common_btn_54）按钮，上方显示刷新道具资源条。点击请求刷新。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0595",
+        "old_block_id": "block-305",
+        "kind": "paragraph",
+        "old_text": "查看背包按钮，点击进入表演准备界面，可以查看背包和仓库。",
+        "new_text": "背包扩格，包含：图标、名称（KEY）、描述（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0595",
+        "old_block_id": "doc-0181",
+        "kind": "paragraph",
+        "old_text": "扩格出现概率读取扩格候选概率（MusicCity_setting.bag_unlock_rate）；道具品质和类型权重读取奖励候选权重（MusicCity_setting.choice_reward_weights）。每3点体力、扩格50%、道具候选75%概率至少包含1件已持有道具均为临时数值，待数值确认后补充。",
+        "new_text": "查看背包按钮，点击进入表演准备界面，可以查看背包和仓库。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0597": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0597",
+        "old_block_id": "doc-0511",
+        "kind": "list_item",
+        "old_text": "点击按钮时，如果有最高品质道具，则二次确认“有高品质道具是否刷新”（KEY），该提示有今日不再提示选项。",
+        "new_text": "点击按钮时，如果有最高品质道具，则二次确认“有高品质道具是否刷新”（MusicCity_tips_40），该提示有今日不再提示选项。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0597",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击按钮时，如果有最高品质道具，则二次确认“有高品质道具是否刷新”（KEY），该提示有今日不再提示选项。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0598": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0598",
+        "old_block_id": "doc-0512",
+        "kind": "paragraph",
+        "old_text": "查看背包（KEY）按钮，点击进入表演准备界面，可以查看背包和仓库。",
+        "new_text": "查看背包（MusicCity_btn_27）按钮，点击进入表演准备界面，可以查看背包和仓库。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0598",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "查看背包（KEY）按钮，点击进入表演准备界面，可以查看背包和仓库。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0601": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0601",
+        "old_block_id": "doc-0515",
+        "kind": "paragraph",
+        "old_text": "弹窗展示道具信息，包括：名称、图标、所属套装、演奏值、能力描述。",
+        "new_text": "弹窗展示道具信息，包括：标题（tools_des_02）、名称、图标、所属套装、演奏值、能力描述。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0601",
+        "old_block_id": "block-309",
+        "kind": "paragraph",
+        "old_text": "弹窗展示道具信息。",
+        "new_text": "弹窗展示道具信息，包括：名称、图标、所属套装、演奏值、能力描述。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0601",
+        "old_block_id": "doc-6-4-3",
+        "kind": "paragraph",
+        "old_text": "6.4.3 背包扩格",
+        "new_text": "弹窗展示道具信息。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0602": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0602",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "道具图标左上角显示NEW标记。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0606": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0606",
+        "old_block_id": "doc-0519",
+        "kind": "paragraph",
+        "old_text": "弹窗展示道具信息、以及增加的进度表现。",
+        "new_text": "弹窗展示道具信息、以及额外显示：增加的进度表现。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0606",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "弹窗展示道具信息、以及增加的进度表现。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-6-7": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-7",
+        "old_block_id": "doc-6-6-5",
+        "kind": "heading",
+        "old_text": "6.6.5 获得背包扩格",
+        "new_text": "6.7 背包扩格",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-7",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.6.5 获得背包扩格",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0609": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0609",
+        "old_block_id": "doc-0522",
+        "kind": "paragraph",
+        "old_text": "玩家选择扩格后，必须选择后才能继续表演",
+        "new_text": "背包扩格的配置读取背包等级配置（MusicCity_bagLevel）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0609",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "玩家选择扩格后，必须选择后才能继续表演",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-6-7-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-6-7-1",
+        "old_block_id": "doc-0523",
+        "kind": "heading",
+        "old_text": "选择背包扩格界面（F43）如下。",
+        "new_text": "6.7.1 获得扩格次数",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-7-1",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "选择背包扩格界面（F43）如下。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0610": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0610",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "玩家消耗的体力累计达到扩格需求的体力（MusicCity_bagLevel.energy_cost）时，在结算后获得扩格次数（MusicCity_bagLevel.bag_unlock）。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0611": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0611",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "扩格次数可以累计，不要求一次性用完。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0612": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0612",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "获得的次数不可超过解锁剩余格子所需。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0613": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0613",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "如果获得次数时，本次获得加上累计次数超过所需，将超过的次数舍去。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-6-7-2": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-6-7-2",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.7.2 扩格选择",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0614": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0614",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "背包扩格界面（F43）如下。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0617": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0617",
+        "old_block_id": "doc-0526",
+        "kind": "paragraph",
+        "old_text": "界面上方显示：标题（KEY）、操作提示（KEY）、解锁格子数量（KEY）。",
+        "new_text": "界面上方显示：标题（MusicCity_title_19）、操作提示（MusicCity_des_20）、解锁格子数量（MusicCity_des_28）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0617",
+        "old_block_id": "block-320",
+        "kind": "paragraph",
+        "old_text": "界面上方显示：标题、操作提示、解锁格子数量。",
+        "new_text": "界面上方显示：标题（KEY）、操作提示（KEY）、解锁格子数量（KEY）。",
+        "badge_label": "09-01 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0617",
+        "old_block_id": "doc-0187",
+        "kind": "paragraph",
+        "old_text": "新开放格必须与任一已开放格共边。一次获得多个开放格时，后一个格可以与本次刚开放的格相邻。未确认前保存玩家已选位置和剩余数量；关闭后再次进入恢复原状态。",
+        "new_text": "界面上方显示：标题、操作提示、解锁格子数量。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0619": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0619",
+        "old_block_id": "doc-0528",
+        "kind": "list_item",
+        "old_text": "点击未解锁的与已解锁或已选中格子共边相邻的未选中格子，可以选中。",
+        "new_text": "未解锁且与已解锁或已选中格子边相邻的格子，显示“可解锁”样式。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0619",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击未解锁的与已解锁或已选中格子共边相邻的未选中格子，可以选中。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0620": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0620",
+        "old_block_id": "doc-0529",
+        "kind": "list_item",
+        "old_text": "点击已选中格子则取消选中，此时如果有格子不符合选择条件，也一起取消选中。",
+        "new_text": "点击可解锁格子可以选中，直到选中的格子数达到可解锁数量后不再可以选中。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0620",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击已选中格子则取消选中，此时如果有格子不符合选择条件，也一起取消选中。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0621": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0621",
+        "old_block_id": "doc-0530",
+        "kind": "list_item",
+        "old_text": "查看背包按钮，点击进入表演准备界面，可以查看背包和仓库。",
+        "new_text": "点击已选中格子则取消选中，此时如果有格子不符合选择条件，也一起取消选中，同时更新可解锁数量。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0621",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "查看背包按钮，点击进入表演准备界面，可以查看背包和仓库。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0622": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0622",
+        "old_block_id": "doc-0531",
+        "kind": "paragraph",
+        "old_text": "确认按钮，在选中要求数量的格子后才能点击，否则灰态。点击确认解锁。",
+        "new_text": "确认按钮，在选中至少1个解锁格子后才能点击，否则灰态。点击请求进行解锁。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0622",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "确认按钮，在选中要求数量的格子后才能点击，否则灰态。点击确认解锁。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0627": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0627",
+        "old_block_id": "doc-0536",
+        "kind": "paragraph",
+        "old_text": "界面标题为“活动战报”（KEY）。",
+        "new_text": "界面标题为“活动战报”（MusicCity_btn_17）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0627",
+        "old_block_id": "block-364",
+        "kind": "paragraph",
+        "old_text": "记录保留至活动结束，界面不显示保留时间。",
+        "new_text": "界面标题为“活动战报”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0628": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0628",
+        "old_block_id": "doc-0537",
+        "kind": "paragraph",
+        "old_text": "界面分为“阵营”（KEY）和“个人”（KEY）分页。",
+        "new_text": "界面分为“阵营”（snowmountain_title_96）和“个人”（Bloodlady_des_38）分页。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0628",
+        "old_block_id": "block-365",
+        "kind": "paragraph",
+        "old_text": "按时间倒序分批加载。",
+        "new_text": "界面分为“阵营”（KEY）和“个人”（KEY）分页。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0631": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0631",
+        "old_block_id": "doc-0540",
+        "kind": "list_item",
+        "old_text": "城市状态变更：显示城市图标、描述（KEY），描述中的阵营名称突出字色显示。",
+        "new_text": "城市状态变更：显示城市图标、描述（MusicCity_des_13），描述中的阵营名称突出字色显示。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0631",
+        "old_block_id": "block-368",
+        "kind": "list_item",
+        "old_text": "城市状态记录突出显示阵营名称；互动记录显示玩家头像和名称；道具升级记录显示道具图标。",
+        "new_text": "城市状态变更：显示城市图标、描述（KEY），描述中的阵营名称突出字色显示。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0632": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0632",
+        "old_block_id": "doc-0541",
+        "kind": "list_item",
+        "old_text": "派出花车：显示花车图标、描述（KEY），描述中的玩家名称、城市名称突出字色显示。",
+        "new_text": "赢得气球：显示气球图标，描述（MusicCity_des_23）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0632",
+        "old_block_id": "block-369",
+        "kind": "list_item",
+        "old_text": "战报中的城市和玩家对象均不提供跳转。",
+        "new_text": "派出花车：显示花车图标、描述（KEY），描述中的玩家名称、城市名称突出字色显示。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0633": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "7",
+        "change_type": "新增",
+        "new_block_id": "doc-0633",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "派出气球：显示气球图标、描述（MusicCity_des_21），描述中的玩家名称、城市名称突出字色显示。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0635": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0635",
+        "old_block_id": "doc-0543",
+        "kind": "list_item",
+        "old_text": "互动事件：显示目标玩家头像、描述（KEY），描述中的玩家名称、城市名称突出字色显示。",
+        "new_text": "互动事件：显示目标玩家头像、描述（MusicCity_des_22），描述中的玩家名称、城市名称突出字色显示。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0635",
+        "old_block_id": "block-371",
+        "kind": "list_item",
+        "old_text": "战报排序中的同时间处理、单次数量、活动结束归档和异常补写在后续设计步骤补齐。",
+        "new_text": "互动事件：显示目标玩家头像、描述（KEY），描述中的玩家名称、城市名称突出字色显示。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0636": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0636",
+        "old_block_id": "doc-0544",
+        "kind": "list_item",
+        "old_text": "赢得花车：显示花车图标，描述（KEY）。",
+        "new_text": "赢得气球：显示气球图标，描述（MusicCity_des_23）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "7",
+        "change_type": "新增",
+        "new_block_id": "doc-0636",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "赢得花车：显示花车图标，描述（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0637": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-0637",
+        "old_block_id": "doc-0545",
+        "kind": "list_item",
+        "old_text": "没有战报时，显示提示“没有可查看的记录”（KEY）。",
+        "new_text": "没有战报时，显示提示“没有可查看的记录”（MusicCity_tips_41）。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "7",
+        "change_type": "新增",
+        "new_block_id": "doc-0637",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "没有战报时，显示提示“没有可查看的记录”（KEY）。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-7-1": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "7",
+        "change_type": "修改",
+        "new_block_id": "doc-7-1",
+        "old_block_id": "doc-6-1-2",
+        "kind": "heading",
+        "old_text": "6.1 主界面弹窗",
+        "new_text": "7.1 主界面弹窗",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "7",
+        "change_type": "新增",
+        "new_block_id": "doc-7-1",
+        "old_block_id": "",
+        "kind": "heading",
+        "old_text": "",
+        "new_text": "6.1 主界面弹窗",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "table-0641": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "table-0641",
+        "old_block_id": "table-0549",
+        "kind": "table",
+        "old_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n配置编号 | id | digit | 主键；活动设置唯一ID。\n城市标记数量上限 | city_mark_limit | digit | 同一阵营可同时标记的城市数量。\n数值公式参数 | score_formula_params | digit array | 仅保存数值确认后的可调参数；元素顺序由对应公式定义。\n城市周期收益间隔 | city_income_interval | digit | 单位秒；占领收益的统一结算间隔。\n个人城市贡献下限 | player_contribution_floor | digit | 城市争夺扣减后个人保留的最低贡献。\n城市效果互斥组 | city_effect_exclude_groups | digit array | 重复结构为互斥组编号；效果数量；效果ID……。\n背包行数 | bag_rows | digit | 当前固定为8；变更需要重新审核UE。\n背包列数 | bag_cols | digit | 当前固定为8；变更需要重新审核UE。\n初始开放格 | initial_unlocked_cells | digit array | 按行；列；行；列……记录初始中央2×4开放格。\n道具升级需求 | prop_upgrade_costs | digit array | 重复结构为目标等级；同名道具需求数量。\n单场节拍数量范围 | beat_count_range | digit array | 顺序为最少数量；最多数量。\n节拍品质权重 | beat_quality_weights | digit array | 重复结构为节拍品质；权重。\n奖励触发体力 | choice_reward_energy_cost | digit | 累计消耗多少体力生成一次奖励选项。\n扩格候选概率 | bag_unlock_rate | digit | 三选一中出现扩格候选的概率。\n奖励候选权重 | choice_reward_weights | digit array | 重复结构为奖励类型；颜色品质；权重。\n高品质保底次数 | high_quality_pity_count | digit | 连续未出现高品质候选后的保底次数；不启用时为空。\n互动目标保护时间 | interaction_protection_time | digit | 单位秒；目标进入互动候选过滤的保护时间。",
+        "new_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n配置编号 | id |  | 主键；活动设置唯一ID。\n城市标记数量上限 | city_mark_limit | digit | 同一阵营可同时标记的城市数量。\n数值公式参数 | score_formula_params | digit array | 仅保存数值确认后的可调参数；元素顺序由对应公式定义。\n城市周期收益间隔 | city_income_interval | digit | 单位秒；占领收益的统一结算间隔。\n个人城市贡献下限 | player_contribution_floor | digit | 城市争夺扣减后个人保留的最低贡献。\n城市效果互斥组 | city_effect_exclude_groups | digit array | 重复结构为互斥组编号；效果数量；效果ID……。\n背包行数 | bag_rows | digit | 背包行数；具体值读取配置。\n背包列数 | bag_cols | digit | \n初始开放格 | initial_unlocked_cells | digit array | 按行；列；行；列……记录初始中央2×4开放格。\n道具升级需求 | prop_upgrade_costs | digit array | 重复结构为目标等级；同名道具需求数量。\n单场节拍数量范围 | beat_count_range | digit array | 顺序为最少数量；最多数量。\n节拍品质权重 | beat_quality_weights | digit array | 重复结构为节拍品质；权重。\n奖励触发体力 | choice_reward_energy_cost | digit | 累计消耗多少体力生成一次奖励选项。\n扩格候选概率 | bag_unlock_rate | digit | 三选一中出现扩格候选的概率。\n奖励候选权重 | choice_reward_weights | digit array | 重复结构为奖励类型；颜色品质；权重。\n高品质保底次数 | high_quality_pity_count | digit | 连续未出现高品质候选后的保底次数；不启用时为空。\n互动目标保护时间 | interaction_protection_time | digit | 单位秒；目标进入互动候选过滤的保护时间。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "table-0641",
+        "old_block_id": "table-1",
+        "kind": "table",
+        "old_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n配置编号 | id | digit | 主键；活动设置唯一ID。\n城市标记数量上限 | city_mark_limit | digit | 同一阵营可同时标记的城市数量。\n数值公式参数 | score_formula_params | digit array | 仅保存数值确认后的可调参数；元素顺序由对应公式定义。\n城市周期收益间隔 | city_income_interval | digit | 单位秒；激活和占领收益的统一结算间隔。\n个人城市贡献下限 | player_contribution_floor | digit | 城市争夺扣减后个人保留的最低贡献。\n城市效果互斥组 | city_effect_exclude_groups | digit array | 重复结构为互斥组编号；效果数量；效果ID……。\n背包行数 | bag_rows | digit | 当前固定为8；变更需要重新审核UE。\n背包列数 | bag_cols | digit | 当前固定为8；变更需要重新审核UE。\n初始开放格 | initial_unlocked_cells | digit array | 按行；列；行；列……记录初始中央2×4开放格。\n道具升级需求 | prop_upgrade_costs | digit array | 重复结构为目标等级；同名道具需求数量。\n单场节拍数量范围 | beat_count_range | digit array | 顺序为最少数量；最多数量。\n节拍品质权重 | beat_quality_weights | digit array | 重复结构为节拍品质；权重。\n奖励触发体力 | choice_reward_energy_cost | digit | 累计消耗多少体力生成一次奖励选项。\n扩格候选概率 | bag_unlock_rate | digit | 三选一中出现扩格候选的概率。\n奖励候选权重 | choice_reward_weights | digit array | 重复结构为奖励类型；颜色品质；权重。\n高品质保底次数 | high_quality_pity_count | digit | 连续未出现高品质候选后的保底次数；不启用时为空。\n互动目标保护时间 | interaction_protection_time | digit | 单位秒；目标进入互动候选过滤的保护时间。",
+        "new_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n配置编号 | id | digit | 主键；活动设置唯一ID。\n城市标记数量上限 | city_mark_limit | digit | 同一阵营可同时标记的城市数量。\n数值公式参数 | score_formula_params | digit array | 仅保存数值确认后的可调参数；元素顺序由对应公式定义。\n城市周期收益间隔 | city_income_interval | digit | 单位秒；占领收益的统一结算间隔。\n个人城市贡献下限 | player_contribution_floor | digit | 城市争夺扣减后个人保留的最低贡献。\n城市效果互斥组 | city_effect_exclude_groups | digit array | 重复结构为互斥组编号；效果数量；效果ID……。\n背包行数 | bag_rows | digit | 当前固定为8；变更需要重新审核UE。\n背包列数 | bag_cols | digit | 当前固定为8；变更需要重新审核UE。\n初始开放格 | initial_unlocked_cells | digit array | 按行；列；行；列……记录初始中央2×4开放格。\n道具升级需求 | prop_upgrade_costs | digit array | 重复结构为目标等级；同名道具需求数量。\n单场节拍数量范围 | beat_count_range | digit array | 顺序为最少数量；最多数量。\n节拍品质权重 | beat_quality_weights | digit array | 重复结构为节拍品质；权重。\n奖励触发体力 | choice_reward_energy_cost | digit | 累计消耗多少体力生成一次奖励选项。\n扩格候选概率 | bag_unlock_rate | digit | 三选一中出现扩格候选的概率。\n奖励候选权重 | choice_reward_weights | digit array | 重复结构为奖励类型；颜色品质；权重。\n高品质保底次数 | high_quality_pity_count | digit | 连续未出现高品质候选后的保底次数；不启用时为空。\n互动目标保护时间 | interaction_protection_time | digit | 单位秒；目标进入互动候选过滤的保护时间。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "table-0644": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "table-0644",
+        "old_block_id": "table-0552",
+        "kind": "table",
+        "old_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n道具编号 | prop_id | digit | 主键；道具唯一ID。\n道具名称 | prop_name | string | 多语言KEY。\n道具说明 | prop_des | string | 多语言KEY。\n道具种类 | category | digit | 键盘、弦乐、管乐、打击、服装或舞台装饰。\n道具品质 | quality | digit | 红、金、紫或蓝。\n固定宽度 | shape_width | digit | 道具横向占格数。\n固定高度 | shape_height | digit | 道具纵向占格数。\n同名放置上限 | same_name_limit | digit | 同一背包同名道具上限。\n最高等级 | max_level | digit | 当前固定Lv.5。\n各级基础演奏值 | base_value_by_level | digit array | 按Lv.1至Lv.5排列。\n道具效果编号 | effect_id | digit | 引用MusicCity_toolEffect。\n所属套装 | set_id | digit array | 所属的套装，引用MusicCity_toolSet。\n道具图标 | icon | string | 详情、仓库、奖励和战报资源名。",
+        "new_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n道具编号 | prop_id | digit | 主键；道具唯一ID。\n道具名称 | prop_name | string | 多语言KEY。\n道具说明 | prop_des | string | 多语言KEY。\n道具种类 | category | digit | 键盘、弦乐、管乐、打击、服装或舞台装饰。\n道具品质 | quality | digit | 红、金、紫或蓝。\n | base_value_by_level | digit array | 按Lv.1至Lv.5排列。\n道具效果编号 | effect_id | digit | 引用MusicCity_toolEffect。\n所属套装 | set_id | digit array | 所属的套装，引用MusicCity_toolSet。\n道具图标 | icon | string | 详情、仓库、奖励和战报资源名。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "table-0644",
+        "old_block_id": "table-4",
+        "kind": "table",
+        "old_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n道具编号 | prop_id | digit | 主键；道具唯一ID。\n道具名称 | prop_name | string | 多语言KEY。\n道具说明 | prop_des | string | 多语言KEY。\n道具种类 | category | digit | 键盘、弦乐、管乐、打击、服装或舞台装饰。\n风格标签 | style_tag | digit | 古典或现代。\n道具品质 | quality | digit | 红、金、紫或蓝。\n固定宽度 | shape_width | digit | 道具横向占格数。\n固定高度 | shape_height | digit | 道具纵向占格数。\n同名放置上限 | same_name_limit | digit | 同一背包同名道具上限。\n最高等级 | max_level | digit | 当前固定Lv.5。\n各级基础演奏值 | base_value_by_level | digit array | 按Lv.1至Lv.5排列。\n道具效果编号 | effect_id | digit | 引用MusicCity_toolEffect。\n道具图标 | icon | string | 详情、仓库、奖励和战报资源名。",
+        "new_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n道具编号 | prop_id | digit | 主键；道具唯一ID。\n道具名称 | prop_name | string | 多语言KEY。\n道具说明 | prop_des | string | 多语言KEY。\n道具种类 | category | digit | 键盘、弦乐、管乐、打击、服装或舞台装饰。\n道具品质 | quality | digit | 红、金、紫或蓝。\n固定宽度 | shape_width | digit | 道具横向占格数。\n固定高度 | shape_height | digit | 道具纵向占格数。\n同名放置上限 | same_name_limit | digit | 同一背包同名道具上限。\n最高等级 | max_level | digit | 当前固定Lv.5。\n各级基础演奏值 | base_value_by_level | digit array | 按Lv.1至Lv.5排列。\n道具效果编号 | effect_id | digit | 引用MusicCity_toolEffect。\n所属套装 | set_id | digit array | 所属的套装，引用MusicCity_toolSet。\n道具图标 | icon | string | 详情、仓库、奖励和战报资源名。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0651": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0651",
+        "old_block_id": "doc-0559",
+        "kind": "list_item",
+        "old_text": "B01：恋人魅力、恋人表演值、道具演奏值、本场人气和城市贡献的换算、取整与上下限。",
+        "new_text": "B01：恋人加成参数、服务器战力口径，道具及背包演奏值、人气值的取整与上下限；现有公式见表演队伍、演奏值计算和表演结算。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0652": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0652",
+        "old_block_id": "doc-0560",
+        "kind": "list_item",
+        "old_text": "B02：阵营总人气对应个人榜加成人气的独立档位、加成值与取整。",
+        "new_text": "B02：个人积分中的阵营流行度加成值pointsBonus，区分单服跨服；临时占领流行度是否实时计入个人榜、更新时点与取整待确认。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0653": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0653",
+        "old_block_id": "doc-0561",
+        "kind": "list_item",
+        "old_text": "B03：公共巡演体力上限、恢复间隔、恢复量和跨日规则。",
+        "new_text": "B03：公共巡演体力上限、恢复间隔和恢复量对接restore_attr_conf；单场消耗量及连续表演体力换算待补。连续表演鲜花按正文暂定每次1朵。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0654": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0654",
+        "old_block_id": "doc-0562",
+        "kind": "list_item",
+        "old_text": "B04：城市级别、坐标、道路、标签和正式城市数据。",
+        "new_text": "B04：活动pid对应的地图预制、城市列表、级别、道路联通、沿海标识、粉丝上限和占领阈值；地图位置和道路曲线由Unity预制保存。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0654",
+        "old_block_id": "doc-0226",
+        "kind": "list_item",
+        "old_text": "B04：九城级别、坐标、道路、标签和正式城市数据。",
+        "new_text": "B04：城市级别、坐标、道路、标签和正式城市数据。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0655": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0655",
+        "old_block_id": "doc-0563",
+        "kind": "list_item",
+        "old_text": "B06：占领周期中状态刷新。",
+        "new_text": "B06：占领周期收益间隔、流行度增加值、粉丝扣减比例及按个人贡献分摊取整；保护结束及占领变化时的周期衔接待确认。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0655",
+        "old_block_id": "block-398",
+        "kind": "list_item",
+        "old_text": "B06：激活与占领绝对门槛、周期中状态刷新。",
+        "new_text": "B06：占领周期中状态刷新。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0656": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0656",
+        "old_block_id": "doc-0564",
+        "kind": "list_item",
+        "old_text": "B07、B08：临时城市效果的抽取、周期、目标、叠加、取整、补发和城市参数，在后续设计步骤补齐。",
+        "new_text": "B07、B08：城市占领效果按正文已定的联通/沿海城市计数规则配置千分比参数；各城候选效果和收益取整在后续设计步骤补齐。抽取规则为每期等概率取1个，不再另设互斥组规则。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0656",
+        "old_block_id": "doc-0228",
+        "kind": "list_item",
+        "old_text": "B07、B08：临时城市效果的抽取、周期、目标、叠加、取整、补发和九城参数，在后续设计步骤补齐。",
+        "new_text": "B07、B08：临时城市效果的抽取、周期、目标、叠加、取整、补发和城市参数，在后续设计步骤补齐。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0657": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0657",
+        "old_block_id": "doc-0565",
+        "kind": "list_item",
+        "old_text": "B10：奖励阈值、扩格概率、已持有道具概率、高品质保底、候选权重和进度溢出。",
+        "new_text": "B10：奖励触发体力、普通/高级品质权重、高级奖励次数；背包扩格累计体力阈值与解锁次数。两套进度独立；跨多档发放、候选已满级及刷新处理待确认。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0658": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0658",
+        "old_block_id": "doc-0566",
+        "kind": "list_item",
+        "old_text": "B11：节拍数量、品质、窗口、good/great/perfect和保底参数。",
+        "new_text": "B11：节拍数量、品质、生成间隔、区域尺寸、持续时长、点击档位窗口、品质/档次/漏点加成和跳过随机规则；道具额外节拍及节拍值的接入待确认。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0659": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0659",
+        "old_block_id": "doc-0567",
+        "kind": "list_item",
+        "old_text": "B12：唯粉的触发、作用值、保护、重复、持续和上限。",
+        "new_text": "B12：唯粉基础概率与阵营占比修正、玩家节拍初始速度、扣减比例A和封顶比例B。目标先按阵营占比选阵营，再从有粉丝玩家中随机选择；实际扣减上限待确认。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0659",
+        "old_block_id": "block-402",
+        "kind": "list_item",
+        "old_text": "B12：唯粉与CP粉的触发、作用值、保护、重复、持续和上限。",
+        "new_text": "B12：唯粉的触发、作用值、保护、重复、持续和上限。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0660": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0660",
+        "old_block_id": "doc-0568",
+        "kind": "list_item",
+        "old_text": "B13：套装成员、激活数量和具体效果，在后续设计步骤补齐。",
+        "new_text": "B13：套装成员、激活数量、各等级效果参数及道具具体配置，在后续设计步骤补齐；效果类型按正文汇总，类型2单位及能力缺失参数待确认。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0660",
+        "old_block_id": "block-403",
+        "kind": "list_item",
+        "old_text": "B13：活动结束后的场次、互动、道具、仓库和背包数据处理。",
+        "new_text": "B13：套装成员、激活数量和具体效果，在后续设计步骤补齐。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0661": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0661",
+        "old_block_id": "doc-0569",
+        "kind": "list_item",
+        "old_text": "B14：指挥官标记身份、并发覆盖和日志规则，在后续设计步骤补齐。",
+        "new_text": "B14：城市标记数量上限city_mark_limit；指挥官身份按正文已定规则，跨服前2联盟在活动开始时确定。并发标记覆盖和日志规则待确认。",
+        "badge_label": "09-22 更新"
+      },
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "8",
+        "change_type": "修改",
+        "new_block_id": "doc-0661",
+        "old_block_id": "block-404",
+        "kind": "list_item",
+        "old_text": "B14：新道具存在多个合法位置时的自动选择顺序；道具效果超过目标上限时的目标选择顺序及能否作用于已扫描道具。",
+        "new_text": "B14：指挥官标记身份、并发覆盖和日志规则，在后续设计步骤补齐。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0662": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "新增",
+        "new_block_id": "doc-0662",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "B15：气球进度阈值、竞演次数、时长、专属节拍参数、赢家减益、游行时间和加成比例；截止未完成不计分、同分按提交时点。减益叠加及气球竞演加成适用范围待确认。",
+        "badge_label": "09-22 更新"
+      }
+    ],
+    "doc-0663": [
+      {
+        "version": "V0.1 · 2026-09-22 10:46 当前稿",
+        "date": "2026-09-22",
+        "previous_version": "V0.1 · 2026-09-05 15:32",
+        "chapter": "8",
+        "change_type": "新增",
+        "new_block_id": "doc-0663",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "B16：活动成就、赛季任务及快速任务的具体类型、目标和奖励，在后续任务设计步骤补齐。",
+        "badge_label": "09-22 更新"
+      }
+    ],
     "doc-0016": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
@@ -382,14 +11092,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0027": [
+    "doc-0032": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "3",
         "change_type": "修改",
-        "new_block_id": "doc-0027",
+        "new_block_id": "doc-0032",
         "old_block_id": "doc-0024",
         "kind": "paragraph",
         "old_text": "单服活动需要玩家加入联盟才能参加。活动中不满足联盟参与条件时，关闭可操作玩法界面并返回活动首页，具体提示使用通用联盟参与提示。",
@@ -402,42 +11112,12 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "3",
         "change_type": "新增",
-        "new_block_id": "doc-0027",
+        "new_block_id": "doc-0032",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
         "new_text": "单服活动需要玩家加入联盟才能参加。活动中不满足联盟参与条件时，关闭可操作玩法界面并返回活动首页，具体提示使用通用联盟参与提示。",
         "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0028": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0028",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "活动中不满足联盟参与条件时，系统关闭可操作玩法界面并返回活动首页。此时飘字提示使用通用联盟参与提示。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0032": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0032",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "MUSIC_CITY_PHY = 1488, -- 爱乐之城体力。",
-        "badge_label": "09-05 更新"
       }
     ],
     "doc-0033": [
@@ -451,142 +11131,37 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
+        "new_text": "活动中不满足联盟参与条件时，系统关闭可操作玩法界面并返回活动首页。此时飘字提示使用通用联盟参与提示。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0036": [
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0036",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "MUSIC_CITY_PHY = 1488, -- 爱乐之城体力。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0037": [
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0037",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
         "new_text": "CROSS_MUSIC_CITY_PHY = 1489, -- 跨服爱乐之城体力。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0039": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0039",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "商店ID：",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0040": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0040",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "MusicCityItem = 177, -- 爱乐之城道具商店。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0041": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0041",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "MusicCityItemCross = 178, -- 跨服爱乐之城道具商店。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-3-4-3": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-4-3",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.4 活动排行",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-3-4-1-2": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-4-1-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.4.1 个人排行",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0043": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0043",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "个人排行类型：",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0044": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0044",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "MusicCityPerson = 11024, -- 爱乐之城个人榜。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0045": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0045",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "CrossMusicCityPerson = 11025, -- 跨服爱乐之城个人榜。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0046": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0046",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "个人积分=个人人气+阵营流行度的加成值。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -599,9 +11174,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0047",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "paragraph",
         "old_text": "",
-        "new_text": "阵营流行度的加成方式待数值确认，类似KC活动“王室战争”的规则。",
+        "new_text": "商店ID：",
         "badge_label": "09-05 更新"
       }
     ],
@@ -616,7 +11191,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "如果玩家没有阵营，加成值为0。",
+        "new_text": "MusicCityItem = 177, -- 爱乐之城道具商店。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -629,39 +11204,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0049",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "在排行榜界面的自己积分后显示FAQ按钮，点击弹出说明提示：标题（KEY），说明（KEY）。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "figure-0050": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "figure-0050",
-        "old_block_id": "",
-        "kind": "image",
-        "old_text": "",
-        "new_text": "[图片] D450A14B2ACFD8031AA4D8D0D54A5E0F9E97B59D9D185E445E7DE18119875163",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-3-4-2-2": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-4-2-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.4.2 阵营排行",
+        "new_text": "MusicCityItemCross = 178, -- 跨服爱乐之城道具商店。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -676,7 +11221,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
-        "new_text": "阵营排行类型：",
+        "new_text": "个人排行类型：",
         "badge_label": "09-05 更新"
       }
     ],
@@ -691,7 +11236,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "MusicCityAlliance = 279, -- 爱乐之城·联盟榜。",
+        "new_text": "MusicCityPerson = 11024, -- 爱乐之城个人榜。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -706,37 +11251,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "CrossMusicCityServer = 717, -- 跨服爱乐之城区服榜。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0054": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0054",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "阵营积分=阵营成员的实时个人人气总和。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0055": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0055",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "阵营成员增减时，阵营积分实时更新。",
+        "new_text": "CrossMusicCityPerson = 11025, -- 跨服爱乐之城个人榜。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -749,69 +11264,24 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0056",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "单服阵营榜为联盟榜，以个人人气作为MVP投票依据。",
+        "new_text": "如果玩家没有阵营，加成值为0。",
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-3-4-3-2": [
+    "figure-0058": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "3",
         "change_type": "新增",
-        "new_block_id": "doc-3-4-3-2",
+        "new_block_id": "figure-0058",
         "old_block_id": "",
-        "kind": "heading",
+        "kind": "image",
         "old_text": "",
-        "new_text": "3.4.3 同分与上榜",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0057": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0057",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "个人榜和阵营榜的同分排序：分数降序、上榜时间晚的名次更高。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0058": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0058",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "上榜门槛：获得过分数即可上榜。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-3-4-4": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-4-4",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.4.4 奖励补发邮件",
+        "new_text": "[图片] D450A14B2ACFD8031AA4D8D0D54A5E0F9E97B59D9D185E445E7DE18119875163",
         "badge_label": "09-05 更新"
       }
     ],
@@ -826,7 +11296,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
-        "new_text": "活动关闭时，未领取的榜单奖励按通用规则，下发奖励补发邮件。",
+        "new_text": "阵营排行类型：",
         "badge_label": "09-05 更新"
       }
     ],
@@ -841,7 +11311,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "跨服时阵营榜为服务器榜，不补发对应的奖励。",
+        "new_text": "MusicCityAlliance = 279, -- 爱乐之城·联盟榜。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -854,9 +11324,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0061",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "邮件类型：",
+        "new_text": "CrossMusicCityServer = 717, -- 跨服爱乐之城区服榜。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -869,9 +11339,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0062",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "paragraph",
         "old_text": "",
-        "new_text": "ACTIVITY_MUSIC_CITY_PERSON_RANK = 5136, -- 爱乐之城个人排行补发邮件。",
+        "new_text": "阵营积分=阵营成员的实时个人人气总和。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -886,22 +11356,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "ACTIVITY_MUSIC_CITY_CAMP_RANK = 5137, -- 爱乐之城阵营排行补发邮件。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-3-5": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-5",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.5 活动聊天",
+        "new_text": "阵营成员增减时，阵营积分实时更新。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -916,22 +11371,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
-        "new_text": "活动聊天频道在活动期间按通用规则开放：",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0065": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0065",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "单服：活动。",
+        "new_text": "单服阵营榜为联盟榜，以个人人气作为MVP投票依据。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -944,24 +11384,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0066",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "paragraph",
         "old_text": "",
-        "new_text": "跨服：活动、阵营。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-3-5-1": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-5-1",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.5.1 城市分享",
+        "new_text": "上榜门槛：获得过分数即可上榜。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -976,7 +11401,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
-        "new_text": "活动中，玩家可以将城市信息分享到对应的聊天频道。",
+        "new_text": "活动关闭时，未领取的榜单奖励按通用规则，下发奖励补发邮件。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -991,7 +11416,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "单服：联盟。",
+        "new_text": "跨服时阵营榜为服务器榜，不补发对应的奖励。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1004,9 +11429,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0069",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "paragraph",
         "old_text": "",
-        "new_text": "跨服：阵营。",
+        "new_text": "邮件类型：",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1019,24 +11444,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0070",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "复用KC活动遗迹争夺的城市分享弹窗。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-3-6": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-6",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.6 活动提示",
+        "new_text": "ACTIVITY_MUSIC_CITY_PERSON_RANK = 5136, -- 爱乐之城个人排行补发邮件。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1049,24 +11459,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0071",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "跑马灯、红点沿用公共规则。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-3-6-1": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-6-1",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.6.1 红点",
+        "new_text": "ACTIVITY_MUSIC_CITY_CAMP_RANK = 5137, -- 爱乐之城阵营排行补发邮件。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1081,37 +11476,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
-        "new_text": "在以下情况时，显示红点。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0073": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0073",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "活动体力超过50%时，路径：活动主界面-活动入口按钮。在不满足条件时删除。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0074": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0074",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "有未完成的可选奖励时，路径：在活动主界面-选项奖励按钮。在领取奖励后删除。",
+        "new_text": "活动聊天频道在活动期间按通用规则开放：",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1124,9 +11489,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0075",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "paragraph",
         "old_text": "",
-        "new_text": "有活动成就奖励可领取时，路径：活动入口-活动首页成就按钮。在领取奖励后删除。",
+        "new_text": "活动中，玩家可以将城市信息分享到对应的聊天频道。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1141,37 +11506,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "有活动排行奖励可领取时，路径：活动入口-活动首页排行奖励按钮-活动排行奖励领取按钮。在领取奖励后删除。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-3-6-2": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-6-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.6.2 跑马灯",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0077": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0077",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "在以下情况时，在活动内显示跑马灯。",
+        "new_text": "单服：联盟。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1184,9 +11519,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0078",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "paragraph",
         "old_text": "",
-        "new_text": "城市占领变化时，显示：“{name}占领%{cityname}。”（KEY）",
+        "new_text": "复用KC活动遗迹争夺的城市分享弹窗。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1199,24 +11534,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0079",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "paragraph",
         "old_text": "",
-        "new_text": "单服发联盟频道、跨服发活动的阵营频道。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-3-7": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-7",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.7 活动成就",
+        "new_text": "跑马灯、红点沿用公共规则。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1231,22 +11551,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
-        "new_text": "活动接入通用活动成就。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0081": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0081",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "具体任务类型和目标值待数值及任务设计确认后补充。",
+        "new_text": "在以下情况时，显示红点。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1261,52 +11566,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
-        "new_text": "消耗体力任务类型：",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0083": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0083",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "MUSIC_CITY_USE_PHY = 314, -- 爱乐之城消耗%{num}体力。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0084": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0084",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "CROSS_MUSIC_CITY_USE_PHY = 315, -- 跨服爱乐之城消耗%{num}体力。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-3-8": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-8",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.8 活动赛季任务",
+        "new_text": "在以下情况时，在活动内显示跑马灯。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1321,22 +11581,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
-        "new_text": "活动接入通用赛季任务和赛季快速任务。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0086": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0086",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "具体任务类型和目标值待数值及任务设计确认后补充。",
+        "new_text": "活动接入通用活动成就。",
         "badge_label": "09-05 更新"
       }
     ],
@@ -1351,33 +11596,48 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
+        "new_text": "消耗体力任务类型：",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0090": [
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0090",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "活动接入通用赛季任务和赛季快速任务。",
+        "badge_label": "09-05 更新"
+      }
+    ],
+    "doc-0092": [
+      {
+        "version": "V0.1 · 2026-09-05 15:32 当前稿",
+        "date": "2026-09-05",
+        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
+        "chapter": "3",
+        "change_type": "新增",
+        "new_block_id": "doc-0092",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
         "new_text": "联盟赛季成就任务类型：ALLIANCE_MEMBER_MUSIC_CITY_USE_PHY = 10033, -- 爱乐之城-X个联盟成员达到Y次消耗体力。",
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-3-9-4": [
+    "doc-0093": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "3",
         "change_type": "新增",
-        "new_block_id": "doc-3-9-4",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.9 迁服处理",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0088": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0088",
+        "new_block_id": "doc-0093",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -1385,14 +11645,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0109": [
+    "doc-0117": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0109",
+        "new_block_id": "doc-0117",
         "old_block_id": "doc-0073",
         "kind": "list_item",
         "old_text": "选中城市后弹出显示城市详情和表演按钮，详见下文城市详情章节。",
@@ -1405,7 +11665,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0109",
+        "new_block_id": "doc-0117",
         "old_block_id": "block-103",
         "kind": "list_item",
         "old_text": "表演按钮，按照状态有不同的显示和点击处理：",
@@ -1418,7 +11678,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0109",
+        "new_block_id": "doc-0117",
         "old_block_id": "doc-0088",
         "kind": "list_item",
         "old_text": "底栏左侧为返回，右侧为表演队伍、活动战报和排行。",
@@ -1426,126 +11686,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0166": [
+    "doc-0286": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0166",
-        "old_block_id": "doc-0130",
-        "kind": "list_item",
-        "old_text": "城市的流行度比例：FAQ图标按钮、流行度比例进度、阵营信息-按比例降序排列显示阵营名称、占比值、占领标识。",
-        "new_text": "城市的粉丝比例：FAQ图标按钮、流行度比例进度、阵营信息-按比例降序排列显示阵营名称、占比值、占领标识。",
-        "badge_label": "09-05 更新"
-      },
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0166",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "城市的流行度比例：FAQ图标按钮、流行度比例进度、阵营信息-按比例降序排列显示阵营名称、占比值、占领标识。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0176": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0176",
-        "old_block_id": "doc-0140",
-        "kind": "list_item",
-        "old_text": "根据本次增加的超出上限的城市粉丝数量，按照城市内其他阵营粉丝数量占比拆分为各阵营需要被扣除的数量。拆分结果需要取整，且保证实际扣减总量等于实际超出量。",
-        "new_text": "根据本次增加的超出上限的城市粉丝数量，按照城市内其他阵营粉丝数量占比拆分为各阵营需要被扣除的数量。拆分结果需要取整，优先分配给占比更高的城市，且保证实际扣减总量等于实际超出量。",
-        "badge_label": "09-05 更新"
-      },
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0176",
-        "old_block_id": "block-129",
-        "kind": "list_item",
-        "old_text": "玩家表演增加城市的流行度，如果使城市当前流行度超过流行度上限时，除了增加阵营流行度，还会扣除其他阵营的流行度以维持城市流行度不超过上限。具体做法如下：",
-        "new_text": "根据本次增加的超出上限的城市粉丝数量，按照城市内其他阵营粉丝数量占比拆分为各阵营需要被扣除的数量。拆分结果需要取整，且保证实际扣减总量等于实际超出量。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0176",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "玩家表演增加城市的流行度，如果使城市当前流行度超过流行度上限时，除了增加阵营流行度，还会扣除其他阵营的流行度以维持城市流行度不超过上限。具体做法如下：",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0238": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0238",
-        "old_block_id": "doc-0202",
-        "kind": "list_item",
-        "old_text": "上届花车赢家BUFF：图标和BUFF说明。",
-        "new_text": "花车赢家BUFF：图标和BUFF说明。",
-        "badge_label": "09-05 更新"
-      },
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0238",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "上届花车赢家BUFF：图标和BUFF说明。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0257": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0257",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "花车在某个城市游行时，在地图上被点击打开时的详情界面和等待派出类似，只是最下方显示提示“花车游行中”（KEY）。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0262": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0262",
+        "new_block_id": "doc-0286",
         "old_block_id": "doc-0225",
         "kind": "paragraph",
         "old_text": "单服活动：活动开始时，各个阵营（联盟）的盟主和副盟主作为指挥官。",
@@ -1558,7 +11706,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0262",
+        "new_block_id": "doc-0286",
         "old_block_id": "doc-5-9",
         "kind": "paragraph",
         "old_text": "5.9 地图信息",
@@ -1571,7 +11719,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0262",
+        "new_block_id": "doc-0286",
         "old_block_id": "",
         "kind": "heading",
         "old_text": "",
@@ -1579,14 +11727,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0263": [
+    "doc-0287": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0263",
+        "new_block_id": "doc-0287",
         "old_block_id": "doc-0226",
         "kind": "paragraph",
         "old_text": "跨服活动：活动开始时，各个阵营（服务器）国力最强的2个联盟的盟主和副盟主作为指挥官。",
@@ -1599,7 +11747,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0263",
+        "new_block_id": "doc-0287",
         "old_block_id": "block-152",
         "kind": "paragraph",
         "old_text": "城市节点可以同时显示以下状态：",
@@ -1607,14 +11755,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0264": [
+    "doc-0288": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0264",
+        "new_block_id": "doc-0288",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -1622,14 +11770,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0273": [
+    "doc-0301": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0273",
+        "new_block_id": "doc-0301",
         "old_block_id": "doc-0235",
         "kind": "paragraph",
         "old_text": "表演队伍界面显示当前编入的5个恋人信息和当前的加成比例。",
@@ -1642,7 +11790,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0273",
+        "new_block_id": "doc-0301",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -1650,14 +11798,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0274": [
+    "doc-0302": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0274",
+        "new_block_id": "doc-0302",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -1665,14 +11813,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0275": [
+    "doc-0303": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0275",
+        "new_block_id": "doc-0303",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -1680,29 +11828,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0279": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0279",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果该位置没有恋人，显示文本“暂无恋人”（KEY）。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "figure-0281": [
+    "figure-0309": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "figure-0281",
+        "new_block_id": "figure-0309",
         "old_block_id": "figure-0240",
         "kind": "image",
         "old_text": "[图片] 7893B0589D83A3993ECDBEE1563332BDE027ECC829F6AC148F0C271A97314150",
@@ -1715,7 +11848,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0281",
+        "new_block_id": "figure-0309",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -1723,14 +11856,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-6-2-1-2": [
+    "doc-6-2-1": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-6-2-1-2",
+        "new_block_id": "doc-6-2-1",
         "old_block_id": "",
         "kind": "heading",
         "old_text": "",
@@ -1738,14 +11871,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0290": [
+    "doc-0318": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0290",
+        "new_block_id": "doc-0318",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -1753,14 +11886,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "figure-0291": [
+    "figure-0319": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0291",
+        "new_block_id": "figure-0319",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -1768,14 +11901,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0292": [
+    "doc-0320": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0292",
+        "new_block_id": "doc-0320",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -1783,14 +11916,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0293": [
+    "doc-0321": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0293",
+        "new_block_id": "doc-0321",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -1798,14 +11931,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0294": [
+    "doc-0322": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0294",
+        "new_block_id": "doc-0322",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -1813,14 +11946,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0295": [
+    "doc-0323": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0295",
+        "new_block_id": "doc-0323",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -1828,14 +11961,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0296": [
+    "doc-0324": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0296",
+        "new_block_id": "doc-0324",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -1843,14 +11976,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0297": [
+    "doc-0325": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0297",
+        "new_block_id": "doc-0325",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -1858,14 +11991,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "figure-0298": [
+    "figure-0326": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0298",
+        "new_block_id": "figure-0326",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -1873,14 +12006,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0317": [
+    "doc-0349": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0317",
+        "new_block_id": "doc-0349",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -1888,14 +12021,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "figure-0325": [
+    "figure-0364": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "figure-0325",
+        "new_block_id": "figure-0364",
         "old_block_id": "figure-0274",
         "kind": "image",
         "old_text": "[图片] 20E4BC8E43A995EED6F3AE207437E7ED382DE70739FF627D74E98A6B8AA66BD5",
@@ -1908,7 +12041,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "figure-0325",
+        "new_block_id": "figure-0364",
         "old_block_id": "figure-5",
         "kind": "image",
         "old_text": "[图片] assets/docx-images/figure-05.png",
@@ -1921,7 +12054,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0325",
+        "new_block_id": "figure-0364",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -1929,14 +12062,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0332": [
+    "doc-0373": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0332",
+        "new_block_id": "doc-0373",
         "old_block_id": "doc-0281",
         "kind": "list_item",
         "old_text": "背包中的道具：操作变更背包内容后实时保存。操作实现，参考KC活动“香料之路”的规则。",
@@ -1949,7 +12082,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0332",
+        "new_block_id": "doc-0373",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -1957,14 +12090,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0336": [
+    "doc-0378": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0336",
+        "new_block_id": "doc-0378",
         "old_block_id": "doc-0285",
         "kind": "list_item",
         "old_text": "界面下方是仓库，其中表演道具按以下顺序排列：品质降序、等级、演奏值降序、道具ID降序。",
@@ -1977,7 +12110,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0336",
+        "new_block_id": "doc-0378",
         "old_block_id": "doc-6-1-2",
         "kind": "paragraph",
         "old_text": "6.1.2 表演道具",
@@ -1985,14 +12118,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0337": [
+    "doc-0380": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0337",
+        "new_block_id": "doc-0380",
         "old_block_id": "doc-0286",
         "kind": "list_item",
         "old_text": "道具在仓库和背包中直接显示图标、形状、尺寸、等级、演奏值。",
@@ -2005,7 +12138,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0337",
+        "new_block_id": "doc-0380",
         "old_block_id": "doc-0132",
         "kind": "list_item",
         "old_text": "表演道具分为键盘、弦乐、管乐、打击、服装和舞台装饰6种，共60件。品质为红、金、紫、蓝。道具的形状和朝向固定，放入背包后不可旋转。",
@@ -2013,14 +12146,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0338": [
+    "doc-0381": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0338",
+        "new_block_id": "doc-0381",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -2028,59 +12161,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0339": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0339",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果拖动的道具增加某个已有套装的数量，该套装图标的角标数字临时显示放入这个套装的数值，但是用特殊字色表示是临时变化；",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0340": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0340",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "界面下方是仓库区域，仓库区域支持多页，其中表演道具按以下顺序排列：品质降序、等级、演奏值降序、道具ID降序。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0341": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0341",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "道具在仓库和背包中直接显示：图标、形状、尺寸、等级、演奏值，并紧密摆放。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0344": [
+    "doc-0388": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0344",
+        "new_block_id": "doc-0388",
         "old_block_id": "doc-0289",
         "kind": "list_item",
         "old_text": "仓库区域包含组合筛选功能：道具类别（KEY）、套装（KEY）。默认选择“全部”。",
@@ -2093,7 +12181,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0344",
+        "new_block_id": "doc-0388",
         "old_block_id": "block-214",
         "kind": "list_item",
         "old_text": "从仓库将道具放入背包的操作，包括：拖动放入、重叠替换道具、无法放置退回仓库、拖动移出，操作后实时保存。操作实现，参考KC活动“香料之路”的规则。",
@@ -2106,7 +12194,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0344",
+        "new_block_id": "doc-0388",
         "old_block_id": "doc-0134",
         "kind": "paragraph",
         "old_text": "背包固定为8×8，初始开放中央2×4格。所有道具布局必须同时满足：",
@@ -2114,259 +12202,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0345": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0345",
-        "old_block_id": "doc-0290",
-        "kind": "list_item",
-        "old_text": "筛选项为游戏内容道具类别和套装的名称，按名称字符降序排列。",
-        "new_text": "仓库区域包含筛选功能：在区域右上角显示筛选图标按钮，按钮状态包括：已设置和没有设置筛选。点击打开筛选设置界面。",
-        "badge_label": "09-05 更新"
-      },
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0345",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "筛选项为游戏内容道具类别和套装的名称，按名称字符降序排列。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0346": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "figure-0346",
-        "old_block_id": "doc-0291",
-        "kind": "image",
-        "old_text": "道具名称后额外显示当前拥有的该类型道具的数量，如：道具名称（xx）；",
-        "new_text": "[图片] 1998E2BDE057A3B5B94FBE99C6AC41F7CFBC5BB113CEA6C074A74EA81CA27885",
-        "badge_label": "09-05 更新"
-      },
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "figure-0346",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "道具名称后额外显示当前拥有的该类型道具的数量，如：道具名称（xx）；",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0347": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0347",
-        "old_block_id": "doc-0292",
-        "kind": "list_item",
-        "old_text": "套装名称后额外显示当前拥有的该套装道具的数量，如：套装A（xx）；",
-        "new_text": "标题：筛选（KEY）。",
-        "badge_label": "09-05 更新"
-      },
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0347",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "套装名称后额外显示当前拥有的该套装道具的数量，如：套装A（xx）；",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0348": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0348",
-        "old_block_id": "doc-0293",
-        "kind": "list_item",
-        "old_text": "筛选项的选择，在退出界面后清除。",
-        "new_text": "筛选项1：套装（KEY），按名称字符升序排列。可复选。",
-        "badge_label": "09-05 更新"
-      },
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0348",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "筛选项的选择，在退出界面后清除。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0349": [
+    "doc-0457": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0349",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "套装选项读取musiCity_toolSet中的数据显示，名称后额外显示当前拥有的该套装道具的数量，如：套装A（xx）；",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0350": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0350",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "筛选项2：道具类别名称（KEY），按名称字符升序排列。可复选。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0351": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0351",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "套装类别读取musiCity_tool.category中的种类显示，名称后额外显示当前拥有的该套装道具的数量，如：套装A（xx）；",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0352": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0352",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "按钮：取消筛选（KEY），点击取消全部选项；确定（KEY），点击保存筛选项、关闭界面，将仓库按照当前筛选项进行筛选显示。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0353": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0353",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "确认按钮上显示满足当前筛选项的道具数量。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0354": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0354",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "筛选项的选择，在退出表演准备界面后会清除。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0362": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0362",
-        "old_block_id": "doc-0302",
-        "kind": "paragraph",
-        "old_text": "预设（KEY）按钮。点击打开预设界面。",
-        "new_text": "界面下方按钮区，有预设（KEY）按钮。点击打开预设界面。",
-        "badge_label": "09-05 更新"
-      },
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0362",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "预设（KEY）按钮。点击打开预设界面。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0392": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0392",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "触发唯粉事件后，保存玩家的UID进行显示。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0393": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0393",
+        "new_block_id": "doc-0457",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -2374,14 +12217,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0394": [
+    "doc-0458": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0394",
+        "new_block_id": "doc-0458",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -2389,42 +12232,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0444": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0444",
-        "old_block_id": "doc-0382",
-        "kind": "list_item",
-        "old_text": "如果客户端超时没有上报结果，则按照跳过进行计算。",
-        "new_text": "如果客户端没有上报结果，保持本次表演的属性，在后续玩家要表演或是获取活动数据的时候，需要返回“有未完成表演”让玩家继续完成本次表演。",
-        "badge_label": "09-05 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0444",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果客户端超时没有上报结果，则按照跳过进行计算。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0459": [
+    "doc-0539": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0459",
+        "new_block_id": "doc-0539",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -2432,72 +12247,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0460": [
+    "doc-0566": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0460",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果玩家没有阵营，仍然下方扣除值进行显示，但实际不扣除。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0461": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0461",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果玩家角色GDPR，仍然下方扣除值进行显示，但实际不扣除。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-6-5-2-1": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-6-5-2-1",
-        "old_block_id": "doc-6-5-2-1",
-        "kind": "heading",
-        "old_text": "6.5.2.1 花车竞演结算界面",
-        "new_text": "6.5.2.1 连续表演结算界面",
-        "badge_label": "09-05 更新"
-      },
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-6-5-2-1",
-        "old_block_id": "doc-6-4",
-        "kind": "heading",
-        "old_text": "6.4 奖励选项",
-        "new_text": "6.5.2.1 花车竞演结算界面",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0477": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0477",
+        "new_block_id": "doc-0566",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -2505,74 +12262,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0478": [
+    "doc-0574": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0478",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "汇总全部次数的结果显示。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0479": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0479",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "上方增加一行信息显示“连续完美表演%{num}次”（KEY）。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "figure-0480": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "figure-0480",
-        "old_block_id": "",
-        "kind": "image",
-        "old_text": "",
-        "new_text": "[图片] D5575377CB2898A19BAE8EE8287FB04868D2154BD6494BACCEA0A98512323C2C",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-6-5-2-2": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-6-5-2-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.5.2.2 花车竞演结算界面",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0485": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0485",
+        "new_block_id": "doc-0574",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -2580,14 +12277,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0487": [
+    "doc-0576": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0487",
+        "new_block_id": "doc-0576",
         "old_block_id": "doc-0417",
         "kind": "list_item",
         "old_text": "奖励选择将生成3个互不重复的奖励选项，最多包含1个背包扩格选项。玩家可以消耗刷新道具，请求重新生成选项。",
@@ -2600,54 +12297,11 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0487",
+        "new_block_id": "doc-0576",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
         "new_text": "奖励选择将生成3个互不重复的奖励选项，最多包含1个背包扩格选项。玩家可以消耗刷新道具，请求重新生成选项。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0488": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0488",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "每次奖励选择将生成3个互不重复的奖励选项，最多包含1个背包扩格选项。玩家可以消耗刷新道具，请求重新生成选项。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0490": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0490",
-        "old_block_id": "doc-0419",
-        "kind": "paragraph",
-        "old_text": "道具品质和类型的随机权重，读取奖励候选权重（MusicCity_setting.choice_reward_weights）。",
-        "new_text": "奖励选择次数可以累计，玩家可以先不选择、继续表演。",
-        "badge_label": "09-05 更新"
-      },
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0490",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "道具品质和类型的随机权重，读取奖励候选权重（MusicCity_setting.choice_reward_weights）。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -2679,14 +12333,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0491": [
+    "doc-0581": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0491",
+        "new_block_id": "doc-0581",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -2694,14 +12348,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0492": [
+    "doc-0582": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0492",
+        "new_block_id": "doc-0582",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -2709,149 +12363,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0493": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0493",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "根据本次奖励对应的品质权重，随机奖项是否需要包含1个扩格选项。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0494": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0494",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "背包扩格选项的出现概率，读取扩格候选概率（MusicCity_setting.bag_unlock_rate），格式为：普通奖励出现扩格概率，高级奖励出现扩格概率。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0495": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0495",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "玩家背包格子全解锁后，扩格不再作为奖励选项。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0496": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0496",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "根据本次奖励的道具和扩格数量，随机具体选项。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0497": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0497",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "普通奖励：道具和扩格品质随机权重，读取奖励候选权重（MusicCity_setting.choice_reward_weights），具体类型等权重随机。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0498": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0498",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "高级奖励：道具和扩格品质随机权重，读取奖励候选权重（MusicCity_setting.choice_reward_extra_weights），具体类型等权重随机。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0504": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0504",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "界面标题：表演奖励（KEY）。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0505": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0505",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "奖励选择提示：“请选择1个奖励”（KEY）。",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-6-1-2": [
+    "doc-0638": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "7",
         "change_type": "新增",
-        "new_block_id": "doc-6-1-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.1 主界面弹窗",
-        "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0546": [
-      {
-        "version": "V0.1 · 2026-09-05 15:32 当前稿",
-        "date": "2026-09-05",
-        "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
-        "chapter": "7",
-        "change_type": "新增",
-        "new_block_id": "doc-0546",
+        "new_block_id": "doc-0638",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -2859,14 +12378,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "doc-0547": [
+    "doc-0639": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "7",
         "change_type": "新增",
-        "new_block_id": "doc-0547",
+        "new_block_id": "doc-0639",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -2874,47 +12393,19 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-05 更新"
       }
     ],
-    "figure-0548": [
+    "figure-0640": [
       {
         "version": "V0.1 · 2026-09-05 15:32 当前稿",
         "date": "2026-09-05",
         "previous_version": "V0.1 · 2026-09-01 14:01 修改版",
         "chapter": "7",
         "change_type": "新增",
-        "new_block_id": "figure-0548",
+        "new_block_id": "figure-0640",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
         "new_text": "[图片] 574BB821D5C98FE1D2C5A958980E0C11A066689389802EB6081E9E545A40974B",
         "badge_label": "09-05 更新"
-      }
-    ],
-    "doc-0001": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "1",
-        "change_type": "修改",
-        "new_block_id": "doc-0001",
-        "old_block_id": "block-2",
-        "kind": "paragraph",
-        "old_text": "“爱乐之城：心动巡演”是KC新增的以恋人进行音乐表演为主题的冲榜活动，通过“个人表演构筑”和“阵营城市争夺”的两部分玩法，给与玩家准备表演和为阵营在音乐城市争夺流行度的新体验。",
-        "new_text": "“爱乐之城：心动巡演”是KC新增的以恋人进行音乐表演为主题的冲榜活动，通过“个人表演构筑”和“阵营城市争夺”的两部分玩法，给与玩家准备表演和为阵营在音乐城市争夺粉丝的新体验。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "1",
-        "change_type": "修改",
-        "new_block_id": "doc-0001",
-        "old_block_id": "doc-0001",
-        "kind": "paragraph",
-        "old_text": "“心动巡演”是一项以恋人和表演道具为个人构筑基础、以九座城市为阵营竞争空间的排行活动。系统通过“个人表演构筑”和“阵营城市争夺”两条循环，让玩家在每次表演前进行可理解的策略选择，并让个人行为持续改变共享地图状态。",
-        "new_text": "“爱乐之城：心动巡演”是KC新增的以恋人进行音乐表演为主题的冲榜活动，通过“个人表演构筑”和“阵营城市争夺”的两部分玩法，给与玩家准备表演和为阵营在音乐城市争夺流行度的新体验。",
-        "badge_label": "08-25 更新"
       }
     ],
     "doc-0004": [
@@ -3218,36 +12709,6 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0026": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0026",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "等级、开服时间或其他功能开放条件读取功能解锁配置（functionUnlock）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-3-3-2": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-3-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.3.2 参赛资格",
-        "badge_label": "09-01 更新"
-      }
-    ],
     "doc-3-4": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
@@ -3304,14 +12765,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0034": [
+    "doc-0038": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "3",
         "change_type": "修改",
-        "new_block_id": "doc-0034",
+        "new_block_id": "doc-0038",
         "old_block_id": "block-45",
         "kind": "paragraph",
         "old_text": "体力上限、恢复间隔和恢复量读取KC公共体力规则。",
@@ -3324,7 +12785,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "3",
         "change_type": "新增",
-        "new_block_id": "doc-0034",
+        "new_block_id": "doc-0038",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -3347,14 +12808,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0035": [
+    "doc-0039": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "3",
         "change_type": "修改",
-        "new_block_id": "doc-0035",
+        "new_block_id": "doc-0039",
         "old_block_id": "block-47",
         "kind": "paragraph",
         "old_text": "个人人气：玩家每次表演获得个人人气，是个人排行的基础分值。",
@@ -3367,7 +12828,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "3",
         "change_type": "修改",
-        "new_block_id": "doc-0035",
+        "new_block_id": "doc-0039",
         "old_block_id": "doc-0044",
         "kind": "paragraph",
         "old_text": "本场人气用于累计个人人气，并按待数值确认的换算规则写入目标城市个人贡献。阵营总人气读取阵营成员个人人气与城市周期收益的汇总，不额外保存一份与成员总和重复的基础计数。",
@@ -3375,14 +12836,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0036": [
+    "doc-0040": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "3",
         "change_type": "修改",
-        "new_block_id": "doc-0036",
+        "new_block_id": "doc-0040",
         "old_block_id": "block-48",
         "kind": "paragraph",
         "old_text": "阵营总人气：阵营成员个人人气与城市周期产出的阵营人气的汇总值，用于阵营排行。",
@@ -3395,7 +12856,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "3",
         "change_type": "修改",
-        "new_block_id": "doc-0036",
+        "new_block_id": "doc-0040",
         "old_block_id": "doc-3-3-3",
         "kind": "paragraph",
         "old_text": "3.3.3 奖励进度",
@@ -3403,100 +12864,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-3-9-1": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "3",
-        "change_type": "修改",
-        "new_block_id": "doc-3-9-1",
-        "old_block_id": "doc-3-9-1",
-        "kind": "heading",
-        "old_text": "3.9.1 道具商店",
-        "new_text": "3.9.1 道具类型",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "3",
-        "change_type": "修改",
-        "new_block_id": "doc-3-9-1",
-        "old_block_id": "doc-0059",
-        "kind": "heading",
-        "old_text": "未生成的奖励或互动不再补生成；已经固定的候选按服务端结算策略完成或清理，具体关闭窗口处理见待确认B13。",
-        "new_text": "3.9.1 道具商店",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0037": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-0037",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "鲜花，活动新增道具，进入玩家背包，可以保留。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-3-9-2": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "3",
-        "change_type": "新增",
-        "new_block_id": "doc-3-9-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "3.9.2 道具商店",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-3-9-3": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "3",
-        "change_type": "修改",
-        "new_block_id": "doc-3-9-3",
-        "old_block_id": "doc-3-9-2",
-        "kind": "heading",
-        "old_text": "3.9.2 道具仓库",
-        "new_text": "3.9.3 道具仓库",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "3",
-        "change_type": "修改",
-        "new_block_id": "doc-3-9-3",
-        "old_block_id": "doc-3-6-4",
-        "kind": "heading",
-        "old_text": "3.6.4 数据清理",
-        "new_text": "3.9.2 道具仓库",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "figure-0091": [
+    "figure-0096": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "figure-0091",
+        "new_block_id": "figure-0096",
         "old_block_id": "figure-1",
         "kind": "image",
         "old_text": "[图片] assets/docx-images/figure-01.png",
@@ -3509,7 +12884,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "figure-0091",
+        "new_block_id": "figure-0096",
         "old_block_id": "figure-0069",
         "kind": "image",
         "old_text": "[图片] 9C97D1D5C917906F0F68AD6D60C6F8933E2110E6807607DF0472D4C1DBB22E0C",
@@ -3517,85 +12892,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0094": [
+    "doc-0108": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0094",
-        "old_block_id": "block-88",
-        "kind": "list_item",
-        "old_text": "左上显示活动名称（MusicCity_title_01）、活动FAQ入口按钮；右上显示个人排名和个人人气（MusicCity_title_04）。",
-        "new_text": "左上显示标题：活动名称（MusicCity_title_01）、活动FAQ按钮；右上显示个人排名和个人积分（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "4",
-        "change_type": "修改",
-        "new_block_id": "doc-0094",
-        "old_block_id": "doc-0072",
-        "kind": "list_item",
-        "old_text": "左上显示活动名称，右上垂直显示个人排名和个人人气。",
-        "new_text": "左上显示活动名称（MusicCity_title_01）、活动FAQ入口按钮；右上显示个人排名和个人人气（MusicCity_title_04）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0096": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "新增",
-        "new_block_id": "doc-0096",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "点击个人积分弹出通用提示：标题-个人积分；说明-“个人人气+阵营流行度的加成值”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0098": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "修改",
-        "new_block_id": "doc-0098",
-        "old_block_id": "block-91",
-        "kind": "list_item",
-        "old_text": "进入巡演按钮，位于活动信息下方。单服不满足进入所需的联盟条件时，点击提示common_tips_79。",
-        "new_text": "进入活动按钮，位于活动信息下方。单服不满足进入所需的联盟条件时，点击提示common_tips_79。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "4",
-        "change_type": "修改",
-        "new_block_id": "doc-0098",
-        "old_block_id": "doc-0075",
-        "kind": "list_item",
-        "old_text": "按钮下方显示条形聊天组件。",
-        "new_text": "进入巡演按钮，位于活动信息下方。单服不满足进入所需的联盟条件时，点击提示common_tips_79。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0100": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "修改",
-        "new_block_id": "doc-0100",
+        "new_block_id": "doc-0108",
         "old_block_id": "block-94",
         "kind": "paragraph",
         "old_text": "活动主界面（F05至F09），主要包括：巡演地图和城市信息、表演信息、表演准备和进行表演操作按钮。",
@@ -3608,7 +12912,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0100",
+        "new_block_id": "doc-0108",
         "old_block_id": "doc-0077",
         "kind": "paragraph",
         "old_text": "活动主界面（F05至F09）同时展示地图、地图内选中城市信息、表演值、奖励进度和主要操作。",
@@ -3616,14 +12920,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "figure-0101": [
+    "figure-0109": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "figure-0101",
+        "new_block_id": "figure-0109",
         "old_block_id": "figure-2",
         "kind": "image",
         "old_text": "[图片] assets/docx-images/figure-02.png",
@@ -3636,7 +12940,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "figure-0101",
+        "new_block_id": "figure-0109",
         "old_block_id": "figure-0078",
         "kind": "image",
         "old_text": "[图片] 76B0B1A897B4DED8B4BC0CF1F50ECD073EC375416B73AD725A18F7AF1F629F79",
@@ -3644,14 +12948,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0102": [
+    "doc-0110": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0102",
+        "new_block_id": "doc-0110",
         "old_block_id": "block-96",
         "kind": "paragraph",
         "old_text": "图4-3 活动主界面F05-F06",
@@ -3664,7 +12968,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0102",
+        "new_block_id": "doc-0110",
         "old_block_id": "doc-0079",
         "kind": "paragraph",
         "old_text": "图4-3 活动主界面F05",
@@ -3672,42 +12976,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0104": [
+    "doc-0113": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0104",
-        "old_block_id": "block-98",
-        "kind": "list_item",
-        "old_text": "顶栏显示活动名称、FAQ、个人排名和个人人气。",
-        "new_text": "顶栏显示活动名称（KEY）、FAQ、个人排名和个人积分（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "4",
-        "change_type": "修改",
-        "new_block_id": "doc-0104",
-        "old_block_id": "doc-0083",
-        "kind": "list_item",
-        "old_text": "顶栏显示活动名称、帮助、个人排名和个人人气。",
-        "new_text": "顶栏显示活动名称、FAQ、个人排名和个人人气。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0105": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "修改",
-        "new_block_id": "doc-0105",
+        "new_block_id": "doc-0113",
         "old_block_id": "block-99",
         "kind": "list_item",
         "old_text": "上半区显示巡演地图。地图上的城市显示选中、指挥标记、激活、占领、达到上限和争夺状态。地图底部显示当前城市主要信息，可展开显示更多信息：基础属性、阵营占比、个人贡献、城市效果、标记操作等。具体详见后续章节。",
@@ -3720,7 +12996,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0105",
+        "new_block_id": "doc-0113",
         "old_block_id": "doc-0084",
         "kind": "list_item",
         "old_text": "上半区显示九城地图；城市节点可同时显示选中、指挥标记、激活、占领、达到上限和争夺状态。",
@@ -3728,14 +13004,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0106": [
+    "doc-0114": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0106",
+        "new_block_id": "doc-0114",
         "old_block_id": "block-100",
         "kind": "list_item",
         "old_text": "首次进入随机选中城市；后续选中上次选中的城市。",
@@ -3748,7 +13024,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0106",
+        "new_block_id": "doc-0114",
         "old_block_id": "doc-0085",
         "kind": "list_item",
         "old_text": "地图底部显示当前城市摘要；展开后在同一区域显示基础属性、阵营占比、门槛、个人贡献、当期效果、最近变化和标记操作。",
@@ -3756,14 +13032,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0107": [
+    "doc-0115": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0107",
+        "new_block_id": "doc-0115",
         "old_block_id": "block-101",
         "kind": "list_item",
         "old_text": "地图下方显示玩家的表演信息，包括恋人表演值和表演道具演奏值。",
@@ -3776,7 +13052,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0107",
+        "new_block_id": "doc-0115",
         "old_block_id": "doc-0086",
         "kind": "list_item",
         "old_text": "地图下方显示表演值和人气值。恋人队伍详情通过表演队伍入口打开F52。",
@@ -3784,14 +13060,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0108": [
+    "doc-0116": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0108",
+        "new_block_id": "doc-0116",
         "old_block_id": "block-102",
         "kind": "list_item",
         "old_text": "操作按钮区域左侧为表演准备按钮，按钮上方显示距离下一次可选奖励的表演次数；右侧为开始表演按钮，上方显示巡演体力资源条。",
@@ -3804,132 +13080,12 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0108",
+        "new_block_id": "doc-0116",
         "old_block_id": "doc-0087",
         "kind": "list_item",
         "old_text": "左侧为表演准备按钮，上方显示距离下一次奖励的表演次数；右侧为开始表演按钮，上方显示巡演体力。",
         "new_text": "操作按钮区域左侧为表演准备按钮，按钮上方显示距离下一次可选奖励的表演次数；右侧为开始表演按钮，上方显示巡演体力资源条。",
         "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0110": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "新增",
-        "new_block_id": "doc-0110",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "每次聚焦在主界面地图时，显示最近若干个（MusicCity_setting.map_ player_limit）其他表演玩家的信息：在发生表演城市上方显示表演玩家的头像和表演特效。每个城市设置最多显示玩家数（MusicCity_setting.map_city_player_limit）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0111": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "新增",
-        "new_block_id": "doc-0111",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "持续在主界面地图时，会间隔刷新显示新的其他表演玩家信息。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0112": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "新增",
-        "new_block_id": "doc-0112",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "地图区域的左上角显示玩家所在阵营获得的占领城市效果图标。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0113": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "新增",
-        "new_block_id": "doc-0113",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "点击城市效果图标，弹出通用提示框显示效果说明。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0114": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "新增",
-        "new_block_id": "doc-0114",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "地图区域的右上角显示玩家所在阵营的流行度值。详见下文阵营流行度章节描述。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0115": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "新增",
-        "new_block_id": "doc-0115",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "地图区域的左下角显示图标按钮：选项奖励。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0116": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "新增",
-        "new_block_id": "doc-0116",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "选项奖励图标外圈有进度条，显示下次奖励还需要几次表演可获得。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0117": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "新增",
-        "new_block_id": "doc-0117",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果有可领的奖励，在图标上显示次数红点提示。点击打开奖励选项界面。",
-        "badge_label": "09-01 更新"
       }
     ],
     "doc-0118": [
@@ -3943,7 +13099,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "如果没有可领的奖励，点击进行飘字提示（KEY）。",
+        "new_text": "每次聚焦在主界面地图时，显示最近若干个（MusicCity_setting.map_ player_limit）其他表演玩家的信息：在发生表演城市上方显示表演玩家的头像和表演特效。每个城市设置最多显示玩家数（MusicCity_setting.map_city_player_limit）。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -3958,7 +13114,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "界面下半区域显示：当前演奏值（KEY）、动态居中布局的操作按钮。",
+        "new_text": "持续在主界面地图时，会间隔刷新显示新的其他表演玩家信息。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -3973,7 +13129,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "左侧为连续表演（KEY）按钮，按钮上方显示当前鲜花数量（KEY）。",
+        "new_text": "地图区域的左上角显示玩家所在阵营获得的占领城市效果图标。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -3988,7 +13144,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "连续表演按钮，在消耗体力数量达到设定（MusicCity_setting.skip_condition）时才显示。",
+        "new_text": "点击城市效果图标，弹出通用提示框显示效果说明。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -4003,7 +13159,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "玩家没选中城市时，正常显示，点击提示“请先选择1个表演城市”（KEY）。",
+        "new_text": "地图区域的右上角显示玩家所在阵营的流行度值。详见下文阵营流行度章节描述。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -4018,7 +13174,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "点击连续表演后，会弹出连续表演弹窗，详见下文章节描述。",
+        "new_text": "地图区域的左下角显示图标按钮：选项奖励。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -4033,7 +13189,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "在鲜花数量为0时，正常显示，点击飘字提示“鲜花数量不足”（KEY）。",
+        "new_text": "选项奖励图标外圈有进度条，显示下次奖励还需要几次表演可获得。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -4048,33 +13204,48 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），按钮灰态显示，点击飘字提示“活动结束前x分钟不可以连续表演”（KEY）。",
+        "new_text": "如果有可领的奖励，在图标上显示次数红点提示。点击打开奖励选项界面。",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0126": [
+    "doc-0129": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "新增",
-        "new_block_id": "doc-0126",
+        "new_block_id": "doc-0129",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "右侧为开始表演（KEY）按钮，上方显示巡演体力资源条。",
+        "new_text": "连续表演按钮，在消耗体力数量达到设定（MusicCity_setting.skip_condition）时才显示。",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0128": [
+    "doc-0131": [
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "4",
+        "change_type": "新增",
+        "new_block_id": "doc-0131",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "点击连续表演后，会弹出连续表演弹窗，详见下文章节描述。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0136": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0128",
+        "new_block_id": "doc-0136",
         "old_block_id": "block-105",
         "kind": "list_item",
         "old_text": "体力不足时，正常显示，点击弹出商店界面购买体力；",
@@ -4087,7 +13258,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0128",
+        "new_block_id": "doc-0136",
         "old_block_id": "doc-4-4",
         "kind": "list_item",
         "old_text": "4.4 附属入口",
@@ -4095,98 +13266,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0129": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "修改",
-        "new_block_id": "doc-0129",
-        "old_block_id": "block-106",
-        "kind": "list_item",
-        "old_text": "表演背包为空时，正常显示，点击提示“没有设置背包无法表演”。",
-        "new_text": "玩家没选中城市时，正常显示，点击提示“请先选择1个表演城市”（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "4",
-        "change_type": "修改",
-        "new_block_id": "doc-0129",
-        "old_block_id": "doc-0090",
-        "kind": "list_item",
-        "old_text": "表演队伍、活动战报、排行与奖励均从活动首页或活动主界面进入。关闭附属页面后返回原来源，并恢复选中城市、地图信息状态和上次查看页签。",
-        "new_text": "表演背包为空时，正常显示，点击提示“没有设置背包无法表演”。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0130": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "修改",
-        "new_block_id": "doc-0130",
-        "old_block_id": "block-107",
-        "kind": "list_item",
-        "old_text": "底栏左侧为返回图标按钮，右侧依次为表演队伍、活动战报和排行按钮。",
-        "new_text": "表演背包为空时，正常显示，点击提示“没有设置背包无法表演”（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "4",
-        "change_type": "新增",
-        "new_block_id": "doc-0130",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "底栏左侧为返回图标按钮，右侧依次为表演队伍、活动战报和排行按钮。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0131": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "4",
-        "change_type": "修改",
-        "new_block_id": "doc-0131",
-        "old_block_id": "block-108",
-        "kind": "list_item",
-        "old_text": "表演队伍，点击打开界面-表演队伍（F52）。",
-        "new_text": "底栏左侧为返回图标按钮，右侧依次为表演准备（KEY）、表演队伍（KEY）、活动战报（KEY）和排行奖励（KEY）按钮。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "4",
-        "change_type": "新增",
-        "new_block_id": "doc-0131",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "表演队伍，点击打开界面-表演队伍（F52）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0132": [
+    "doc-0141": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "新增",
-        "new_block_id": "doc-0132",
+        "new_block_id": "doc-0141",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -4194,14 +13281,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0133": [
+    "doc-0142": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "新增",
-        "new_block_id": "doc-0133",
+        "new_block_id": "doc-0142",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -4209,14 +13296,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0134": [
+    "doc-0143": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "新增",
-        "new_block_id": "doc-0134",
+        "new_block_id": "doc-0143",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -4224,14 +13311,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0135": [
+    "doc-0144": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "4",
         "change_type": "新增",
-        "new_block_id": "doc-0135",
+        "new_block_id": "doc-0144",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -4239,14 +13326,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "figure-0138": [
+    "figure-0149": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "figure-0138",
+        "new_block_id": "figure-0149",
         "old_block_id": "figure-3",
         "kind": "image",
         "old_text": "[图片] assets/docx-images/figure-03.png",
@@ -4259,7 +13346,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "figure-0138",
+        "new_block_id": "figure-0149",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -4267,14 +13354,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0141": [
+    "doc-0152": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0141",
+        "new_block_id": "doc-0152",
         "old_block_id": "block-117",
         "kind": "list_item",
         "old_text": "城市级别（city_level），用以展示给玩家城市的规模和效果强弱，无相关规则。",
@@ -4287,7 +13374,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0141",
+        "new_block_id": "doc-0152",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -4295,14 +13382,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0143": [
+    "doc-0153": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0143",
+        "new_block_id": "doc-0153",
         "old_block_id": "block-119",
         "kind": "list_item",
         "old_text": "流行度上限（popularity_cap）、激活门槛（active_abs）、激活所需占比（active_ratio）、占领门槛（occupy_abs）、占领所需占比（occupy_ratio），用于城市争夺相关的属性。",
@@ -4315,7 +13402,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0143",
+        "new_block_id": "doc-0153",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -4323,14 +13410,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0144": [
+    "doc-0154": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0144",
+        "new_block_id": "doc-0154",
         "old_block_id": "block-120",
         "kind": "list_item",
         "old_text": "候选效果（effect_ids），占领城市后获得的效果。关联到城市效果配置表（MusicCity_cityEffect）。",
@@ -4343,7 +13430,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0144",
+        "new_block_id": "doc-0154",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -4351,14 +13438,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0145": [
+    "doc-0155": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0145",
+        "new_block_id": "doc-0155",
         "old_block_id": "block-121",
         "kind": "list_item",
         "old_text": "联通城市（connected_city_ids），表示城市之间联通关系。",
@@ -4371,7 +13458,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0145",
+        "new_block_id": "doc-0155",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -4394,171 +13481,6 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0146": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0146",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "在主界面点击选中地图上的城市时，在演奏值上方弹出城市详情界面，并给地图附带一层蒙版、但左上角的占领城市效果图标和右上角的阵营流行度界面正常显示。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0147": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0147",
-        "old_block_id": "",
-        "kind": "image",
-        "old_text": "",
-        "new_text": "[图片] 0A965AF52D6D59231DAA105920223A20A5E0DC9A69AA76C6CB0C34B58CF0F7C1",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0148": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0148",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "城市详情包括以下内容：",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0149": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0149",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "城市信息，包括：图标、标记图标/标记按钮、占领情况、城市名称、等级、分享按钮、占领保护倒计时图标、花车加成倒计时图标。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0150": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0150",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "占领情况，在城市被占领的情况下显示文本“%{name}占领”（KEY）。文本根据是否自身所在阵营占领，区别显示为敌对或友善字色。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0151": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0151",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "占领保护倒计时图标点击弹窗通用提示框显示：标题（KEY）、说明（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0152": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0152",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "花车加成倒计时图标点击弹窗通用提示框显示：标题（KEY）、说明（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0153": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0153",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "标记按钮，对所有玩家显示，点击时根据是否有权限标记区分处理：",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0154": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0154",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "有权限标记的，打开标记窗口进行标记处理。复用KC活动遗迹争夺的标记功能。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0155": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0155",
-        "old_block_id": "",
-        "kind": "image",
-        "old_text": "",
-        "new_text": "[图片] F39650AAC60F46B4B97B10E0B9BFCBD1ABD0F8F9A193BEBBB9637D322D35C017",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0156": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0156",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "没权限标记的，根据活动是单服或是跨服进行飘字提示：",
-        "badge_label": "09-01 更新"
-      }
-    ],
     "doc-0157": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
@@ -4568,24 +13490,24 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0157",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "paragraph",
         "old_text": "",
-        "new_text": "单服：“联盟的盟主和副盟主可以进行标记”（KEY）。",
+        "new_text": "在主界面点击选中地图上的城市时，在演奏值上方弹出城市详情界面，并给地图附带一层蒙版、但左上角的占领城市效果图标和右上角的阵营流行度界面正常显示。",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0158": [
+    "figure-0158": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0158",
+        "new_block_id": "figure-0158",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "image",
         "old_text": "",
-        "new_text": "跨服：“阵营前2联盟的盟主和副盟主可以进行标记”（KEY）。",
+        "new_text": "[图片] 0A965AF52D6D59231DAA105920223A20A5E0DC9A69AA76C6CB0C34B58CF0F7C1",
         "badge_label": "09-01 更新"
       }
     ],
@@ -4598,99 +13520,24 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0159",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "paragraph",
         "old_text": "",
-        "new_text": "分享按钮，对所有玩家显示，点击弹出二次确认提示，确认后将建筑信息分享到对应聊天频道。",
+        "new_text": "城市详情包括以下内容：",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0160": [
+    "doc-0166": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0160",
+        "new_block_id": "doc-0166",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "单服：提示“确认分享%{cityname}到联盟聊天频道？”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0161": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0161",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "跨服：提示“确认分享%{cityname}到全服聊天频道？”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0162": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0162",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "占领信息，根据城市显示：",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0163": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0163",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "占领流行度（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0164": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0164",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "占领期间（KEY）流行度的间隔增加值（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0165": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0165",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "城市的占领效果文本。",
+        "new_text": "标记按钮，对所有玩家显示，点击时根据是否有权限标记区分处理：",
         "badge_label": "09-01 更新"
       }
     ],
@@ -4705,37 +13552,22 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "占领阵营的占比值额外显示一个信息：占领减少速度。",
+        "new_text": "有权限标记的，打开标记窗口进行标记处理。复用KC活动遗迹争夺的标记功能。",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0168": [
+    "figure-0168": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0168",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "点击FAQ图标按钮后弹出通用提示框显示占领的规则FAQ：标题（KEY）、内容（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0169": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0169",
+        "new_block_id": "figure-0168",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
-        "new_text": "[图片] C53238ACC98F61C233999AD53A37A109CBF3430CE4DC2E15F3411344E6D3C014",
+        "new_text": "[图片] F39650AAC60F46B4B97B10E0B9BFCBD1ABD0F8F9A193BEBBB9637D322D35C017",
         "badge_label": "09-01 更新"
       }
     ],
@@ -4748,66 +13580,10 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0170",
         "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "城市详情界面两侧显示翻页按钮，可以点击翻页或通过左右滑动，在地图城市之间进行切换。切换顺序按照城市的ID循环。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0171": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0171",
-        "old_block_id": "block-123",
-        "kind": "paragraph",
-        "old_text": "城市的争夺实际是通过玩家个人表演贡献阵营流行度，再通过城市中阵营流行度占比进行争夺。",
-        "new_text": "城市争夺，是指玩家通过个人表演提高阵营在城市中的粉丝数量占比来占领城市。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0171",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "城市的争夺实际是通过玩家个人表演贡献阵营流行度，再通过城市中阵营流行度占比进行争夺。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0172": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0172",
-        "old_block_id": "block-124",
-        "kind": "list_item",
-        "old_text": "玩家每次进行个人表演后，表演人气按待数值确认的换算规则，作为该次对目标城市的个人流行度贡献。",
-        "new_text": "玩家每次进行个人表演后，表演人气都将按规则换算成玩家获得的城市粉丝数量，从而增加阵营在该城市的粉丝数量占比。具体换算公式待数值确认。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0172",
-        "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "玩家每次进行个人表演后，表演人气按待数值确认的换算规则，作为该次对目标城市的个人流行度贡献。",
-        "badge_label": "08-25 更新"
+        "new_text": "没权限标记的，根据活动是单服或是跨服进行飘字提示：",
+        "badge_label": "09-01 更新"
       }
     ],
     "doc-0173": [
@@ -4816,8 +13592,98 @@ window.KNOWLEDGE_HISTORY = {
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
-        "change_type": "修改",
+        "change_type": "新增",
         "new_block_id": "doc-0173",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "分享按钮，对所有玩家显示，点击弹出二次确认提示，确认后将建筑信息分享到对应聊天频道。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0176": [
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0176",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "占领信息，根据城市显示：",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0179": [
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0179",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "城市的占领效果文本。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0183": [
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0183",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "占领阵营的占比值额外显示一个信息：占领减少速度。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "figure-0185": [
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "figure-0185",
+        "old_block_id": "",
+        "kind": "image",
+        "old_text": "",
+        "new_text": "[图片] C53238ACC98F61C233999AD53A37A109CBF3430CE4DC2E15F3411344E6D3C014",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0186": [
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0186",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "城市详情界面两侧显示翻页按钮，可以点击翻页或通过左右滑动，在地图城市之间进行切换。切换顺序按照城市的ID循环。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0189": [
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "修改",
+        "new_block_id": "doc-0189",
         "old_block_id": "block-125",
         "kind": "list_item",
         "old_text": "城市中每个阵营的流行度，为该阵营玩家的个人流行度贡献之和。",
@@ -4830,7 +13696,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0173",
+        "new_block_id": "doc-0189",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -4838,42 +13704,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-5-4-1": [
+    "doc-0194": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-5-4-1",
-        "old_block_id": "block-126",
-        "kind": "heading",
-        "old_text": "城市的当前总流行度，为全部阵营流行度之和。",
-        "new_text": "5.4.1 城市粉丝数量上限",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-4-1",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "城市的当前总流行度，为全部阵营流行度之和。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0174": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0174",
+        "new_block_id": "doc-0194",
         "old_block_id": "doc-5-4-1",
         "kind": "paragraph",
         "old_text": "5.4.1 城市流行度上限",
@@ -4886,7 +13724,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0174",
+        "new_block_id": "doc-0194",
         "old_block_id": "",
         "kind": "heading",
         "old_text": "",
@@ -4894,42 +13732,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0175": [
+    "doc-0198": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0175",
-        "old_block_id": "block-128",
-        "kind": "paragraph",
-        "old_text": "每座城市有各自的流行度上限（MusicCity_city.popularity_cap）。",
-        "new_text": "玩家表演获得城市的粉丝数量，如果使城市各个阵营的粉丝数量之和超过上限时，表演玩家正常增加粉丝，同时会额外扣除其他阵营的粉丝数量以维持城市粉丝数量不超过上限。具体做法如下：",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0175",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "每座城市有各自的流行度上限（MusicCity_city.popularity_cap）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0177": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0177",
+        "new_block_id": "doc-0198",
         "old_block_id": "block-130",
         "kind": "list_item",
         "old_text": "根据本次增加超出上限的城市流行度值，按照城市内其他阵营当前流行度占比拆分为各阵营需要被扣除的数量。拆分结果需要取整，且保证实际扣减总量等于实际超出量。",
@@ -4942,7 +13752,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0177",
+        "new_block_id": "doc-0198",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -4950,154 +13760,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0178": [
+    "doc-0200": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0178",
-        "old_block_id": "block-131",
-        "kind": "list_item",
-        "old_text": "在扣减的阵营中，从个人贡献大于扣减值的玩家中随机1个作为目标并扣减；如果单个玩家可扣数量不足时，继续选择同阵营其他玩家扣减。",
-        "new_text": "达到上限的扣减情况，记录到双方的战报。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0178",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "在扣减的阵营中，从个人贡献大于扣减值的玩家中随机1个作为目标并扣减；如果单个玩家可扣数量不足时，继续选择同阵营其他玩家扣减。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-5-5": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-5-5",
-        "old_block_id": "block-132",
-        "kind": "heading",
-        "old_text": "目标阵营全部可扣贡献不足时，不足部分不再写入新贡献，不转扣其他阵营。",
-        "new_text": "5.5 城市占领",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-5",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "目标阵营全部可扣贡献不足时，不足部分不再写入新贡献，不转扣其他阵营。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0179": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0179",
-        "old_block_id": "doc-5-5",
-        "kind": "paragraph",
-        "old_text": "5.5 城市激活和占领",
-        "new_text": "阵营在城市的粉丝数量占比=阵营在城市的粉丝数量/城市的粉丝数量上限。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0179",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.5 城市激活和占领",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0180": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0180",
-        "old_block_id": "block-134",
-        "kind": "paragraph",
-        "old_text": "某个阵营在城市的流行度值满足该城市的激活绝对值（MusicCity_city.active_abs）且阵营贡献占比达到城市激活占比（MusicCity_city.active_ratio）时，该阵营激活城市。多个阵营可以同时激活同一城市。",
-        "new_text": "某个阵营在城市的粉丝数量占比达到城市的占领占比（MusicCity_city.occupy_ratio），且该阵营的城市粉丝占比是该城市的唯一第一时，该阵营占领城市。每座城市同时只能有1个占领阵营，并列第一时无人占领。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0180",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "某个阵营在城市的流行度值满足该城市的激活绝对值（MusicCity_city.active_abs）且阵营贡献占比达到城市激活占比（MusicCity_city.active_ratio）时，该阵营激活城市。多个阵营可以同时激活同一城市。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0181": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0181",
-        "old_block_id": "block-135",
-        "kind": "list_item",
-        "old_text": "某个阵营在城市的流行度值满足该城市的占领绝对值（MusicCity_city.occupy_abs）且阵营贡献占比达到城市占领占比（MusicCity_city.occupy_ratio），同时该阵营的城市流行度占比是该城市的唯一第一时，该阵营占领城市。每座城市同时只能有1个占领阵营，并列第一时无人占领。",
-        "new_text": "城市被占领后，会进入一个保护倒计时（occupy_cd），期间该城市不会变更占领状态，即便占领的阵营不再满足占领条件。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0181",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "某个阵营在城市的流行度值满足该城市的占领绝对值（MusicCity_city.occupy_abs）且阵营贡献占比达到城市占领占比（MusicCity_city.occupy_ratio），同时该阵营的城市流行度占比是该城市的唯一第一时，该阵营占领城市。每座城市同时只能有1个占领阵营，并列第一时无人占领。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0182": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0182",
+        "new_block_id": "doc-0200",
         "old_block_id": "block-139",
         "kind": "paragraph",
         "old_text": "激活和占领城市，可以按固定周期为阵营增加额外的阵营人气。",
@@ -5110,7 +13780,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0182",
+        "new_block_id": "doc-0200",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -5118,14 +13788,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0183": [
+    "doc-0201": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0183",
+        "new_block_id": "doc-0201",
         "old_block_id": "block-140",
         "kind": "list_item",
         "old_text": "占领城市的阵营可以获得城市占领效果的增幅。",
@@ -5138,7 +13808,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0183",
+        "new_block_id": "doc-0201",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -5146,14 +13816,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0184": [
+    "doc-0202": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0184",
+        "new_block_id": "doc-0202",
         "old_block_id": "block-141",
         "kind": "list_item",
         "old_text": "收益结算，读取城市周期收益间隔（MusicCity_setting.city_income_interval）。",
@@ -5166,7 +13836,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0184",
+        "new_block_id": "doc-0202",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -5174,126 +13844,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0185": [
+    "doc-0207": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0185",
-        "old_block_id": "block-142",
-        "kind": "list_item",
-        "old_text": "激活和占领城市的收益数值、待数值确认后补充。",
-        "new_text": "占领期间，按配置时间周期性地为阵营增加阵营流行度、同时减少一定比例的粉丝数量占比。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0185",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "激活和占领城市的收益数值、待数值确认后补充。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0186": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0186",
-        "old_block_id": "doc-5-7",
-        "kind": "list_item",
-        "old_text": "5.7 城市占领效果",
-        "new_text": "周期时间，读取城市占领周期收益间隔（MusicCity_setting.city_income_interval）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0186",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.7 城市占领效果",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0187": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0187",
-        "old_block_id": "block-144",
-        "kind": "list_item",
-        "old_text": "每座城市至少配置2个占领效果（MusicCity_city. effect_ids）。",
-        "new_text": "流行度值加值，读取城市周期收益流行度（MusicCity_city. occupy_ income_pop）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0187",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "每座城市至少配置2个占领效果（MusicCity_city. effect_ids）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0188": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0188",
-        "old_block_id": "block-145",
-        "kind": "list_item",
-        "old_text": "每次活动开始时，每座城市从各自配置的效果中等概率抽取1个效果作为本次活动使用的效果。",
-        "new_text": "减少的分数数量占比，读取城市周期粉丝减少（MusicCity_city. occupy_ fans_ reduce）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0188",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "每次活动开始时，每座城市从各自配置的效果中等概率抽取1个效果作为本次活动使用的效果。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0189": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0189",
+        "new_block_id": "doc-0207",
         "old_block_id": "block-146",
         "kind": "list_item",
         "old_text": "城市效果的类型、触发、目标、取值和值参数读取城市效果配置表（MusicCity_cityEffect）。",
@@ -5306,372 +13864,12 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0189",
+        "new_block_id": "doc-0207",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
         "new_text": "城市效果的类型、触发、目标、取值和值参数读取城市效果配置表（MusicCity_cityEffect）。",
         "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-5-5-2": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-5-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.5.2 阵营流行度",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0190": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0190",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "在地图的右上角显示自身阵营流行度进度。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0191": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0191",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "标题：阵营流行度（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0192": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0192",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "流行度值：以进度条的形式显示，并在进度条上显示数字。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0193": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0193",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "点击流行度进度区域展开活动阵营流行度排行。高度自适应阵营数量、但最多显示5个、其他通过滑动列表的形式查看。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0194": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0194",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "流行度值前显示阵营名称，流行度进度条上显示信息为：当前进度、阵营占领的周期收益（xxx/min）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0195": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0195",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "打开后默认列表从第1名开始显示，如果玩家阵营不在当前列表区域内，则滚动到玩家所在阵营的位置。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0196": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0196",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "玩家所在阵营名称特殊字色显示，并且进度条也突出显示。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0197": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0197",
-        "old_block_id": "",
-        "kind": "image",
-        "old_text": "",
-        "new_text": "[图片] D15FC9D0DA41B845594AB05E57FDEB886B940B55C3EFD7681A26CCF35942DE3F",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0198": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0198",
-        "old_block_id": "",
-        "kind": "image",
-        "old_text": "",
-        "new_text": "[图片] 2A0E715F0FBFB5211195A1DE6FD0D1440F8A1B040EC615B08BA00A47422B6B2B",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-5-5-3": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-5-3",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.5.3 占领提示",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0199": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0199",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "城市被阵营占领时，会推送给全部玩家一条事件消息，当玩家在活动主界面时弹出，显示在界面的左侧上方。信息文本（KEY）包括：占领阵营名称、城市名称的传参、原占领阵营名称。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0200": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0200",
-        "old_block_id": "",
-        "kind": "image",
-        "old_text": "",
-        "new_text": "[图片] 39648729A435EE66D3D999622F55839300E9C6D7393F99DAB82F107468FF5715",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-5-6": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-6",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.6 城市效果",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0201": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0201",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "城市的占领效果（MusicCity_city. effect_ids）可以配置多个。每次活动开始时，每座城市从各自配置的效果中等概率抽取1个效果作为本次活动使用的效果。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0202": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0202",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "活动期间，占领城市阵营的全部成员，可以获得城市占领效果的增幅。每个阵营可以同时获得多个城市的占领效果。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-5-6-1": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-6-1",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.6.1 占领效果类型汇总",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0203": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0203",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "城市效果的类型、触发、目标、取值和值参数读取城市效果配置表（MusicCity_cityEffect）。具体效果和数值待确定后补充。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-5-7": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-7",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.7 花车",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0204": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0204",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "花车是地图上的一个特殊机制，数据读取花车数据配置表（MusicCity_float）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-5-7-1": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-7-1",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.7.1 花车车站",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0205": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0205",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "地图右下角（暂定）有特殊建筑“花车车站”。花车车站不同于一般城市，不可进行占领。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0206": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0206",
-        "old_block_id": "",
-        "kind": "image",
-        "old_text": "",
-        "new_text": "[图片] 32752FBBCE71CF955B41993E154140A2F5D603286FA0228AD3600DC0D922F11F",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0207": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0207",
-        "old_block_id": "",
-        "kind": "image",
-        "old_text": "",
-        "new_text": "[图片] B1B14FB5CD8AD2B8003A299027DA5AB4804B46239441EB59911B8608861BCEB4",
-        "badge_label": "09-01 更新"
       }
     ],
     "doc-0208": [
@@ -5685,22 +13883,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
-        "new_text": "在活动开始后，每当有玩家通过表演获得任一城市的粉丝时，同时等量增加花车车站的进度。在花车车站进度满值（float_start）后，会在车站旁生成一辆待占领的花车。生成花车后，花车车站进度清空，继续从零累积。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0209": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0209",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "地图上可以同时存在多辆花车。",
+        "new_text": "在地图的右上角显示自身阵营流行度进度。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -5713,24 +13896,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0210",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "点击建筑，可以查看花车车站的详情，包括：名称、描述、花车进度值（KEY）。连续表演和表演按钮隐藏，显示提示“花车车站不可进行表演”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-5-7-2": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-7-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.7.2 占领花车",
+        "new_text": "流行度值：以进度条的形式显示，并在进度条上显示数字。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -5745,7 +13913,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
-        "new_text": "待占领的花车生成后，会开始占领倒计时（occupy_time），显示在地图花车上。",
+        "new_text": "点击流行度进度区域展开活动阵营流行度排行。高度自适应阵营数量、但最多显示5个、其他通过滑动列表的形式查看。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -5758,39 +13926,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0212",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "占领倒计时期间，玩家点击花车可以发起占领竞演，竞演次数（occupy_play_num）有限。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0213": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0213",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "竞演和城市表演相同规则，但是不会触发互动事件，且表演时长、节拍数量和概率等玩法参数单独配置。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0214": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0214",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "玩家数次竞演中最高的表演分数，作为占领花车的竞演分数。",
+        "new_text": "流行度值前显示阵营名称，流行度进度条上显示信息为：当前进度、阵营占领的周期收益（xxx/min）。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -5803,9 +13941,9 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0215",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "占领倒计时结束时，最高分数的玩家赢得花车。",
+        "new_text": "打开后默认列表从第1名开始显示，如果玩家阵营不在当前列表区域内，则滚动到玩家所在阵营的位置。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -5820,457 +13958,82 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "如果分数相同，先完成表演的玩家赢。",
+        "new_text": "玩家所在阵营名称特殊字色显示，并且进度条也突出显示。",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0217": [
+    "figure-0217": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0217",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果没有人参与，花车会直接消失。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0218": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0218",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "花车竞演结束会记录阵营战报，同时在主界面左侧进行提示“%{player}赢得花车”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0219": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0219",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "赢得花车的玩家会获得一个DEBUFF“上届花车赢家”（KEY），效果是“在持续期间参与花车竞演的表演分数下降x%”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0220": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0220",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "持续时间读取（occupy_debuff_time）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0221": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0221",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "效果比例读取（occupy_debuff_param）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-5-7-2-1": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-7-2-1",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.7.2.1 花车挑战界面",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0222": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0222",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "点击地图上的花车，可以查看花车的详情并发起竞演挑战。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0223": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0223",
+        "new_block_id": "figure-0217",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
-        "new_text": "[图片] BEB3F8576913D2DD435B4FC2C9CE313A3A803E41B1C200DA4EAFB7C0059CF049",
+        "new_text": "[图片] D15FC9D0DA41B845594AB05E57FDEB886B940B55C3EFD7681A26CCF35942DE3F",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0224": [
+    "figure-0218": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0224",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "花车信息包括：花车名称（KEY）、分享按钮、花车DEBUFF图标、花车竞演描述（KEY）、花车效果描述（KEY）、当前花车得分玩家列表。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0225": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0225",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "花车DEBUFF图标仅拥有的玩家才显示，点击可以查看详情：标题（KEY）、描述（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0226": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0226",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "得分玩家列表按照竞演分数降序显示前5。玩家信息包括：头像、名称、竞演得分。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0227": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0227",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "花车信息下方显示竞演（KEY）按钮和竞演次数。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-5-7-3": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-7-3",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.7.3 花车游行",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0228": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0228",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "花车占领倒计时结束，如果有玩家赢得花车，花车进入游行状态。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0229": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0229",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "花车游行的总时长（MusicCity_float .effect_time）包含赢得玩家的选择时间。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0230": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0230",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "在游行期间，可以指挥花车前往1个城市，使该城市获得花车加成效果。指挥前往后，后续不可变更。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0231": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0231",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "花车效果暂定为：使花车游行的城市中同阵营玩家个人表演获得的人气值得到比例加成，加成比例参数读取（MusicCity_float .effect_param）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0232": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0232",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "多个花车在一个城市可以累加。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0233": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0233",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "游行倒计时结束后，花车从地图移除、花车效果从城市移除。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-5-7-3-1": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-7-3-1",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.7.3.1 赢得花车提示",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0234": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0234",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "花车占领倒计时结束，赢得花车的玩家，回到活动主界面会弹出赢得花车的提示。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0235": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0235",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "标题：恭喜（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0236": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0236",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "正文：恭喜以%{num}的竞演分数赢得花车！（KEY）、",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0237": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0237",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "花车游行动画。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0239": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0239",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "确认按钮：点击打开发起花车游行的界面。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0240": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0240",
+        "new_block_id": "figure-0218",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
-        "new_text": "[图片] 7734BCE2251AE57F0C1151D94437CEC3F019CA8828BB30CE406244902AF57242",
+        "new_text": "[图片] 2A0E715F0FBFB5211195A1DE6FD0D1440F8A1B040EC615B08BA00A47422B6B2B",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-5-7-3-2": [
+    "figure-0220": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-5-7-3-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.7.3.2 派出花车游行",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0241": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0241",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "赢得花车的玩家，在未指挥花车前往城市的情况下，每次进入活动主界面都会弹出派出花车游行界面。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0242": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0242",
+        "new_block_id": "figure-0220",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
-        "new_text": "[图片] 118AE64EF104601654FE877A5C489DC4048AE8E37A8347179FE0853554C78C69",
+        "new_text": "[图片] 39648729A435EE66D3D999622F55839300E9C6D7393F99DAB82F107468FF5715",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0243": [
+    "figure-0228": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0243",
+        "new_block_id": "figure-0228",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "image",
         "old_text": "",
-        "new_text": "标题：派出花车（KEY）。",
+        "new_text": "[图片] 32752FBBCE71CF955B41993E154140A2F5D603286FA0228AD3600DC0D922F11F",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "figure-0229": [
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "figure-0229",
+        "old_block_id": "",
+        "kind": "image",
+        "old_text": "",
+        "new_text": "[图片] B1B14FB5CD8AD2B8003A299027DA5AB4804B46239441EB59911B8608861BCEB4",
         "badge_label": "09-01 更新"
       }
     ],
@@ -6285,7 +14048,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "说明：选择城市派出花车（KEY）。",
+        "new_text": "持续时间读取（occupy_debuff_time）。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -6300,67 +14063,22 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "花车效果描述。",
+        "new_text": "效果比例读取（occupy_debuff_param）。",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0246": [
+    "figure-0247": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0246",
+        "new_block_id": "figure-0247",
         "old_block_id": "",
-        "kind": "list_item",
+        "kind": "image",
         "old_text": "",
-        "new_text": "地图城市选择区域：显示城市图标和名称，点击可以选择城市。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0247": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0247",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "花车游行剩余时间（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0248": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0248",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "派出（KEY）：点击弹出二次确认框提示“确认向%{cityname}派出花车？花车派出后目标城市不可更改”（KEY）。确认后上报向选择的城市派出花车。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0249": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0249",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "没有选中城市时，按钮灰态显示。",
+        "new_text": "[图片] BEB3F8576913D2DD435B4FC2C9CE313A3A803E41B1C200DA4EAFB7C0059CF049",
         "badge_label": "09-01 更新"
       }
     ],
@@ -6373,35 +14091,80 @@ window.KNOWLEDGE_HISTORY = {
         "change_type": "新增",
         "new_block_id": "doc-0250",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "花车等待派出时，在地图上被点击打开时的详情界面特殊显示：",
+        "new_text": "得分玩家列表按照竞演分数降序显示前5。玩家信息包括：头像、名称、竞演得分。",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0251": [
+    "figure-0264": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0251",
+        "new_block_id": "figure-0264",
+        "old_block_id": "",
+        "kind": "image",
+        "old_text": "",
+        "new_text": "[图片] 7734BCE2251AE57F0C1151D94437CEC3F019CA8828BB30CE406244902AF57242",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "figure-0266": [
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "figure-0266",
+        "old_block_id": "",
+        "kind": "image",
+        "old_text": "",
+        "new_text": "[图片] 118AE64EF104601654FE877A5C489DC4048AE8E37A8347179FE0853554C78C69",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0270": [
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0270",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "竞演排名列表：显示为“拥有者”（KEY）信息。",
+        "new_text": "地图城市选择区域：显示城市图标和名称，点击可以选择城市。",
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0252": [
+    "doc-0273": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0252",
+        "new_block_id": "doc-0273",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "没有选中城市时，按钮灰态显示。",
+        "badge_label": "09-01 更新"
+      }
+    ],
+    "doc-0276": [
+      {
+        "version": "V0.1 · 2026-09-01 14:01 修改版",
+        "date": "2026-09-01",
+        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
+        "chapter": "5",
+        "change_type": "新增",
+        "new_block_id": "doc-0276",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -6409,44 +14172,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0253": [
+    "figure-0279": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0253",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "花车拥有者显示“派出”（KEY）按钮，点击打开派出花车游行界面。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0254": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0254",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "其他玩家显示提示“花车等待派出中”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0255": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "figure-0255",
+        "new_block_id": "figure-0279",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -6454,14 +14187,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "figure-0256": [
+    "figure-0280": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "figure-0256",
+        "new_block_id": "figure-0280",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -6469,59 +14202,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-5-7-3-3": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-7-3-3",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.7.3.3 花车游行表现",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0258": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0258",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "花车进入游行状态时，地图上的花车会持续播放游行的动画，并在花车下方显示游行倒计时。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0259": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0259",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "玩家派出花车时，花车会从花车车站沿道路行驶到目标城市，并停留在城市旁持续进行表演动画，直到游行倒计时结束花车消失。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0260": [
+    "doc-0284": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0260",
+        "new_block_id": "doc-0284",
         "old_block_id": "block-148",
         "kind": "paragraph",
         "old_text": "阵营指挥官可以在地图内标记城市，普通成员只读。",
@@ -6534,7 +14222,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0260",
+        "new_block_id": "doc-0284",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -6542,14 +14230,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0261": [
+    "doc-0285": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0261",
+        "new_block_id": "doc-0285",
         "old_block_id": "block-149",
         "kind": "paragraph",
         "old_text": "阵营同时标记数量不得超过城市标记数量上限（MusicCity_setting.city_mark_limit）。",
@@ -6562,7 +14250,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0261",
+        "new_block_id": "doc-0285",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -6570,57 +14258,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-5-8-1": [
+    "doc-0289": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-5-8-1",
-        "old_block_id": "block-150",
-        "kind": "heading",
-        "old_text": "此部分功能参考KC活动“王室战争”的规则，在后续步骤补齐。",
-        "new_text": "5.8.1 指挥官",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-8-1",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "此部分功能参考KC活动“王室战争”的规则，在后续步骤补齐。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-5-8-2": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-5-8-2",
-        "old_block_id": "block-153",
-        "kind": "heading",
-        "old_text": "当前选中。",
-        "new_text": "5.8.2 标记",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0265": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0265",
+        "new_block_id": "doc-0289",
         "old_block_id": "block-154",
         "kind": "paragraph",
         "old_text": "阵营指挥标记。",
@@ -6628,14 +14273,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0266": [
+    "doc-0290": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0266",
+        "new_block_id": "doc-0290",
         "old_block_id": "block-155",
         "kind": "list_item",
         "old_text": "本阵营激活或占领。",
@@ -6643,14 +14288,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0267": [
+    "doc-0292": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0267",
+        "new_block_id": "doc-0292",
         "old_block_id": "block-156",
         "kind": "paragraph",
         "old_text": "其他阵营占领信息。",
@@ -6658,87 +14303,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0272": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0272",
-        "old_block_id": "block-171",
-        "kind": "paragraph",
-        "old_text": "活动中使用的表演值，由表演队伍的总魅力值进行换算，具体公式待数值确认后补充。",
-        "new_text": "活动中表演队伍的总魅力值换算为个人表演玩法的加成比例。具体公式待数值确认后补充。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0272",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "活动中使用的表演值，由表演队伍的总魅力值进行换算，具体公式待数值确认后补充。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-6-2-1": [
+    "doc-0306": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-6-2-1",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.2.1 表演队伍界面",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0276": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0276",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "标题：表演队伍（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0277": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0277",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "演奏加成（KEY）：根据恋人魅力计算的演奏加成，具体公式待数值确认后补充。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0278": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0278",
+        "new_block_id": "doc-0306",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -6746,29 +14318,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0280": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0280",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "编入提示：“自动选择魅力最高的5名恋人作为表演队伍”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0286": [
+    "doc-0314": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0286",
+        "new_block_id": "doc-0314",
         "old_block_id": "block-177",
         "kind": "list_item",
         "old_text": "形状，用于表示道具在背包中的占格形状。道具不能旋转。实现可以参考香料之路。",
@@ -6781,171 +14338,12 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0286",
+        "new_block_id": "doc-0314",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
         "new_text": "形状，用于表示道具在背包中的占格形状。道具不能旋转。实现可以参考香料之路。",
         "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-6-2-1-3": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-6-2-1-3",
-        "old_block_id": "doc-6-1-3",
-        "kind": "heading",
-        "old_text": "6.1.3 能力",
-        "new_text": "6.2.1 能力",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-6-2-1-3",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.1.3 能力",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0299": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0299",
-        "old_block_id": "block-182",
-        "kind": "paragraph",
-        "old_text": "表演道具的能力，主要是在放入背包后，按道具种类、方向、位置、形状或数量等条件，为自身或其他目标道具增加演奏值。",
-        "new_text": "表演道具的能力数据读取道具效果配置表（MusicCity_toolEffect），主要包括：",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0299",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "表演道具的能力，主要是在放入背包后，按道具种类、方向、位置、形状或数量等条件，为自身或其他目标道具增加演奏值。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0300": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0300",
-        "old_block_id": "block-183",
-        "kind": "list_item",
-        "old_text": "符合能力条件的目标数量，超过能力的目标数量上限（MusicCity_toolEffect.target_limit）时，也按演奏值计算的选择顺序选择道具作为目标。",
-        "new_text": "效果条件类型（condition_type）、效果条件参数（condition_params），表示能力的效果。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0300",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "符合能力条件的目标数量，超过能力的目标数量上限（MusicCity_toolEffect.target_limit）时，也按演奏值计算的选择顺序选择道具作为目标。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0301": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0301",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "目标种类（target_categories），表示能力的目标选择方式。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0302": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0302",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "各级效果值（value_by_level），表示能力的各级威力。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0303": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0303",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "表演道具的能力是在道具放入背包后生效，按道具种类、方向、位置、形状或数量等条件，为自身或其他的背包中道具增加演奏值。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0304": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0304",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果道具有限制能力的目标数量上限（MusicCity_toolEffect.target_limit），也按演奏值计算的选择顺序选择道具作为目标。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-6-2-1-1": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-6-2-1-1",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.2.1.1 能力效果类型汇总",
-        "badge_label": "09-01 更新"
       }
     ],
     "doc-6-2-2": [
@@ -6976,14 +14374,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0306": [
+    "doc-0327": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0306",
+        "new_block_id": "doc-0327",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -6991,14 +14389,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0307": [
+    "doc-0328": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0307",
+        "new_block_id": "doc-0328",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -7006,14 +14404,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0309": [
+    "doc-0330": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0309",
+        "new_block_id": "doc-0330",
         "old_block_id": "block-187",
         "kind": "paragraph",
         "old_text": "每个套装的激活条件，都是以同套道具的数量计数作为判定。",
@@ -7026,7 +14424,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0309",
+        "new_block_id": "doc-0330",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -7034,14 +14432,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0311": [
+    "doc-0332": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0311",
+        "new_block_id": "doc-0332",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -7077,57 +14475,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0314": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0314",
-        "old_block_id": "doc-6-1-3-3",
-        "kind": "paragraph",
-        "old_text": "6.1.3 表演背包",
-        "new_text": "具体效果和数值待确定后补充。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0314",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.1.3 表演背包",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-6-2-3": [
+    "doc-0347": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-6-2-3",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.2.3 初始道具",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0315": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0315",
+        "new_block_id": "doc-0347",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -7135,14 +14490,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0316": [
+    "doc-0348": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0316",
+        "new_block_id": "doc-0348",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -7180,34 +14535,6 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0319": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0319",
-        "old_block_id": "block-196",
-        "kind": "paragraph",
-        "old_text": "表演背包暂定尺寸是8×8，初始开放中央的2×4格。",
-        "new_text": "表演背包暂定尺寸是8×8。初始开放中央的2×4格。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0319",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "表演背包暂定尺寸是8×8，初始开放中央的2×4格。",
-        "badge_label": "08-25 更新"
-      }
-    ],
     "doc-6-3-2": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
@@ -7236,14 +14563,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0323": [
+    "doc-0362": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0323",
+        "new_block_id": "doc-0362",
         "old_block_id": "block-201",
         "kind": "paragraph",
         "old_text": "仓库容量没有上限。",
@@ -7256,7 +14583,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0323",
+        "new_block_id": "doc-0362",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -7292,14 +14619,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0324": [
+    "doc-0363": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0324",
+        "new_block_id": "doc-0363",
         "old_block_id": "block-203",
         "kind": "paragraph",
         "old_text": "表演准备界面（F15至F25）用于放置表演道具进入表演背包。",
@@ -7312,7 +14639,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0324",
+        "new_block_id": "doc-0363",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -7320,42 +14647,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "figure-0326": [
+    "doc-0366": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "figure-0326",
-        "old_block_id": "figure-6",
-        "kind": "image",
-        "old_text": "[图片] assets/docx-images/figure-06.png",
-        "new_text": "[图片] 2681F411172C11A0112A724938326BF54855F76A1F21F487197132462E849772",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "figure-0326",
-        "old_block_id": "",
-        "kind": "image",
-        "old_text": "",
-        "new_text": "[图片] assets/docx-images/figure-06.png",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0328": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0328",
+        "new_block_id": "doc-0366",
         "old_block_id": "block-207",
         "kind": "paragraph",
         "old_text": "界面上方显示背包中道具的实时总演奏值和激活的套装效果图标。",
@@ -7368,7 +14667,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0328",
+        "new_block_id": "doc-0366",
         "old_block_id": "doc-6-1-1",
         "kind": "paragraph",
         "old_text": "6.1.1 表演恋人",
@@ -7376,14 +14675,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0329": [
+    "doc-0367": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0329",
+        "new_block_id": "doc-0367",
         "old_block_id": "block-208",
         "kind": "list_item",
         "old_text": "点击套装效果图标，可打开弹窗，查看套装详情。",
@@ -7396,7 +14695,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0329",
+        "new_block_id": "doc-0367",
         "old_block_id": "doc-0130",
         "kind": "list_item",
         "old_text": "系统从玩家已拥有恋人中自动选择最多5名：按魅力值降序、同魅力按亲密度降序、仍相同按恋人角色ID降序。少于5名时按实际数量参与。",
@@ -7404,14 +14703,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0330": [
+    "doc-0368": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0330",
+        "new_block_id": "doc-0368",
         "old_block_id": "block-209",
         "kind": "paragraph",
         "old_text": "界面中央是背包区域，显示锁住的格子、空着的格子、放置的表演道具。",
@@ -7424,7 +14723,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0330",
+        "new_block_id": "doc-0368",
         "old_block_id": "doc-0131",
         "kind": "paragraph",
         "old_text": "恋人表演值由魅力值换算，具体公式、取整和上下限待数值确认后补充。表演开始时锁定恋人列表、属性和各自表演值；表演中恋人数据变化不影响已开始场次。",
@@ -7432,14 +14731,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0331": [
+    "doc-0369": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0331",
+        "new_block_id": "doc-0369",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -7447,14 +14746,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0333": [
+    "doc-0375": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0333",
+        "new_block_id": "doc-0375",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -7462,14 +14761,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0334": [
+    "doc-0376": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0334",
+        "new_block_id": "doc-0376",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -7477,85 +14776,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0335": [
+    "doc-0390": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0335",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "拖动道具到背包与其他道具重叠、或不可放置格子，则退回原位置；",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0342": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0342",
-        "old_block_id": "block-212",
-        "kind": "list_item",
-        "old_text": "点击道具可在仓库上方打开详情界面显示详情。",
-        "new_text": "点击道具图标，可在仓库上方打开详情界面显示详情：名称、种类、等级、演奏值（KEY）、能力描述、套装信息。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0342",
-        "old_block_id": "doc-0133",
-        "kind": "list_item",
-        "old_text": "键盘乐器在同一背包内合计最多1件；其他同名道具上限读取同名放置上限（MusicCity_tool.same_name_limit）。风格标签仅用于道具概念和表现，不自动产生未配置的效果。",
-        "new_text": "点击道具可在仓库上方打开详情界面显示详情。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0343": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0343",
-        "old_block_id": "block-213",
-        "kind": "list_item",
-        "old_text": "仓库区域包含组合筛选功能：道具类别（category）、套装（set_id）。默认选择“全部”。筛选项选择在退出界面后清除。",
-        "new_text": "套装信息，包括：名称、各级需要数量、效果描述。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0343",
-        "old_block_id": "doc-6-1-3",
-        "kind": "list_item",
-        "old_text": "6.1.3 背包管理",
-        "new_text": "仓库区域包含组合筛选功能：道具类别（category）、套装（set_id）。默认选择“全部”。筛选项选择在退出界面后清除。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0355": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0355",
+        "new_block_id": "doc-0390",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -7563,14 +14791,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0356": [
+    "doc-0391": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0356",
+        "new_block_id": "doc-0391",
         "old_block_id": "block-216",
         "kind": "paragraph",
         "old_text": "背包左右两侧的界面区域为临时放置区，玩家可以将道具临时放置在该区域中。该区域为客户端的临时处理，道具逻辑层在仓库中、但是界面上不再在仓库里显示。关闭界面后清空此临时区域数据。",
@@ -7583,7 +14811,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0356",
+        "new_block_id": "doc-0391",
         "old_block_id": "doc-0136",
         "kind": "paragraph",
         "old_text": "无格子重叠。",
@@ -7591,14 +14819,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0357": [
+    "doc-0392": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0357",
+        "new_block_id": "doc-0392",
         "old_block_id": "block-217",
         "kind": "list_item",
         "old_text": "筛选项不会影响此区域道具显示。",
@@ -7611,7 +14839,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0357",
+        "new_block_id": "doc-0392",
         "old_block_id": "doc-0137",
         "kind": "list_item",
         "old_text": "全部占用格位于已开放格。",
@@ -7619,100 +14847,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0359": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0359",
-        "old_block_id": "block-219",
-        "kind": "list_item",
-        "old_text": "一键卸下。需要二次确认，点击弹框包含提示和“今日不再提示”选项。确认后将所有道具一次性移回仓库。",
-        "new_text": "一键卸下（KEY）按钮。需要二次确认，点击弹框包含提示“确认一键卸下背包内道具？卸下后未存档的预设无法恢复。”（KEY）和“今日不再提示”选项。确认后将所有道具一次性移回仓库。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0359",
-        "old_block_id": "doc-0139",
-        "kind": "paragraph",
-        "old_text": "键盘乐器合计不超过1件。",
-        "new_text": "一键卸下。需要二次确认，点击弹框包含提示和“今日不再提示”选项。确认后将所有道具一次性移回仓库。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0360": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0360",
-        "old_block_id": "block-220",
-        "kind": "list_item",
-        "old_text": "保存设置。点击打开保存设置和读取设置的界面。玩家可以保存最多3个设置方案。",
-        "new_text": "自动放置（KEY）按钮。需要二次确认，点击弹框包含提示“确认自动放置背包内道具？卸下后未存档的预设无法恢复。”（KEY）和“今日不再提示”选项。确认后将所有道具一次性移回仓库，并按照以下规则选取道具填满背包。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0360",
-        "old_block_id": "doc-0140",
-        "kind": "paragraph",
-        "old_text": "拖入、移动、替换、移出和卸下在合法时立即向服务端保存。绿色表示合法落点，橙色表示可直接替换，红色表示非法并说明原因。一键卸下需要二次确认，包含“今日不再提示”；确认后所有道具一次性移回仓库。",
-        "new_text": "保存设置。点击打开保存设置和读取设置的界面。玩家可以保存最多3个设置方案。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0361": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0361",
-        "old_block_id": "doc-6-1-5-2",
-        "kind": "list_item",
-        "old_text": "6.1.5 演奏值计算",
-        "new_text": "按品质降序、优先等级高的道具放入背包，直到背包填满或没有可以放入的道具。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-6-2-2-1-2": [
+    "doc-0428": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-6-2-2-1-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.2.2.1 预设界面",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0363": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0363",
+        "new_block_id": "doc-0428",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -7720,14 +14862,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "figure-0364": [
+    "figure-0429": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0364",
+        "new_block_id": "figure-0429",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -7735,14 +14877,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "figure-0365": [
+    "figure-0430": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0365",
+        "new_block_id": "figure-0430",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -7750,29 +14892,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0366": [
+    "doc-0432": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0366",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "界面标题：预设（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0367": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0367",
+        "new_block_id": "doc-0432",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -7780,78 +14907,18 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0368": [
+    "doc-0433": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0368",
+        "new_block_id": "doc-0433",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
         "new_text": "界面中央区域为表演背包保存的预设，包括：表演值、表演背包的套装效果图标、背包内的格子状态和道具。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0369": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0369",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "界面下方为操作按钮：有预设时，显示删除（KEY）和使用（KEY）；没有时，显示保存（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0370": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0370",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果该分页没有保存预设，界面中央显示提示“暂无预设”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0371": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0371",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "删除预设时，二次确认弹窗提示“是否确认删除”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0372": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0372",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "使用预设时，二次确认弹窗提示“是否使用预设，将覆盖背包设置”（KEY），此提示包含今日不再提示选项。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -7870,14 +14937,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0374": [
+    "doc-0440": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0374",
+        "new_block_id": "doc-0440",
         "old_block_id": "block-223",
         "kind": "list_item",
         "old_text": "同行的格子不一定连续。",
@@ -7890,55 +14957,12 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0374",
+        "new_block_id": "doc-0440",
         "old_block_id": "doc-0144",
         "kind": "list_item",
         "old_text": "同一来源效果的有效目标超过目标数量上限（MusicCity_toolEffect.target_limit）时的选择顺序，以及效果能否作用于已经扫描过的道具，在后续设计步骤补齐。全部道具效果处理完成后，统一计算各道具最终演奏值：",
         "new_text": "同行的格子不一定连续。",
         "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0381": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0381",
-        "old_block_id": "block-230",
-        "kind": "paragraph",
-        "old_text": "单件道具的最终演奏值＝（自身基础演奏值＋自身固定值加成＋收到的固定值加成）×（1＋自身比例加成＋收到的比例加成）。",
-        "new_text": "单件道具的最终演奏值＝（自身基础演奏值＋自身固定值加成＋收到的固定值加成）×（1＋自身比例加成＋收到的比例加成）。正式公式和修正值待数值确认后提供。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0381",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "单件道具的最终演奏值＝（自身基础演奏值＋自身固定值加成＋收到的固定值加成）×（1＋自身比例加成＋收到的比例加成）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-6-3-5": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-6-3-5",
-        "old_block_id": "doc-6-1-6",
-        "kind": "heading",
-        "old_text": "6.1.6 道具升级",
-        "new_text": "6.3.5 道具升级",
-        "badge_label": "09-01 更新"
       }
     ],
     "doc-6-4": [
@@ -7984,62 +15008,6 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0386": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0386",
-        "old_block_id": "block-238",
-        "kind": "paragraph",
-        "old_text": "玩家在活动主界面点击开始表演后，锁定相关属性进入表演过程-节拍玩法。",
-        "new_text": "玩家在活动主界面点击开始表演后，锁定以请求时的相关属性和状态进入表演过程-节拍玩法，并判定本次表演是否触发互动事件。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0386",
-        "old_block_id": "figure-0150",
-        "kind": "paragraph",
-        "old_text": "[图片] C06F8591565C8E8E10A30EBE70BDDC0AB05BE0874E69C928816BF6943C74F291",
-        "new_text": "玩家在活动主界面点击开始表演后，锁定相关属性进入表演过程-节拍玩法。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0387": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0387",
-        "old_block_id": "block-239",
-        "kind": "list_item",
-        "old_text": "锁定的属性包括但不限于：目标城市、恋人列表、恋人属性、恋人表演值、背包布局、道具属性、互动状态等。",
-        "new_text": "锁定的属性包括但不限于：城市效果、花车效果、恋人加成比例、背包道具设置和演奏值等。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0387",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "锁定的属性包括但不限于：目标城市、恋人列表、恋人属性、恋人表演值、背包布局、道具属性、互动状态等。",
-        "badge_label": "08-25 更新"
-      }
-    ],
     "doc-6-4-1-1": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
@@ -8068,59 +15036,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0388": [
+    "doc-0456": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0388",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "表演开始前，按概率判定是否生成玩法内的互动事件，每次只能触发1个事件。具体权重和修正读取粉丝互动事件配置表（MusicCity_event）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0389": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0389",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "唯粉事件概率，受到表演城市中其他阵营粉丝占比比例进行修正。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0390": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0390",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "触发唯粉事件时，从表演城市中有粉丝的其他阵营玩家中随机选择1名作为目标。贡献粉丝越多的玩家有越高的选中几率修正，具体公式待数值确认后补充。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0391": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0391",
+        "new_block_id": "doc-0456",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8143,14 +15066,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0396": [
+    "doc-0460": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0396",
+        "new_block_id": "doc-0460",
         "old_block_id": "block-242",
         "kind": "list_item",
         "old_text": "上方恋人形象使用家园中的spine。",
@@ -8163,7 +15086,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0396",
+        "new_block_id": "doc-0460",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8171,14 +15094,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "figure-0398": [
+    "figure-0462": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "figure-0398",
+        "new_block_id": "figure-0462",
         "old_block_id": "figure-7",
         "kind": "image",
         "old_text": "[图片] assets/docx-images/figure-07.png",
@@ -8191,7 +15114,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0398",
+        "new_block_id": "figure-0462",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -8199,14 +15122,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "figure-0399": [
+    "figure-0463": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "figure-0399",
+        "new_block_id": "figure-0463",
         "old_block_id": "figure-8",
         "kind": "image",
         "old_text": "[图片] assets/docx-images/figure-08.png",
@@ -8219,39 +15142,11 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0399",
+        "new_block_id": "figure-0463",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
         "new_text": "[图片] assets/docx-images/figure-08.png",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0401": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0401",
-        "old_block_id": "block-247",
-        "kind": "paragraph",
-        "old_text": "界面下方有2个操作按钮，使用动态居中布局：",
-        "new_text": "界面下方有跳过（KEY）按钮：点击直接跳过节拍玩法。跳过前会进行二次确认提示“跳过将获得随机表演节拍结果”（KEY），并提供“今日不再提示”选项。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0401",
-        "old_block_id": "doc-6-2-1",
-        "kind": "paragraph",
-        "old_text": "6.2.1 场次创建",
-        "new_text": "界面下方有2个操作按钮，使用动态居中布局：",
         "badge_label": "08-25 更新"
       }
     ],
@@ -8283,14 +15178,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0402": [
+    "doc-0466": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0402",
+        "new_block_id": "doc-0466",
         "old_block_id": "block-249",
         "kind": "paragraph",
         "old_text": "完美表演，仅在玩家有鲜花的时候才显示，按钮上方显示剩余鲜花数量。",
@@ -8303,7 +15198,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0402",
+        "new_block_id": "doc-0466",
         "old_block_id": "doc-0153",
         "kind": "list_item",
         "old_text": "场次锁定目标城市、恋人列表、恋人属性、恋人表演值、背包布局、道具位置、方向、等级、基础参数、道具效果和生效的互动状态。服务端生成本场节拍数量、品质、位置和唯一随机结果输入。",
@@ -8311,14 +15206,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0403": [
+    "doc-0467": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0403",
+        "new_block_id": "doc-0467",
         "old_block_id": "doc-6-2-2-2",
         "kind": "list_item",
         "old_text": "6.2.2 节拍玩法",
@@ -8326,29 +15221,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-6-4-3-1": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-6-4-3-1",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.4.3.1 节拍玩法",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0405": [
+    "figure-0469": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "figure-0405",
+        "new_block_id": "figure-0469",
         "old_block_id": "figure-9",
         "kind": "image",
         "old_text": "[图片] assets/docx-images/figure-09.png",
@@ -8361,7 +15241,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "figure-0405",
+        "new_block_id": "figure-0469",
         "old_block_id": "doc-0156",
         "kind": "image",
         "old_text": "客户端记录good、great、perfect、miss等操作档位并上报；服务端根据场次输入和操作级别确定结果。节拍数量、品质、窗口、档位增幅和未操作保底读取节拍品质配置表（MusicCity_beat）及活动设置配置表（MusicCity_setting）。",
@@ -8369,14 +15249,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0408": [
+    "doc-0473": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0408",
+        "new_block_id": "doc-0473",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8384,14 +15264,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0409": [
+    "doc-0474": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0409",
+        "new_block_id": "doc-0474",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8399,14 +15279,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0415": [
+    "doc-0480": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0415",
+        "new_block_id": "doc-0480",
         "old_block_id": "block-260",
         "kind": "paragraph",
         "old_text": "表演过程中，区域上方会实时显示当前点击节拍的分值。点击节拍的不同档位和漏点的节拍有对应的飘字动效和音效。",
@@ -8419,7 +15299,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0415",
+        "new_block_id": "doc-0480",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -8427,14 +15307,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0416": [
+    "doc-0481": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0416",
+        "new_block_id": "doc-0481",
         "old_block_id": "block-261",
         "kind": "paragraph",
         "old_text": "完成表演后，客户端将各个品质节拍的档次上报，服务端需要校验各品质节拍数量和预生成的是否一致，并确定表演结果。",
@@ -8447,7 +15327,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0416",
+        "new_block_id": "doc-0481",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -8455,14 +15335,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0417": [
+    "doc-0482": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0417",
+        "new_block_id": "doc-0482",
         "old_block_id": "block-262",
         "kind": "list_item",
         "old_text": "跳过情况的上报方式。",
@@ -8475,7 +15355,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0417",
+        "new_block_id": "doc-0482",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8483,70 +15363,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-6-4-3-2": [
+    "figure-0484": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-6-4-3-2",
-        "old_block_id": "block-263",
-        "kind": "heading",
-        "old_text": "如果玩家选择跳过，则客户端是将已操作的节拍上报，其余节拍视为保底增幅，计算结果。",
-        "new_text": "6.4.3.2 唯粉事件",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-6-4-3-2",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果玩家选择跳过，则客户端是将已操作的节拍上报，其余节拍视为保底增幅，计算结果。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0418": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0418",
-        "old_block_id": "block-264",
-        "kind": "paragraph",
-        "old_text": "如果玩家选择完美表演，则需要扣除1个数量的鲜花，本次表演全部节拍按最高档次计算结果。",
-        "new_text": "在表演开始的倒计时过程中，如果触发唯粉事件，会飘窗说明触发唯粉事件。提示框显示：玩家头像、事件描述文本（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0418",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果玩家选择完美表演，则需要扣除1个数量的鲜花，本次表演全部节拍按最高档次计算结果。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "figure-0419": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "figure-0419",
+        "new_block_id": "figure-0484",
         "old_block_id": "block-265",
         "kind": "image",
         "old_text": "校验的不同情况。",
@@ -8559,7 +15383,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0419",
+        "new_block_id": "figure-0484",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8567,14 +15391,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0420": [
+    "doc-0485": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0420",
+        "new_block_id": "doc-0485",
         "old_block_id": "block-266",
         "kind": "paragraph",
         "old_text": "如果客户端上报节拍与服务端之前生成的一致，则按客户端的操作档次计算增幅结果。",
@@ -8587,7 +15411,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0420",
+        "new_block_id": "doc-0485",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8595,14 +15419,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0421": [
+    "doc-0486": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0421",
+        "new_block_id": "doc-0486",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -8610,44 +15434,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0422": [
+    "doc-0490": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0422",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "点击“玩家节拍”后，会获得事件计数，并有对应的飘字动效和音效。每次被点击后，“玩家节拍”的移动速度会略微加快。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0423": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0423",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "暂定移动速度=初始速度*（1+点击次数*0.25）。具体待数值确认。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0424": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0424",
+        "new_block_id": "doc-0490",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8685,14 +15479,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0425": [
+    "doc-0496": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0425",
+        "new_block_id": "doc-0496",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -8700,14 +15494,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "figure-0426": [
+    "figure-0497": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0426",
+        "new_block_id": "figure-0497",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -8715,44 +15509,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0427": [
+    "doc-0500": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0427",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "标题：连续表演（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0428": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0428",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "当前演奏值（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0429": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0429",
+        "new_block_id": "doc-0500",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8760,29 +15524,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0430": [
+    "doc-0502": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0430",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "暂定连续表演次数每达到触发可选奖励的次数（MusicCity_setting.choice_reward_energy_cost），消耗1朵鲜花。至少消耗1朵鲜花。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0431": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0431",
+        "new_block_id": "doc-0502",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8790,14 +15539,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0432": [
+    "doc-0503": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0432",
+        "new_block_id": "doc-0503",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8805,14 +15554,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0433": [
+    "doc-0504": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0433",
+        "new_block_id": "doc-0504",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8820,14 +15569,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0434": [
+    "doc-0505": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0434",
+        "new_block_id": "doc-0505",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8835,48 +15584,18 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0435": [
+    "doc-0506": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0435",
+        "new_block_id": "doc-0506",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
         "new_text": "不会进入表演界面，直接请求表演结果。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0436": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0436",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），点击关闭界面并飘字提示“活动结束前x分钟不可以连续表演”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0437": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0437",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "界面下方显示提示“连续表演3次需要消耗1朵鲜花”（KEY）。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -8895,59 +15614,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-6-5-1": [
+    "doc-0513": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-6-5-1",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.5.1 结算流程",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0438": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0438",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "服务端需要校验客户端上报的节拍玩法结果：各品质节拍数量和预生成的是否一致，并确定表演结果。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0439": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0439",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "节拍加成，就是每个节拍根据品质和点击档次对应的增幅总和。具体公式待数值确认后补充。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0440": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0440",
+        "new_block_id": "doc-0513",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8955,14 +15629,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0441": [
+    "doc-0514": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0441",
+        "new_block_id": "doc-0514",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8970,14 +15644,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0442": [
+    "doc-0515": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0442",
+        "new_block_id": "doc-0515",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -8985,156 +15659,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0445": [
+    "doc-0525": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0445",
-        "old_block_id": "block-269",
-        "kind": "list_item",
-        "old_text": "节拍表演的结果，就是每个节拍根据品质和点击档次对应的增幅总和。",
-        "new_text": "如果活动进入休息或结束，则按照跳过进行计算。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0445",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "节拍表演的结果，就是每个节拍根据品质和点击档次对应的增幅总和。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0447": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0447",
-        "old_block_id": "block-273",
-        "kind": "list_item",
-        "old_text": "根据表演队伍总表演值、表演道具背包总演奏值、节拍玩法增幅计算表演的人气值。",
-        "new_text": "扣除表演的体力。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0447",
-        "old_block_id": "doc-0162",
-        "kind": "list_item",
-        "old_text": "读取锁定的恋人、背包、道具、套装和互动状态。",
-        "new_text": "根据表演队伍总表演值、表演道具背包总演奏值、节拍玩法增幅计算表演的人气值。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0448": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0448",
-        "old_block_id": "block-274",
-        "kind": "list_item",
-        "old_text": "将人气值值换算为阵营在城市的流行度加值，更新城市流行度和争夺状态。",
-        "new_text": "根据表演道具背包总演奏值、节拍玩法增幅、表演队伍加成，计算表演的人气值。公式暂定为：演奏值*（1+节拍加成比例+表演队伍加成比例），具体公式待数值确认后提供。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0448",
-        "old_block_id": "doc-0163",
-        "kind": "list_item",
-        "old_text": "处理全部道具效果并计算背包道具最终演奏值。",
-        "new_text": "将人气值值换算为阵营在城市的流行度加值，更新城市流行度和争夺状态。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0449": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0449",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "将人气值换算为获得的城市粉丝，更新阵营的城市粉丝占比和争夺状态。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0450": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0450",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "根据表演中的事件点击计数，结算事件效果。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-6-5-1-1": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-6-5-1-1",
-        "old_block_id": "block-276",
-        "kind": "heading",
-        "old_text": "判定互动事件概率：是否生成互动事件。",
-        "new_text": "6.5.1.1 连续表演",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-6-5-1-1",
-        "old_block_id": "doc-0165",
-        "kind": "list_item",
-        "old_text": "按服务端节拍结果计算本场人气增幅；鲜花状态在确认的结算环节生效。",
-        "new_text": "判定互动事件概率：是否生成互动事件。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0452": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0452",
+        "new_block_id": "doc-0525",
         "old_block_id": "doc-6-3-1-2",
         "kind": "paragraph",
         "old_text": "6.3.1 结算界面",
@@ -9147,7 +15679,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0452",
+        "new_block_id": "doc-0525",
         "old_block_id": "doc-0166",
         "kind": "heading",
         "old_text": "计算本场人气并累计个人人气。",
@@ -9155,14 +15687,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0453": [
+    "doc-0526": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0453",
+        "new_block_id": "doc-0526",
         "old_block_id": "block-278",
         "kind": "list_item",
         "old_text": "表演结算界面（F32）展示本次表演的结果，包括：人气变化、城市流行度变化、奖励进度。",
@@ -9175,7 +15707,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0453",
+        "new_block_id": "doc-0526",
         "old_block_id": "doc-0167",
         "kind": "paragraph",
         "old_text": "聚合阵营总人气的成员基础部分。",
@@ -9183,42 +15715,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0454": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0454",
-        "old_block_id": "figure-10",
-        "kind": "list_item",
-        "old_text": "[图片] assets/docx-images/figure-10.png",
-        "new_text": "暂定连续表演次数每达到触发可选奖励的次数（MusicCity_setting.choice_reward_energy_cost），消耗1朵鲜花。至少消耗1朵鲜花。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0454",
-        "old_block_id": "doc-0168",
-        "kind": "image",
-        "old_text": "将本场人气换算为目标城市新增个人贡献，执行城市争夺和状态重算。",
-        "new_text": "[图片] assets/docx-images/figure-10.png",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0455": [
+    "doc-0528": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0455",
+        "new_block_id": "doc-0528",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -9226,29 +15730,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0456": [
+    "doc-0530": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0456",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "如果在活动即将结束的禁止连续表演时段（MusicCity_setting.auto_play_ban_time），不允许连续表演返回错误进行提示“活动结束前x分钟不可以连续表演”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0457": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0457",
+        "new_block_id": "doc-0530",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -9256,44 +15745,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-6-5-1-2": [
+    "doc-0542": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-6-5-1-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.5.1.2 唯粉事件",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0458": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0458",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "根据表演中的计数，降低目标玩家在指定城市的粉丝，并可能改变城市的占领状态。扣减值公式、保护时间，待数值确认后补充。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0462": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0462",
+        "new_block_id": "doc-0542",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -9301,14 +15760,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0463": [
+    "doc-0543": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0463",
+        "new_block_id": "doc-0543",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -9316,115 +15775,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-6-5-2": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-6-5-2",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.5.2 结算界面",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0464": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0464",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "表演结算界面（F32）展示本次表演的结果，包括：人气变化、城市粉丝变化、事件结果（减少玩家的粉丝）、奖励进度。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0465": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "figure-0465",
-        "old_block_id": "",
-        "kind": "image",
-        "old_text": "",
-        "new_text": "[图片] 42C0040D68A8B2946DA3054C9FC425F157ED1A17D977CD877FF4BE2A3DD98874",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0467": [
+    "doc-0557": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0467",
-        "old_block_id": "block-281",
-        "kind": "list_item",
-        "old_text": "人气变化：总人气值，以及分项恋人表演值、道具演奏值、节拍加成。",
-        "new_text": "人气变化：总人气值（KEY），以及分项-演奏值（KEY）、节拍加成（KEY）、恋人加成（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0467",
-        "old_block_id": "doc-0170",
-        "kind": "list_item",
-        "old_text": "保存唯一结算、后续阻断状态和活动战报记录，再向客户端返回完整结果。",
-        "new_text": "人气变化：总人气值，以及分项恋人表演值、道具演奏值、节拍加成。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0468": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0468",
-        "old_block_id": "block-282",
-        "kind": "list_item",
-        "old_text": "城市变化：城市名称、贡献流行度值、贡献流行度占比加值、阵营流行度占比加值。",
-        "new_text": "城市变化：城市名称、获得粉丝（KEY）、阵营粉丝占比加值（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0468",
-        "old_block_id": "doc-0171",
-        "kind": "list_item",
-        "old_text": "恋人、道具、节拍、本场人气和城市贡献的具体公式、取整和上下限待数值确认后补充。",
-        "new_text": "城市变化：城市名称、贡献流行度值、贡献流行度占比加值、阵营流行度占比加值。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0469": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0469",
+        "new_block_id": "doc-0557",
         "old_block_id": "block-283",
         "kind": "list_item",
         "old_text": "如果城市激活或占领状态变化，则额外显示变化提示。",
@@ -9437,7 +15795,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0469",
+        "new_block_id": "doc-0557",
         "old_block_id": "doc-6-3-2",
         "kind": "list_item",
         "old_text": "6.3.2 异常处理",
@@ -9445,14 +15803,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0470": [
+    "doc-0558": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0470",
+        "new_block_id": "doc-0558",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -9460,197 +15818,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0471": [
+    "figure-0573": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0471",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "唯粉：目标头像、名称、减少粉丝（KEY）；",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0473": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0473",
-        "old_block_id": "block-285",
-        "kind": "list_item",
-        "old_text": "未获得奖励时，显示提示：再表演X次可以获得奖励。",
-        "new_text": "未获得奖励时，显示提示“再表演X次可以获得奖励”（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0473",
-        "old_block_id": "doc-0173",
-        "kind": "list_item",
-        "old_text": "断线后恢复同一场次或同一结算结果，不重新随机。",
-        "new_text": "未获得奖励时，显示提示：再表演X次可以获得奖励。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0474": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0474",
-        "old_block_id": "block-286",
-        "kind": "list_item",
-        "old_text": "获得奖励时，显示提示：获得奖励。",
-        "new_text": "获得奖励时，显示提示“获得可选奖励”（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0474",
-        "old_block_id": "doc-0174",
-        "kind": "list_item",
-        "old_text": "已固定的奖励候选、扩格状态和互动候选在重连后恢复。",
-        "new_text": "获得奖励时，显示提示：获得奖励。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0476": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0476",
-        "old_block_id": "block-288",
-        "kind": "list_item",
-        "old_text": "如果后续有奖励或者互动事件，显示下一步按钮，点击继续。",
-        "new_text": "如果后续有奖励，显示下一步（KEY）按钮，点击打开奖励选项界面。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0476",
-        "old_block_id": "doc-0176",
-        "kind": "list_item",
-        "old_text": "活动结束、中途退出和已扣体力但未展示结果的详细提示在后续设计步骤补齐。",
-        "new_text": "如果后续有奖励或者互动事件，显示下一步按钮，点击继续。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0481": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0481",
-        "old_block_id": "doc-6-4-1",
-        "kind": "paragraph",
-        "old_text": "6.4.1 生成奖励选项",
-        "new_text": "花车竞演结算界面和结算界面大致相同。区别有：",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0481",
-        "old_block_id": "doc-0177",
-        "kind": "heading",
-        "old_text": "奖励选项界面（F27）展示服务端固定的三选一候选，候选包括表演道具或背包扩格。",
-        "new_text": "6.4.1 生成奖励选项",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0482": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0482",
-        "old_block_id": "block-291",
-        "kind": "list_item",
-        "old_text": "玩家消耗的巡演体力，达到奖励触发体力（MusicCity_setting.choice_reward_energy_cost）时，在结算后进入奖励选择。",
-        "new_text": "分数名称：竞演分数（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0482",
-        "old_block_id": "figure-0178",
-        "kind": "paragraph",
-        "old_text": "[图片] AE9FDB68DED9973367A0BE182BB37BEE680831C7B25DEFFB27C665233EB272EA",
-        "new_text": "玩家消耗的巡演体力，达到奖励触发体力（MusicCity_setting.choice_reward_energy_cost）时，在结算后进入奖励选择。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0483": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0483",
-        "old_block_id": "block-292",
-        "kind": "list_item",
-        "old_text": "每次生成3个互不重复的奖励选项，最多包含1个背包扩格选项。",
-        "new_text": "DEBUFF效果：BUFF名称（KEY）和减少值。仅在有此计算的时候显示。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0483",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "每次生成3个互不重复的奖励选项，最多包含1个背包扩格选项。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "figure-0484": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "figure-0484",
+        "new_block_id": "figure-0573",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -9688,14 +15863,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0486": [
+    "doc-0575": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0486",
+        "new_block_id": "doc-0575",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -9703,14 +15878,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0489": [
+    "doc-0578": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0489",
+        "new_block_id": "doc-0578",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -9718,14 +15893,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0499": [
+    "doc-0586": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0499",
+        "new_block_id": "doc-0586",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -9733,14 +15908,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0500": [
+    "doc-0587": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0500",
+        "new_block_id": "doc-0587",
         "old_block_id": "block-295",
         "kind": "list_item",
         "old_text": "玩家拥有的满级道具不再出现在道具随机池里。",
@@ -9753,7 +15928,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0500",
+        "new_block_id": "doc-0587",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -9789,14 +15964,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "figure-0502": [
+    "figure-0589": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "figure-0502",
+        "new_block_id": "figure-0589",
         "old_block_id": "figure-11",
         "kind": "image",
         "old_text": "[图片] assets/docx-images/figure-11.png",
@@ -9809,7 +15984,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0502",
+        "new_block_id": "figure-0589",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -9817,42 +15992,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0506": [
+    "doc-0594": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0506",
-        "old_block_id": "block-303",
-        "kind": "paragraph",
-        "old_text": "表演道具，包含：图标、道具提示（图标左上的NEW、UP）、演奏值（图标左下）、名称、等级、套装1名称、套装2名称、道具能力描述、详情图标按钮（点击打开道具详情界面查看内容）。",
-        "new_text": "表演道具，包含：图标、道具获得提示（图标左上的NEW、UP）、演奏值（图标左下）、名称、等级、套装1名称、套装2名称、道具能力描述、详情图标按钮（点击打开道具详情界面查看内容）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0506",
-        "old_block_id": "doc-6-4-1",
-        "kind": "paragraph",
-        "old_text": "6.4.1 候选生成",
-        "new_text": "表演道具，包含：图标、道具提示（图标左上的NEW、UP）、演奏值（图标左下）、名称、等级、套装1名称、套装2名称、道具能力描述、详情图标按钮（点击打开道具详情界面查看内容）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0507": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0507",
+        "new_block_id": "doc-0594",
         "old_block_id": "block-304",
         "kind": "list_item",
         "old_text": "背包扩格，包含：图标、名称、描述。",
@@ -9865,7 +16012,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0507",
+        "new_block_id": "doc-0594",
         "old_block_id": "doc-0180",
         "kind": "paragraph",
         "old_text": "累计消耗的巡演体力达到奖励触发体力（MusicCity_setting.choice_reward_energy_cost）时生成3个互不重复候选，最多包含1个扩格选项。候选生成后固定保存，不因关闭、断线或重进变化。",
@@ -9873,91 +16020,18 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0508": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0508",
-        "old_block_id": "block-305",
-        "kind": "paragraph",
-        "old_text": "查看背包按钮，点击进入表演准备界面，可以查看背包和仓库。",
-        "new_text": "背包扩格，包含：图标、名称（KEY）、描述（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0508",
-        "old_block_id": "doc-0181",
-        "kind": "paragraph",
-        "old_text": "扩格出现概率读取扩格候选概率（MusicCity_setting.bag_unlock_rate）；道具品质和类型权重读取奖励候选权重（MusicCity_setting.choice_reward_weights）。每3点体力、扩格50%、道具候选75%概率至少包含1件已持有道具均为临时数值，待数值确认后补充。",
-        "new_text": "查看背包按钮，点击进入表演准备界面，可以查看背包和仓库。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0509": [
+    "doc-0596": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0509",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "刷新（KEY）按钮，上方显示刷新道具资源条。点击请求刷新。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0510": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0510",
+        "new_block_id": "doc-0596",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
         "new_text": "刷新道具数量不足时，按钮正常显示，点击跳转活动商店界面。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0511": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0511",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "点击按钮时，如果有最高品质道具，则二次确认“有高品质道具是否刷新”（KEY），该提示有今日不再提示选项。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0512": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0512",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "查看背包（KEY）按钮，点击进入表演准备界面，可以查看背包和仓库。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -9989,14 +16063,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0514": [
+    "doc-0600": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0514",
+        "new_block_id": "doc-0600",
         "old_block_id": "block-308",
         "kind": "paragraph",
         "old_text": "玩家选择道具后，如果是新道具，则弹出获得新道具弹窗。",
@@ -10009,7 +16083,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0514",
+        "new_block_id": "doc-0600",
         "old_block_id": "doc-0183",
         "kind": "paragraph",
         "old_text": "玩家选择道具后：新道具按第一个合法位置自动放入背包，否则进入仓库；重复道具转为升级进度；满级同名道具不进入候选池。发放、自动放置、升级和结算反馈均使用同一服务端结果，重复请求不重复获得。",
@@ -10017,42 +16091,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0515": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0515",
-        "old_block_id": "block-309",
-        "kind": "paragraph",
-        "old_text": "弹窗展示道具信息。",
-        "new_text": "弹窗展示道具信息，包括：名称、图标、所属套装、演奏值、能力描述。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0515",
-        "old_block_id": "doc-6-4-3",
-        "kind": "paragraph",
-        "old_text": "6.4.3 背包扩格",
-        "new_text": "弹窗展示道具信息。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "figure-0516": [
+    "figure-0603": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0516",
+        "new_block_id": "figure-0603",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -10088,14 +16134,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "figure-0520": [
+    "figure-0607": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "figure-0520",
+        "new_block_id": "figure-0607",
         "old_block_id": "block-314",
         "kind": "image",
         "old_text": "如果增加的进度升级，则额外做升级表现，并在升级后刷新道具信息为新1级的。",
@@ -10108,7 +16154,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0520",
+        "new_block_id": "figure-0607",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -10116,14 +16162,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0521": [
+    "doc-0608": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0521",
+        "new_block_id": "doc-0608",
         "old_block_id": "doc-6-4-3",
         "kind": "list_item",
         "old_text": "6.4.3 获得背包扩格",
@@ -10136,7 +16182,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0521",
+        "new_block_id": "doc-0608",
         "old_block_id": "",
         "kind": "heading",
         "old_text": "",
@@ -10144,29 +16190,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-6-6-5": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-6-6-5",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "6.6.5 获得背包扩格",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "figure-0524": [
+    "figure-0615": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "figure-0524",
+        "new_block_id": "figure-0615",
         "old_block_id": "figure-12",
         "kind": "image",
         "old_text": "[图片] assets/docx-images/figure-12.png",
@@ -10179,7 +16210,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "figure-0524",
+        "new_block_id": "figure-0615",
         "old_block_id": "",
         "kind": "image",
         "old_text": "",
@@ -10187,42 +16218,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0526": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0526",
-        "old_block_id": "block-320",
-        "kind": "paragraph",
-        "old_text": "界面上方显示：标题、操作提示、解锁格子数量。",
-        "new_text": "界面上方显示：标题（KEY）、操作提示（KEY）、解锁格子数量（KEY）。",
-        "badge_label": "09-01 更新"
-      },
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0526",
-        "old_block_id": "doc-0187",
-        "kind": "paragraph",
-        "old_text": "新开放格必须与任一已开放格共边。一次获得多个开放格时，后一个格可以与本次刚开放的格相邻。未确认前保存玩家已选位置和剩余数量；关闭后再次进入恢复原状态。",
-        "new_text": "界面上方显示：标题、操作提示、解锁格子数量。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0532": [
+    "doc-0623": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "7",
         "change_type": "修改",
-        "new_block_id": "doc-0532",
+        "new_block_id": "doc-0623",
         "old_block_id": "block-360",
         "kind": "paragraph",
         "old_text": "活动战报界面（F39至F40）集中记录本人贡献变化、本人相关互动，以及以城市为单位的地图可见阵营状态变化。",
@@ -10230,14 +16233,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "figure-0533": [
+    "figure-0624": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "7",
         "change_type": "修改",
-        "new_block_id": "figure-0533",
+        "new_block_id": "figure-0624",
         "old_block_id": "figure-15",
         "kind": "image",
         "old_text": "[图片] assets/docx-images/figure-15.png",
@@ -10250,7 +16253,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "7",
         "change_type": "修改",
-        "new_block_id": "figure-0533",
+        "new_block_id": "figure-0624",
         "old_block_id": "figure-0202",
         "kind": "image",
         "old_text": "[图片] 912AF2412D46BE3C5C9F95AE6F2AD5550437A2649FFF76AA3349177B741657C0",
@@ -10258,14 +16261,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "figure-0534": [
+    "figure-0625": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "7",
         "change_type": "修改",
-        "new_block_id": "figure-0534",
+        "new_block_id": "figure-0625",
         "old_block_id": "block-362",
         "kind": "image",
         "old_text": "图7-1 活动战报F39",
@@ -10273,14 +16276,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0535": [
+    "doc-0626": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "7",
         "change_type": "修改",
-        "new_block_id": "doc-0535",
+        "new_block_id": "doc-0626",
         "old_block_id": "block-363",
         "kind": "paragraph",
         "old_text": "战报规则如下：",
@@ -10288,44 +16291,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0536": [
+    "doc-0629": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "7",
         "change_type": "修改",
-        "new_block_id": "doc-0536",
-        "old_block_id": "block-364",
-        "kind": "paragraph",
-        "old_text": "记录保留至活动结束，界面不显示保留时间。",
-        "new_text": "界面标题为“活动战报”（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0537": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "7",
-        "change_type": "修改",
-        "new_block_id": "doc-0537",
-        "old_block_id": "block-365",
-        "kind": "paragraph",
-        "old_text": "按时间倒序分批加载。",
-        "new_text": "界面分为“阵营”（KEY）和“个人”（KEY）分页。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0538": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "7",
-        "change_type": "修改",
-        "new_block_id": "doc-0538",
+        "new_block_id": "doc-0629",
         "old_block_id": "block-366",
         "kind": "paragraph",
         "old_text": "未读状态按条记录；玩家查看该条后清除未读。",
@@ -10333,14 +16306,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0539": [
+    "doc-0630": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "7",
         "change_type": "修改",
-        "new_block_id": "doc-0539",
+        "new_block_id": "doc-0630",
         "old_block_id": "block-367",
         "kind": "list_item",
         "old_text": "同一次服务端写入产生的多个变化合并为一条完整记录。",
@@ -10348,93 +16321,18 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0540": [
+    "doc-0634": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "7",
         "change_type": "修改",
-        "new_block_id": "doc-0540",
-        "old_block_id": "block-368",
-        "kind": "list_item",
-        "old_text": "城市状态记录突出显示阵营名称；互动记录显示玩家头像和名称；道具升级记录显示道具图标。",
-        "new_text": "城市状态变更：显示城市图标、描述（KEY），描述中的阵营名称突出字色显示。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0541": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "7",
-        "change_type": "修改",
-        "new_block_id": "doc-0541",
-        "old_block_id": "block-369",
-        "kind": "list_item",
-        "old_text": "战报中的城市和玩家对象均不提供跳转。",
-        "new_text": "派出花车：显示花车图标、描述（KEY），描述中的玩家名称、城市名称突出字色显示。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0542": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "7",
-        "change_type": "修改",
-        "new_block_id": "doc-0542",
+        "new_block_id": "doc-0634",
         "old_block_id": "block-370",
         "kind": "list_item",
         "old_text": "空状态显示没有可查看记录及战报范围说明。",
         "new_text": "个人战报：",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0543": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "7",
-        "change_type": "修改",
-        "new_block_id": "doc-0543",
-        "old_block_id": "block-371",
-        "kind": "list_item",
-        "old_text": "战报排序中的同时间处理、单次数量、活动结束归档和异常补写在后续设计步骤补齐。",
-        "new_text": "互动事件：显示目标玩家头像、描述（KEY），描述中的玩家名称、城市名称突出字色显示。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0544": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "7",
-        "change_type": "新增",
-        "new_block_id": "doc-0544",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "赢得花车：显示花车图标，描述（KEY）。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0545": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "7",
-        "change_type": "新增",
-        "new_block_id": "doc-0545",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "没有战报时，显示提示“没有可查看的记录”（KEY）。",
         "badge_label": "09-01 更新"
       }
     ],
@@ -10453,29 +16351,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "table-0549": [
+    "table-0642": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "8",
         "change_type": "修改",
-        "new_block_id": "table-0549",
-        "old_block_id": "table-1",
-        "kind": "table",
-        "old_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n配置编号 | id | digit | 主键；活动设置唯一ID。\n城市标记数量上限 | city_mark_limit | digit | 同一阵营可同时标记的城市数量。\n数值公式参数 | score_formula_params | digit array | 仅保存数值确认后的可调参数；元素顺序由对应公式定义。\n城市周期收益间隔 | city_income_interval | digit | 单位秒；激活和占领收益的统一结算间隔。\n个人城市贡献下限 | player_contribution_floor | digit | 城市争夺扣减后个人保留的最低贡献。\n城市效果互斥组 | city_effect_exclude_groups | digit array | 重复结构为互斥组编号；效果数量；效果ID……。\n背包行数 | bag_rows | digit | 当前固定为8；变更需要重新审核UE。\n背包列数 | bag_cols | digit | 当前固定为8；变更需要重新审核UE。\n初始开放格 | initial_unlocked_cells | digit array | 按行；列；行；列……记录初始中央2×4开放格。\n道具升级需求 | prop_upgrade_costs | digit array | 重复结构为目标等级；同名道具需求数量。\n单场节拍数量范围 | beat_count_range | digit array | 顺序为最少数量；最多数量。\n节拍品质权重 | beat_quality_weights | digit array | 重复结构为节拍品质；权重。\n奖励触发体力 | choice_reward_energy_cost | digit | 累计消耗多少体力生成一次奖励选项。\n扩格候选概率 | bag_unlock_rate | digit | 三选一中出现扩格候选的概率。\n奖励候选权重 | choice_reward_weights | digit array | 重复结构为奖励类型；颜色品质；权重。\n高品质保底次数 | high_quality_pity_count | digit | 连续未出现高品质候选后的保底次数；不启用时为空。\n互动目标保护时间 | interaction_protection_time | digit | 单位秒；目标进入互动候选过滤的保护时间。",
-        "new_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n配置编号 | id | digit | 主键；活动设置唯一ID。\n城市标记数量上限 | city_mark_limit | digit | 同一阵营可同时标记的城市数量。\n数值公式参数 | score_formula_params | digit array | 仅保存数值确认后的可调参数；元素顺序由对应公式定义。\n城市周期收益间隔 | city_income_interval | digit | 单位秒；占领收益的统一结算间隔。\n个人城市贡献下限 | player_contribution_floor | digit | 城市争夺扣减后个人保留的最低贡献。\n城市效果互斥组 | city_effect_exclude_groups | digit array | 重复结构为互斥组编号；效果数量；效果ID……。\n背包行数 | bag_rows | digit | 当前固定为8；变更需要重新审核UE。\n背包列数 | bag_cols | digit | 当前固定为8；变更需要重新审核UE。\n初始开放格 | initial_unlocked_cells | digit array | 按行；列；行；列……记录初始中央2×4开放格。\n道具升级需求 | prop_upgrade_costs | digit array | 重复结构为目标等级；同名道具需求数量。\n单场节拍数量范围 | beat_count_range | digit array | 顺序为最少数量；最多数量。\n节拍品质权重 | beat_quality_weights | digit array | 重复结构为节拍品质；权重。\n奖励触发体力 | choice_reward_energy_cost | digit | 累计消耗多少体力生成一次奖励选项。\n扩格候选概率 | bag_unlock_rate | digit | 三选一中出现扩格候选的概率。\n奖励候选权重 | choice_reward_weights | digit array | 重复结构为奖励类型；颜色品质；权重。\n高品质保底次数 | high_quality_pity_count | digit | 连续未出现高品质候选后的保底次数；不启用时为空。\n互动目标保护时间 | interaction_protection_time | digit | 单位秒；目标进入互动候选过滤的保护时间。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "table-0550": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "8",
-        "change_type": "修改",
-        "new_block_id": "table-0550",
+        "new_block_id": "table-0642",
         "old_block_id": "table-2",
         "kind": "table",
         "old_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n城市编号 | city_id | digit | 主键；九座城市唯一ID。\n城市名称 | city_name | string | 多语言KEY；地图和详情显示。\n国家名称 | country_name | string | 多语言KEY；城市详情显示。\n城市级别 | city_level | digit | 城市固定级别枚举；参与收益计算。\n风格谱系 | style_family | digit | 古典、民族或现代。\n表演门类 | performance_category | digit | 歌剧、音乐剧或舞台剧。\n城市主题 | city_theme | string | 多语言KEY或内容标识。\n流行度上限 | popularity_cap | digit | 城市全部阵营流行度总和上限。\n激活绝对值 | active_abs | digit | 阵营激活城市的绝对门槛。\n激活占比 | active_ratio | digit | 阵营激活城市的占比门槛。\n占领绝对值 | occupy_abs | digit | 阵营占领城市的绝对门槛。\n占领占比 | occupy_ratio | digit | 阵营占领城市的占比门槛。\n候选城市效果 | effect_ids | digit array | 引用MusicCity_cityEffect；每城至少2个候选。\n联通城市编号 | connected_city_ids | digit array | 业务联通城市ID集合。\n城市图标 | icon | string | 地图节点和城市详情资源名。",
@@ -10488,7 +16371,7 @@ window.KNOWLEDGE_HISTORY = {
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "8",
         "change_type": "修改",
-        "new_block_id": "table-0550",
+        "new_block_id": "table-0642",
         "old_block_id": "table-0214",
         "kind": "table",
         "old_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n城市编号 | city_id | digit | 主键；九座城市唯一ID。\n城市名称 | city_name | string | 多语言KEY；地图和详情显示。\n国家名称 | country_name | string | 多语言KEY；城市详情显示。\n城市级别 | city_level | digit | 城市固定级别枚举；参与收益计算。\n地域类型 | region_type | digit | 大陆城市或飞地。\n风格谱系 | style_family | digit | 古典、民族或现代。\n表演门类 | performance_category | digit | 歌剧、音乐剧或舞台剧。\n城市主题 | city_theme | string | 多语言KEY或内容标识。\n流行度上限 | popularity_cap | digit | 城市全部阵营流行度总和上限。\n激活绝对值 | active_abs | digit | 阵营激活城市的绝对门槛。\n激活占比 | active_ratio | digit | 阵营激活城市的占比门槛。\n占领绝对值 | occupy_abs | digit | 阵营占领城市的绝对门槛。\n占领占比 | occupy_ratio | digit | 阵营占领城市的占比门槛。\n候选城市效果 | effect_ids | digit array | 引用MusicCity_cityEffect；每城至少2个候选。\n联通城市编号 | connected_city_ids | digit array | 业务联通城市ID集合。\n城市图标 | icon | string | 地图节点和城市详情资源名。",
@@ -10496,14 +16379,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "table-0551": [
+    "table-0643": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "8",
         "change_type": "修改",
-        "new_block_id": "table-0551",
+        "new_block_id": "table-0643",
         "old_block_id": "table-3",
         "kind": "table",
         "old_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n效果编号 | effect_id | digit | 主键；城市效果唯一ID。\n效果名称 | effect_name | string | 多语言KEY。\n效果说明 | effect_des | string | 带参数的多语言KEY。\n效果类型 | effect_type | digit | 周期扩散、表演加成、同步写入、贡献防守等类型。\n触发时机 | trigger_type | digit | 周期、有效表演、状态变化、扣减或首次占领等。\n触发间隔 | trigger_interval | digit | 单位秒；仅周期型效果使用。\n目标范围 | target_scope | digit | 本城、相邻、指定标签、标记或已激活城市等。\n目标条件类型 | target_condition_type | digit | 风格、门类、地域、相邻、状态或数量等。\n目标条件参数 | target_condition_params | digit array | 按条件类型解释的枚举或ID数组。\n取值来源 | source_value_type | digit | 本场贡献、周期贡献、激活城市数或链路长度等。\n效果值模式 | value_mode | digit | 固定值、比例或按数量递增。\n效果参数 | value_params | digit array | 与效果类型和值模式对应的可调参数。",
@@ -10511,29 +16394,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "table-0552": [
+    "table-0649": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "8",
         "change_type": "修改",
-        "new_block_id": "table-0552",
-        "old_block_id": "table-4",
-        "kind": "table",
-        "old_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n道具编号 | prop_id | digit | 主键；道具唯一ID。\n道具名称 | prop_name | string | 多语言KEY。\n道具说明 | prop_des | string | 多语言KEY。\n道具种类 | category | digit | 键盘、弦乐、管乐、打击、服装或舞台装饰。\n风格标签 | style_tag | digit | 古典或现代。\n道具品质 | quality | digit | 红、金、紫或蓝。\n固定宽度 | shape_width | digit | 道具横向占格数。\n固定高度 | shape_height | digit | 道具纵向占格数。\n同名放置上限 | same_name_limit | digit | 同一背包同名道具上限。\n最高等级 | max_level | digit | 当前固定Lv.5。\n各级基础演奏值 | base_value_by_level | digit array | 按Lv.1至Lv.5排列。\n道具效果编号 | effect_id | digit | 引用MusicCity_toolEffect。\n道具图标 | icon | string | 详情、仓库、奖励和战报资源名。",
-        "new_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n道具编号 | prop_id | digit | 主键；道具唯一ID。\n道具名称 | prop_name | string | 多语言KEY。\n道具说明 | prop_des | string | 多语言KEY。\n道具种类 | category | digit | 键盘、弦乐、管乐、打击、服装或舞台装饰。\n道具品质 | quality | digit | 红、金、紫或蓝。\n固定宽度 | shape_width | digit | 道具横向占格数。\n固定高度 | shape_height | digit | 道具纵向占格数。\n同名放置上限 | same_name_limit | digit | 同一背包同名道具上限。\n最高等级 | max_level | digit | 当前固定Lv.5。\n各级基础演奏值 | base_value_by_level | digit array | 按Lv.1至Lv.5排列。\n道具效果编号 | effect_id | digit | 引用MusicCity_toolEffect。\n所属套装 | set_id | digit array | 所属的套装，引用MusicCity_toolSet。\n道具图标 | icon | string | 详情、仓库、奖励和战报资源名。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "table-0557": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "8",
-        "change_type": "修改",
-        "new_block_id": "table-0557",
+        "new_block_id": "table-0649",
         "old_block_id": "table-9",
         "kind": "table",
         "old_text": "字段中文名称 | 字段英文名称 | 字段格式 | 字段说明（具体格式、使用场景）\n互动事件编号 | event_id | digit | 主键；事件唯一ID。\n事件类型 | event_type | digit | 唯粉捣乱或CP粉友善。\n基础触发权重 | base_weight | digit | 事件基础权重或概率。\n概率修正类型 | modifier_type | digit | 其他阵营占比、同阵营在线人数等。\n概率修正参数 | modifier_params | digit array | 档位、阈值或倍率。\n结果类型 | result_type | digit | 降低城市贡献或给予后续表演增益。\n结果参数 | result_params | digit array | 作用幅度和次数。",
@@ -10541,74 +16409,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "09-01 更新"
       }
     ],
-    "doc-0563": [
+    "table-0664": [
       {
         "version": "V0.1 · 2026-09-01 14:01 修改版",
         "date": "2026-09-01",
         "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
         "chapter": "8",
         "change_type": "修改",
-        "new_block_id": "doc-0563",
-        "old_block_id": "block-398",
-        "kind": "list_item",
-        "old_text": "B06：激活与占领绝对门槛、周期中状态刷新。",
-        "new_text": "B06：占领周期中状态刷新。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0567": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "8",
-        "change_type": "修改",
-        "new_block_id": "doc-0567",
-        "old_block_id": "block-402",
-        "kind": "list_item",
-        "old_text": "B12：唯粉与CP粉的触发、作用值、保护、重复、持续和上限。",
-        "new_text": "B12：唯粉的触发、作用值、保护、重复、持续和上限。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0568": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "8",
-        "change_type": "修改",
-        "new_block_id": "doc-0568",
-        "old_block_id": "block-403",
-        "kind": "list_item",
-        "old_text": "B13：活动结束后的场次、互动、道具、仓库和背包数据处理。",
-        "new_text": "B13：套装成员、激活数量和具体效果，在后续设计步骤补齐。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "doc-0569": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "8",
-        "change_type": "修改",
-        "new_block_id": "doc-0569",
-        "old_block_id": "block-404",
-        "kind": "list_item",
-        "old_text": "B14：新道具存在多个合法位置时的自动选择顺序；道具效果超过目标上限时的目标选择顺序及能否作用于已扫描道具。",
-        "new_text": "B14：指挥官标记身份、并发覆盖和日志规则，在后续设计步骤补齐。",
-        "badge_label": "09-01 更新"
-      }
-    ],
-    "table-0570": [
-      {
-        "version": "V0.1 · 2026-09-01 14:01 修改版",
-        "date": "2026-09-01",
-        "previous_version": "V0.1 · 2026-08-25 22:40 修改版",
-        "chapter": "8",
-        "change_type": "修改",
-        "new_block_id": "table-0570",
+        "new_block_id": "table-0664",
         "old_block_id": "table-10",
         "kind": "table",
         "old_text": "多语言KEY | 简中文本 | 参数说明 | 使用场景\nMusicCity_title_01 | 心动巡演 | 无 | 活动名称、入口和页面标题。\nMusicCity_title_02 | 活动时间 | 无 | 活动首页信息标题。\nMusicCity_title_03 | 个人排名 | 无 | 顶栏和个人榜。\nMusicCity_title_04 | 个人人气 | 无 | 顶栏和结算。\nMusicCity_title_05 | 阵营人气 | 无 | 阵营榜。\nMusicCity_title_06 | 巡演体力 | 无 | 主界面和开演提示。\nMusicCity_title_07 | 表演值 | 无 | 主界面、准备和结算。\nMusicCity_title_08 | 巡演地图 | 无 | 地图区域标题。\nMusicCity_title_09 | 城市详情 | 无 | 城市完整信息。\nMusicCity_title_10 | 城市效果 | 无 | 城市效果区域。\nMusicCity_title_11 | 表演队伍 | 无 | F52标题。\nMusicCity_title_12 | 表演准备 | 无 | 准备页标题。\nMusicCity_title_13 | 背包 | 无 | 背包区域。\nMusicCity_title_14 | 仓库 | 无 | 仓库区域。\nMusicCity_title_15 | 道具详情 | 无 | F24标题。\nMusicCity_title_16 | 套装效果 | 无 | 道具详情和背包。\nMusicCity_title_17 | 本场结果 | 无 | 表演结算标题。\nMusicCity_title_18 | 奖励选项 | 无 | F27标题。\nMusicCity_title_19 | 背包扩格 | 无 | F43标题。\nMusicCity_title_20 | 唯粉事件 | 无 | F34标题。\nMusicCity_title_21 | CP粉事件 | 无 | F35标题。\nMusicCity_title_22 | 活动战报 | 无 | F39标题。\nMusicCity_title_23 | 个人榜 | 无 | 排行页签。\nMusicCity_title_24 | 阵营榜 | 无 | 排行页签。\nMusicCity_title_25 | 排行奖励 | 无 | 奖励页签。\nMusicCity_btn_01 | 进入巡演 | 无 | 活动首页进行中主按钮。\nMusicCity_btn_02 | 查看巡演 | 无 | 活动首页休息期主按钮。\nMusicCity_btn_03 | 查看结算 | 无 | 活动首页结算期主按钮。\nMusicCity_btn_04 | 表演准备 | 无 | 活动主界面按钮。\nMusicCity_btn_05 | 开始表演 | 无 | 活动主界面按钮。\nMusicCity_btn_06 | 表演队伍 | 无 | 活动主界面底栏。\nMusicCity_btn_07 | 设为目标 | 无 | 城市完整信息。\nMusicCity_btn_08 | 标记 | 无 | 指挥官城市操作。\nMusicCity_btn_09 | 跳过 | 无 | 舞台按钮。\nMusicCity_btn_10 | 完成本场表演 | 无 | 舞台按钮。\nMusicCity_btn_11 | 选择 | 无 | 奖励和互动候选。\nMusicCity_btn_12 | 确认 | 无 | 通用确认。\nMusicCity_btn_13 | 刷新 | 无 | 候选失效。\nMusicCity_btn_14 | 一键卸下 | 无 | 背包操作。\nMusicCity_btn_15 | 返回 | 无 | 页面返回。\nMusicCity_tips_01 | 请先选择巡演城市 | 无 | 未选城市时开演。\nMusicCity_tips_02 | 巡演体力不足 | 无 | 体力不足。\nMusicCity_tips_03 | 请先在表演准备中放入道具 | 无 | 背包为空。\nMusicCity_tips_04 | 当前背包布局不符合要求 | 无 | 背包非法。\nMusicCity_tips_05 | 还有未完成的奖励或互动 | 无 | 阻断下一场。\nMusicCity_tips_06 | 当前阶段不可开始表演 | 无 | 休息、结算或关闭。\nMusicCity_tips_07 | 再表演%{num}次获得奖励 | %{num}为剩余有效表演次数 | 主界面奖励进度。\nMusicCity_tips_08 | 是否跳过本场演出表现？ | 无 | F30确认。\nMusicCity_tips_09 | 今日不再提示 | 无 | 跳过与一键卸下确认。\nMusicCity_tips_10 | 保存成功 | 无 | 背包即时保存。\nMusicCity_tips_11 | 保存失败，请重试 | 无 | 背包保存失败。\nMusicCity_tips_12 | 目标已失效，请刷新候选 | 无 | 互动目标失效。\nMusicCity_tips_13 | 本次结果已结算 | 无 | 重复提交。\nMusicCity_tips_14 | 正在恢复本场结果 | 无 | 断线重连。\nMusicCity_tips_15 | 活动已结束 | 无 | 强制关闭。\nMusicCity_tips_16 | 新开放格必须与已开放格相邻 | 无 | 扩格非法选择。\nMusicCity_tips_17 | 该道具已满级，后续不会再随机获得 | 无 | 满级反馈。\nMusicCity_des_01 | 完成表演、提升人气，与阵营伙伴共同争夺九座巡演城市。 | 无 | 活动玩法简介。\nMusicCity_des_02 | 当前城市由%{str1}占领 | %{str1}为阵营名称 | 城市状态。\nMusicCity_des_03 | 你在%{str1}的贡献变化：%{num1}→%{num2} | %{str1}为城市名称；%{num1}/%{num2}为变化前后值 | 城市变化和战报。\nMusicCity_des_04 | %{str1}向你送来鲜花，后续%{num1}场有效表演获得增益 | %{str1}为玩家名；%{num1}为生效次数 | CP粉反馈。\nMusicCity_des_05 | %{str1}的唯粉影响了你在%{str2}的贡献 | %{str1}为玩家名；%{str2}为城市名 | 唯粉反馈。\nMusicCity_des_06 | 活动处于休息期，你可以调整表演准备，但不能开始表演。 | 无 | 休息期说明。\nMusicCity_des_07 | 活动正在结算，请前往排行、奖励或活动战报查看结果。 | 无 | 结算期说明。",
@@ -10736,36 +16544,6 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0013": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "2",
-        "change_type": "修改",
-        "new_block_id": "doc-0013",
-        "old_block_id": "doc-0020",
-        "kind": "list_item",
-        "old_text": "个人排行人气：个人人气加独立档位的阵营加成人气；不得直接把持续增长的阵营总人气加到个人值上。",
-        "new_text": "每表演若干次后，获得可选奖励，增加表演道具、扩充背包格子，提升表演效果。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0014": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "3",
-        "change_type": "修改",
-        "new_block_id": "doc-0014",
-        "old_block_id": "doc-0031",
-        "kind": "paragraph",
-        "old_text": "本活动接入KC/KOW通用排行活动框架。单服版本以联盟为阵营；跨服版本以服务器为阵营。活动类型、所属活动组、开放范围和公共奖励入口由活动基础配置（activity_base）及对应公共活动配置定义。",
-        "new_text": "本活动接入KC通用排行活动框架。",
-        "badge_label": "08-25 更新"
-      }
-    ],
     "doc-0015": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
@@ -10811,44 +16589,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0029": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "3",
-        "change_type": "修改",
-        "new_block_id": "doc-0029",
-        "old_block_id": "doc-0040",
-        "kind": "paragraph",
-        "old_text": "跨服活动的服务器或玩家参赛资格读取跨服资格配置（cross_server_certificate），资格的产生、保存和检查沿用通用规则。未获得资格时，入口展示不可参与原因，不进入玩法主界面。",
-        "new_text": "跨服活动的服务器或玩家参赛资格读取跨服资格配置（cross_server_certificate），资格的产生、保存和检查沿用通用规则。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0030": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "3",
-        "change_type": "修改",
-        "new_block_id": "doc-0030",
-        "old_block_id": "doc-3-2-2",
-        "kind": "paragraph",
-        "old_text": "3.2.2 功能解锁与联盟条件",
-        "new_text": "未获得资格时，入口展示不可参与原因，不可进入玩法主界面。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0031": [
+    "doc-0035": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "3",
         "change_type": "新增",
-        "new_block_id": "doc-0031",
+        "new_block_id": "doc-0035",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -10856,29 +16604,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-3-9": [
+    "doc-0046": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "3",
         "change_type": "修改",
-        "new_block_id": "doc-3-9",
-        "old_block_id": "doc-0058",
-        "kind": "heading",
-        "old_text": "已保存但未展示的结算结果在结算期可恢复查看，不重复扣体力、发奖或写入贡献。",
-        "new_text": "3.9 活动道具",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0038": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "3",
-        "change_type": "修改",
-        "new_block_id": "doc-0038",
+        "new_block_id": "doc-0046",
         "old_block_id": "doc-0060",
         "kind": "paragraph",
         "old_text": "活动窗口关闭时，未领取的公共榜单奖励按通用邮件规则补发。",
@@ -10886,14 +16619,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0042": [
+    "doc-0050": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "3",
         "change_type": "修改",
-        "new_block_id": "doc-0042",
+        "new_block_id": "doc-0050",
         "old_block_id": "doc-0061",
         "kind": "paragraph",
         "old_text": "活动结束后清理临时场次、未完成互动候选、鲜花状态、活动内筛选记忆、城市当期效果和阵营标记。道具、升级、背包开放格、背包布局和仓库是否跨期继承，待活动生命周期设计确认后补充；未确认前不得由客户端自行删除。",
@@ -10901,33 +16634,18 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0089": [
+    "doc-0094": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0089",
+        "new_block_id": "doc-0094",
         "old_block_id": "doc-0062",
         "kind": "paragraph",
         "old_text": "主城入口（F01）展示活动名称、阶段、倒计时和红点，整个入口区域可点击。",
         "new_text": "主城主界面活动列表新增活动入口，沿用KC通用活动框架规则。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0090": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "4",
-        "change_type": "修改",
-        "new_block_id": "doc-0090",
-        "old_block_id": "doc-0068",
-        "kind": "paragraph",
-        "old_text": "活动首页（F02至F04、F44至F45）展示活动基础信息、阶段状态和进入玩法的入口。",
-        "new_text": "活动首页（F02至F04、F44至F45）界面，沿用KC通用活动框架规则，展示活动基础信息、阶段状态和进入玩法的入口。",
         "badge_label": "08-25 更新"
       }
     ],
@@ -10939,6 +16657,21 @@ window.KNOWLEDGE_HISTORY = {
         "chapter": "4",
         "change_type": "修改",
         "new_block_id": "doc-0095",
+        "old_block_id": "doc-0068",
+        "kind": "paragraph",
+        "old_text": "活动首页（F02至F04、F44至F45）展示活动基础信息、阶段状态和进入玩法的入口。",
+        "new_text": "活动首页（F02至F04、F44至F45）界面，沿用KC通用活动框架规则，展示活动基础信息、阶段状态和进入玩法的入口。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0100": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "4",
+        "change_type": "修改",
+        "new_block_id": "doc-0100",
         "old_block_id": "doc-0073",
         "kind": "list_item",
         "old_text": "中部保留活动背景露出空间；下方信息区显示活动时间、轮次和阶段说明。",
@@ -10946,14 +16679,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0097": [
+    "doc-0102": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0097",
+        "new_block_id": "doc-0102",
         "old_block_id": "doc-0074",
         "kind": "list_item",
         "old_text": "进入巡演按钮位于活动信息下方；休息期改为查看巡演，结算期改为查看结算，未开放和关闭期按状态禁用。",
@@ -10961,14 +16694,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0099": [
+    "doc-0107": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0099",
+        "new_block_id": "doc-0107",
         "old_block_id": "doc-0076",
         "kind": "list_item",
         "old_text": "底栏左侧为返回；右侧为赛季任务、成就、排行和奖励。",
@@ -10976,14 +16709,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0127": [
+    "doc-0135": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "4",
         "change_type": "修改",
-        "new_block_id": "doc-0127",
+        "new_block_id": "doc-0135",
         "old_block_id": "doc-0089",
         "kind": "list_item",
         "old_text": "首次进入不默认选中城市；后续恢复上次保存且仍有效的城市。点击地图空白不取消选择，点击其他城市切换目标。开始表演按钮按以下优先级显示禁用原因：活动阶段不可表演＞存在未完成阻断流程＞未选城市＞体力不足＞背包为空＞背包布局非法＞可表演。",
@@ -10991,14 +16724,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0136": [
+    "doc-0146": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0136",
+        "new_block_id": "doc-0146",
         "old_block_id": "doc-0091",
         "kind": "paragraph",
         "old_text": "公共巡演地图由9座固定城市及其业务联通关系组成。巴黎、布鲁塞尔、莱比锡、克拉科夫、布拉格、维也纳、威尼斯、布达佩斯位于大陆区域；伦敦为飞地。道路只用于表达城市联通和城市效果目标，不直接产生贡献或收益。",
@@ -11006,29 +16739,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0137": [
+    "doc-0150": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "修改",
-        "new_block_id": "doc-0137",
-        "old_block_id": "doc-0092",
-        "kind": "paragraph",
-        "old_text": "地图坐标、道路曲线、节点偏移、缩放和显示层级由Unity地图预制保存；业务联通城市读取联通城市编号（MusicCity_city.connected_city_ids）。",
-        "new_text": "城市的位置、道路曲线由Unity地图预制保存。实际联通判定读取各城市的联通城市编号（MusicCity_city.connected_city_ids）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0139": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "修改",
-        "new_block_id": "doc-0139",
+        "new_block_id": "doc-0150",
         "old_block_id": "doc-0093",
         "kind": "paragraph",
         "old_text": "每座城市具有城市级别、地域类型、风格谱系、表演门类、城市主题、流行度上限、激活门槛、占领门槛、候选效果和联通城市。城市属性读取城市配置表（MusicCity_city）。",
@@ -11036,78 +16754,18 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0140": [
+    "doc-0151": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "5",
         "change_type": "新增",
-        "new_block_id": "doc-0140",
+        "new_block_id": "doc-0151",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
         "new_text": "每座城市的配置属性有：",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0142": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-0142",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "风格谱系（style_family）、表演门类（performance_category），用于作为效果的判定条件属性。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-5-4": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-4",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.4 城市争夺",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-5-5-1": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-5-1",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.5.1 城市收益",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-5-8": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "5",
-        "change_type": "新增",
-        "new_block_id": "doc-5-8",
-        "old_block_id": "",
-        "kind": "heading",
-        "old_text": "",
-        "new_text": "5.8 阵营标记",
         "badge_label": "08-25 更新"
       }
     ],
@@ -11126,14 +16784,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0268": [
+    "doc-0293": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0268",
+        "new_block_id": "doc-0293",
         "old_block_id": "doc-0127",
         "kind": "paragraph",
         "old_text": "表演准备界面（F15至F25）用于查看表演队伍、管理8×8背包和仓库，并即时保存合法布局；该页面不能直接开始表演。",
@@ -11141,14 +16799,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0269": [
+    "doc-0294": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0269",
+        "new_block_id": "doc-0294",
         "old_block_id": "figure-0128",
         "kind": "paragraph",
         "old_text": "[图片] AF28E1304692F59485299C5C6DB29684B8C2EE2F57884DE2BDA1CBD2D954CB3E",
@@ -11156,14 +16814,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0270": [
+    "doc-0295": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0270",
+        "new_block_id": "doc-0295",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -11171,14 +16829,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0271": [
+    "doc-0296": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0271",
+        "new_block_id": "doc-0296",
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
@@ -11201,141 +16859,6 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0282": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0282",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "表演道具的属性读取表演道具配置表（MusicCity_tool）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0283": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0283",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "表演道具的配置属性有：",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0284": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0284",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "道具种类（category），用于道具套装和能力判定的属性。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0285": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0285",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "道具颜色品质（quality）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0287": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0287",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "演奏值（play_value），表演属性，各等级会有不同的数值。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0288": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0288",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "能力（effect_id），在背包中满足条件会生效的能力，各等级会有不同的数值，对应道具效果配置表（MusicCity_toolEffect）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0289": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0289",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "套装（set_id），所属的套装编号，对应道具套装配置表（MusicCity_toolSet）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0305": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0305",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "具体的能力列表，待道具设计完成后提供。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0308": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0308",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "表演道具可以归属于若干个套装。",
-        "badge_label": "08-25 更新"
-      }
-    ],
     "doc-0310": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
@@ -11347,7 +16870,22 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
-        "new_text": "套装效果读取套装效果配置表（MusicCity_toolSetEffect），主要包括：",
+        "new_text": "表演道具的属性读取表演道具配置表（MusicCity_tool）。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0311": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0311",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "表演道具的配置属性有：",
         "badge_label": "08-25 更新"
       }
     ],
@@ -11362,7 +16900,7 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "增加演奏值：给归属套装的道具增加演奏值。",
+        "new_text": "道具种类（category），用于道具套装和能力判定的属性。",
         "badge_label": "08-25 更新"
       }
     ],
@@ -11377,18 +16915,93 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "套装能力：具体的能力列表，待道具设计完成后提供。",
+        "new_text": "道具颜色品质（quality）。",
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0318": [
+    "doc-0317": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0318",
+        "new_block_id": "doc-0317",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "套装（set_id），所属的套装编号，对应道具套装配置表（MusicCity_toolSet）。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0329": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0329",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "表演道具可以归属于若干个套装。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0331": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0331",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "套装效果读取套装效果配置表（MusicCity_toolSetEffect），主要包括：",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0333": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0333",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "增加演奏值：给归属套装的道具增加演奏值。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0334": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0334",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "套装能力：具体的能力列表，待道具设计完成后提供。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0357": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0357",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -11396,29 +17009,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0320": [
+    "doc-0360": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0320",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "活动中，玩家通过表演的奖励选项可以扩大背包格子。具体规则详见下文奖励选项章节。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0321": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0321",
+        "new_block_id": "doc-0360",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -11426,14 +17024,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0322": [
+    "doc-0361": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0322",
+        "new_block_id": "doc-0361",
         "old_block_id": "",
         "kind": "paragraph",
         "old_text": "",
@@ -11441,14 +17039,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0358": [
+    "doc-0393": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0358",
+        "new_block_id": "doc-0393",
         "old_block_id": "doc-0138",
         "kind": "list_item",
         "old_text": "满足同名道具上限。",
@@ -11456,14 +17054,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0373": [
+    "doc-0439": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0373",
+        "new_block_id": "doc-0439",
         "old_block_id": "doc-0143",
         "kind": "paragraph",
         "old_text": "道具按背包从左上到右下、逐行扫描；多格道具只在首次扫描到其占用格时处理一次。扫描顺序用于确定效果触发顺序。",
@@ -11471,14 +17069,14 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0375": [
+    "doc-0441": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0375",
+        "new_block_id": "doc-0441",
         "old_block_id": "doc-0145",
         "kind": "list_item",
         "old_text": "道具最终演奏值＝（基础演奏值＋固定值加成合计）×（1＋比例加成合计）。",
@@ -11486,288 +17084,18 @@ window.KNOWLEDGE_HISTORY = {
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0376": [
+    "doc-0442": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0376",
+        "new_block_id": "doc-0442",
         "old_block_id": "doc-0146",
         "kind": "paragraph",
         "old_text": "每步取整、负值处理、上限和套装接入顺序待数值确认后补充。背包总演奏值为全部道具最终演奏值之和。",
         "new_text": "计算内容有：",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0377": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0377",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "道具的基础演奏值。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0378": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0378",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "套装效果增加的演奏值。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0379": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0379",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "套装的能力。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0380": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0380",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "道具的能力。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0382": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0382",
-        "old_block_id": "doc-0147",
-        "kind": "paragraph",
-        "old_text": "首次获得道具时为Lv.1。重复获得同名道具时自动转为升级进度，不需要玩家确认。升级需求读取道具升级需求（MusicCity_setting.prop_upgrade_costs）；达到门槛时自动升级，并通过F25展示升级前后等级和进度。",
-        "new_text": "首次获得的道具为Lv.1。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0383": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0383",
-        "old_block_id": "doc-0148",
-        "kind": "paragraph",
-        "old_text": "道具最高Lv.5。达到满级后，同名道具移出后续随机候选池，不再随机获得。套装玩法保留，套装成员、激活档位和具体效果为临时方案，在后续设计步骤补齐。",
-        "new_text": "重复获得同名道具时，自动转为道具的升级进度。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0384": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0384",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "道具各等级升级需求读取道具升级需求（MusicCity_setting.prop_upgrade_costs）。达到需求时自动升级。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0385": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0385",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "道具最高等级暂定Lv.5。达到满级后，同名道具移出随机候选池，不再获得。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0395": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0395",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "表演界面（F28、F30）分为上下2个部分：上方展示表演队伍恋人和观众粉丝构成的舞台；下方为背包演奏区（节拍QTE区）。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0397": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0397",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "背包区域显示完整的格子和表演道具。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0404": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0404",
-        "old_block_id": "doc-0155",
-        "kind": "paragraph",
-        "old_text": "舞台顶部显示最多5名锁定恋人，背包区域显示完整8×8格。节拍在服务端预生成的道具位置出现，品质越高，点击区域越小、存在时间越短、增幅越高。",
-        "new_text": "节拍玩法是一个需要玩家快速点击在随机位置生成的限时区域的小游戏。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0406": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0406",
-        "old_block_id": "doc-0157",
-        "kind": "paragraph",
-        "old_text": "舞台允许跳过表现。跳过前二次确认，并提供“今日不再提示”；跳过后使用同一场次和服务端结果，不创建新随机结果。本轮不提供加速。舞台中途不提供普通退出。",
-        "new_text": "服务端根据活动配置表（MusicCity_setting）中的单场节拍数量范围（beat_count_range）、节拍品质权重（beat_quality_weights）随机出本场表演的节拍数量和节拍品质，给到客户端作为玩法数据。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0407": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0407",
-        "old_block_id": "doc-6-3",
-        "kind": "paragraph",
-        "old_text": "6.3 单场结算",
-        "new_text": "客户端在表演界面的道具背包区域范围内，随机选择位置依次生成需要点击的节拍区域。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0410": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0410",
-        "old_block_id": "doc-0158",
-        "kind": "paragraph",
-        "old_text": "表演结算界面（F32）展示服务端保存的唯一结果、分项值和城市变化。",
-        "new_text": "节拍区域的属性读取节拍品质配置表（MusicCity_beat），包括：",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0411": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0411",
-        "old_block_id": "figure-0159",
-        "kind": "list_item",
-        "old_text": "[图片] F4BF7CD966F3C6467D47C68490DD393AA8ACBE3761A78590196168AE2E0716E5",
-        "new_text": "点击区域尺寸（click_area_size），表示节拍外圈大小的随机范围。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0412": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0412",
-        "old_block_id": "doc-0160",
-        "kind": "list_item",
-        "old_text": "图6-3 表演结算F32",
-        "new_text": "存在时长（duration），表示节拍可存在的时长。点击区域/时长，则表示缩圈速度。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0413": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0413",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "判定档位（grade_types）、判定窗口（grade_windows）、档位增幅（grade_ratios）表示在时长剩余多少比例时点击对应的档位、以及档位的增幅效果。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0414": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0414",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "未操作保底增幅（miss_ratio），表示如果没有点击到的增幅效果。",
         "badge_label": "08-25 更新"
       }
     ],
@@ -11782,37 +17110,82 @@ window.KNOWLEDGE_HISTORY = {
         "old_block_id": "",
         "kind": "list_item",
         "old_text": "",
-        "new_text": "如果客户端上报节拍与服务端之前生成的不一致，则按生成的节拍、当作全部漏点击计算结果。",
+        "new_text": "道具的基础演奏值。",
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0451": [
+    "doc-0444": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
-        "change_type": "修改",
-        "new_block_id": "doc-0451",
-        "old_block_id": "doc-0164",
+        "change_type": "新增",
+        "new_block_id": "doc-0444",
+        "old_block_id": "",
         "kind": "list_item",
-        "old_text": "汇总锁定恋人表演值与背包演奏值，得到本场基础表演值。",
-        "new_text": "判定奖励选项进度：是否生成奖励候选。",
+        "old_text": "",
+        "new_text": "道具的能力。",
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0466": [
+    "doc-0459": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0459",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "表演界面（F28、F30）分为上下2个部分：上方展示表演队伍恋人和观众粉丝构成的舞台；下方为背包演奏区（节拍QTE区）。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0461": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0461",
+        "old_block_id": "",
+        "kind": "list_item",
+        "old_text": "",
+        "new_text": "背包区域显示完整的格子和表演道具。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0468": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0466",
-        "old_block_id": "doc-0169",
+        "new_block_id": "doc-0468",
+        "old_block_id": "doc-0155",
         "kind": "paragraph",
-        "old_text": "判定奖励进度；达到阈值时生成奖励候选，否则判定互动事件。",
-        "new_text": "图6-3 表演结算F32",
+        "old_text": "舞台顶部显示最多5名锁定恋人，背包区域显示完整8×8格。节拍在服务端预生成的道具位置出现，品质越高，点击区域越小、存在时间越短、增幅越高。",
+        "new_text": "节拍玩法是一个需要玩家快速点击在随机位置生成的限时区域的小游戏。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0470": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0470",
+        "old_block_id": "doc-0157",
+        "kind": "paragraph",
+        "old_text": "舞台允许跳过表现。跳过前二次确认，并提供“今日不再提示”；跳过后使用同一场次和服务端结果，不创建新随机结果。本轮不提供加速。舞台中途不提供普通退出。",
+        "new_text": "服务端根据活动配置表（MusicCity_setting）中的单场节拍数量范围（beat_count_range）、节拍品质权重（beat_quality_weights）随机出本场表演的节拍数量和节拍品质，给到客户端作为玩法数据。",
         "badge_label": "08-25 更新"
       }
     ],
@@ -11824,10 +17197,10 @@ window.KNOWLEDGE_HISTORY = {
         "chapter": "6",
         "change_type": "修改",
         "new_block_id": "doc-0472",
-        "old_block_id": "doc-0172",
-        "kind": "list_item",
-        "old_text": "同一场次重复提交不重复扣体力、结算、发奖、推进奖励进度或触发互动。",
-        "new_text": "奖励进度：",
+        "old_block_id": "doc-6-3",
+        "kind": "paragraph",
+        "old_text": "6.3 单场结算",
+        "new_text": "客户端在表演界面的道具背包区域范围内，随机选择位置依次生成需要点击的节拍区域。",
         "badge_label": "08-25 更新"
       }
     ],
@@ -11839,205 +17212,115 @@ window.KNOWLEDGE_HISTORY = {
         "chapter": "6",
         "change_type": "修改",
         "new_block_id": "doc-0475",
-        "old_block_id": "doc-0175",
-        "kind": "list_item",
-        "old_text": "服务端已完成但客户端未收到结果时，客户端查询原结果。",
-        "new_text": "确认按钮。点击关闭结算界面。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0501": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0501",
-        "old_block_id": "",
+        "old_block_id": "doc-0158",
         "kind": "paragraph",
-        "old_text": "",
-        "new_text": "奖励选项界面（F27）展示奖励的选项，选项包括表演道具和背包扩格。",
+        "old_text": "表演结算界面（F32）展示服务端保存的唯一结果、分项值和城市变化。",
+        "new_text": "节拍区域的属性读取节拍品质配置表（MusicCity_beat），包括：",
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0513": [
+    "doc-0476": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0513",
-        "old_block_id": "doc-0182",
-        "kind": "paragraph",
-        "old_text": "玩家必须完成选择后才能开始下一场。奖励选项与互动事件不同时出现，奖励优先。",
-        "new_text": "确认按钮，必须选中1个选项后才能点击，否则灰态。",
+        "new_block_id": "doc-0476",
+        "old_block_id": "figure-0159",
+        "kind": "list_item",
+        "old_text": "[图片] F4BF7CD966F3C6467D47C68490DD393AA8ACBE3761A78590196168AE2E0716E5",
+        "new_text": "点击区域尺寸（click_area_size），表示节拍外圈大小的随机范围。",
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0517": [
+    "doc-0477": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0517",
-        "old_block_id": "doc-0184",
-        "kind": "paragraph",
-        "old_text": "选择扩格后进入背包扩格界面（F43）。",
-        "new_text": "确认后，新道具自动放入背包，放不进背包的进入仓库。",
+        "new_block_id": "doc-0477",
+        "old_block_id": "doc-0160",
+        "kind": "list_item",
+        "old_text": "图6-3 表演结算F32",
+        "new_text": "存在时长（duration），表示节拍可存在的时长。点击区域/时长，则表示缩圈速度。",
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0518": [
+    "doc-0478": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0518",
+        "new_block_id": "doc-0478",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "玩家选择道具后，如果是重复道具，则弹出获得道具升级进度弹窗。",
+        "new_text": "判定档位（grade_types）、判定窗口（grade_windows）、档位增幅（grade_ratios）表示在时长剩余多少比例时点击对应的档位、以及档位的增幅效果。",
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0519": [
+    "doc-0479": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0519",
+        "new_block_id": "doc-0479",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "弹窗展示道具信息、以及增加的进度表现。",
+        "new_text": "未操作保底增幅（miss_ratio），表示如果没有点击到的增幅效果。",
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0522": [
+    "doc-0516": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "新增",
-        "new_block_id": "doc-0522",
+        "new_block_id": "doc-0516",
         "old_block_id": "",
-        "kind": "paragraph",
+        "kind": "list_item",
         "old_text": "",
-        "new_text": "玩家选择扩格后，必须选择后才能继续表演",
+        "new_text": "如果客户端上报节拍与服务端之前生成的不一致，则按生成的节拍、当作全部漏点击计算结果。",
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0523": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0523",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "选择背包扩格界面（F43）如下。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0527": [
+    "doc-0549": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
         "change_type": "修改",
-        "new_block_id": "doc-0527",
-        "old_block_id": "doc-0188",
+        "new_block_id": "doc-0549",
+        "old_block_id": "doc-0169",
         "kind": "paragraph",
-        "old_text": "每次扩格数量、是否必须一次选完、撤销规则、全64格后的候选池处理和活动结束时未完成扩格，在后续设计步骤补齐。",
-        "new_text": "界面中央区域显示：表演道具背包的格子解锁情况。",
+        "old_text": "判定奖励进度；达到阈值时生成奖励候选，否则判定互动事件。",
+        "new_text": "图6-3 表演结算F32",
         "badge_label": "08-25 更新"
       }
     ],
-    "doc-0528": [
+    "doc-0560": [
       {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
         "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0528",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "点击未解锁的与已解锁或已选中格子共边相邻的未选中格子，可以选中。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0529": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0529",
-        "old_block_id": "",
-        "kind": "list_item",
-        "old_text": "",
-        "new_text": "点击已选中格子则取消选中，此时如果有格子不符合选择条件，也一起取消选中。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0530": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0530",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "查看背包按钮，点击进入表演准备界面，可以查看背包和仓库。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0531": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "6",
-        "change_type": "新增",
-        "new_block_id": "doc-0531",
-        "old_block_id": "",
-        "kind": "paragraph",
-        "old_text": "",
-        "new_text": "确认按钮，在选中要求数量的格子后才能点击，否则灰态。点击确认解锁。",
-        "badge_label": "08-25 更新"
-      }
-    ],
-    "doc-0562": [
-      {
-        "version": "V0.1 · 2026-08-25 22:40 修改版",
-        "date": "2026-08-25",
-        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "8",
         "change_type": "修改",
-        "new_block_id": "doc-0562",
-        "old_block_id": "doc-0226",
+        "new_block_id": "doc-0560",
+        "old_block_id": "doc-0172",
         "kind": "list_item",
-        "old_text": "B04：九城级别、坐标、道路、标签和正式城市数据。",
-        "new_text": "B04：城市级别、坐标、道路、标签和正式城市数据。",
+        "old_text": "同一场次重复提交不重复扣体力、结算、发奖、推进奖励进度或触发互动。",
+        "new_text": "奖励进度：",
         "badge_label": "08-25 更新"
       }
     ],
@@ -12046,13 +17329,73 @@ window.KNOWLEDGE_HISTORY = {
         "version": "V0.1 · 2026-08-25 22:40 修改版",
         "date": "2026-08-25",
         "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
-        "chapter": "8",
+        "chapter": "6",
         "change_type": "修改",
         "new_block_id": "doc-0564",
-        "old_block_id": "doc-0228",
+        "old_block_id": "doc-0175",
         "kind": "list_item",
-        "old_text": "B07、B08：临时城市效果的抽取、周期、目标、叠加、取整、补发和九城参数，在后续设计步骤补齐。",
-        "new_text": "B07、B08：临时城市效果的抽取、周期、目标、叠加、取整、补发和城市参数，在后续设计步骤补齐。",
+        "old_text": "服务端已完成但客户端未收到结果时，客户端查询原结果。",
+        "new_text": "确认按钮。点击关闭结算界面。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0599": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0599",
+        "old_block_id": "doc-0182",
+        "kind": "paragraph",
+        "old_text": "玩家必须完成选择后才能开始下一场。奖励选项与互动事件不同时出现，奖励优先。",
+        "new_text": "确认按钮，必须选中1个选项后才能点击，否则灰态。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0604": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0604",
+        "old_block_id": "doc-0184",
+        "kind": "paragraph",
+        "old_text": "选择扩格后进入背包扩格界面（F43）。",
+        "new_text": "确认后，新道具自动放入背包，放不进背包的进入仓库。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0605": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "新增",
+        "new_block_id": "doc-0605",
+        "old_block_id": "",
+        "kind": "paragraph",
+        "old_text": "",
+        "new_text": "玩家选择道具后，如果是重复道具，则弹出获得道具升级进度弹窗。",
+        "badge_label": "08-25 更新"
+      }
+    ],
+    "doc-0618": [
+      {
+        "version": "V0.1 · 2026-08-25 22:40 修改版",
+        "date": "2026-08-25",
+        "previous_version": "V0.1 · 2026-08-24 11:53 初稿",
+        "chapter": "6",
+        "change_type": "修改",
+        "new_block_id": "doc-0618",
+        "old_block_id": "doc-0188",
+        "kind": "paragraph",
+        "old_text": "每次扩格数量、是否必须一次选完、撤销规则、全64格后的候选池处理和活动结束时未完成扩格，在后续设计步骤补齐。",
+        "new_text": "界面中央区域显示：表演道具背包的格子解锁情况。",
         "badge_label": "08-25 更新"
       }
     ]
